@@ -1,9 +1,10 @@
 
-const { src, dest, parallel, watch} = require('gulp');
+const { src, dest, parallel, watch } = require('gulp');
 const pug = require('gulp-pug');
 const sass = require('gulp-sass');
 const minifyCSS = require('gulp-csso');
 const concat = require('gulp-concat');
+const autoprefixer = require('autoprefixer');
 
 sass.compiler = require('node-sass');
 
@@ -11,20 +12,22 @@ sass.compiler = require('node-sass');
     function html() {
         return src('src/templates/*.pug')
             .pipe(pug())
-            .pipe(dest('dist/html'))
+            .pipe(dest('dist/html'));
+        
     }
 
-    function css() {
-        return src('src/templates/*.scss')
+    function css() {       
+        return src('src/styles/*.scss')
             .pipe(sass())
             .pipe(minifyCSS())
-            .pipe(dest('dist/css'))
+            .pipe(dest('dist/css'));
+       
     }
 
     function js() {
-        return src('src/javascript/*.js', { sourcemaps: true })
+        return src('src/scripts/*.js', { sourcemaps: true })
             .pipe(concat('app.min.js'))
-            .pipe(dest('dist/js', { sourcemaps: true }))
+            .pipe(dest('dist/js', { sourcemaps: true }));
     }
   
   exports.js = js;
