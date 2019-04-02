@@ -1,0 +1,26 @@
+{
+  "name": "waas-site-rebrand",
+  "version": "1.0.0",
+  "description": "Site for Rebrand WAAS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Social-Institute-WAAS/site-rebrand.git"
+  },
+  "keywords": [
+    "waas",
+    "waas.ninja"
+  ],
+  "author": "Adão Lima",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Social-Institute-WAAS/site-rebrand/issues"
+  },
+  "homepage": "https://github.com/Social-Institute-WAAS/site-rebrand#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}
