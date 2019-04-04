@@ -1,14 +1,13 @@
-include /_00-toolbox/config/page
-
+include ../config/page.pug
 doctype
 html(lang="pt-br")
-	include  /_00-toolbox/partials/head
-	include  /_00-toolbox/partials/head_scripts
-	include /_00-toolbox/mixins/mixins
-	include /_01-elements/e-mixins
-	include /_02-components/c-mixins
+	include  ../partials/head.pug
+	include  ../partials/head_scripts.pug
+	include ../mixins/mixins.pug
+	include ../../_01-elements/e-mixins.pug
+	include ../../_02-components/c-mixins.pug
 	body
-		include /_03-layouts/l-header
+		include ../../_03-layouts/l-header.pug
 		block content
-		include /_03-layouts/l-footer
-		include /_00-toolbox/partials/footer_scripts
+		include ../../_03-layouts/l-footer.pug
+		include ../partials/footer_scripts.pug
