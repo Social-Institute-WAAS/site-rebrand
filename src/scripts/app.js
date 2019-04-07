@@ -1,1 +1,3 @@
-console.log('JAVASCRIPT LOADED!');
+
+  console.log('JAVASCRIPT LOADED!');
+
