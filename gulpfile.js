@@ -6,7 +6,8 @@ const minifyCSS = require('gulp-csso');
 const concat = require('gulp-concat');
 const babel = require('gulp-babel');
 const autoprefixer = require('gulp-autoprefixer');
-//const inject = require('gulp-inject'); // Add the inject task
+//const uglify = require('gulp-uglify');
+const inject = require('gulp-inject'); // Add the inject task
 const browserSync = require('browser-sync');
 const server = browserSync.create();
 
@@ -54,6 +55,18 @@ sass.compiler = require('node-sass');
             .pipe(dest('app/js', condition))
     }
 
+    function vendor() {
+        return src([
+            'node_modules/jquery/dist/jquery.slim.min.js',
+            'node_modules/popper.js/dist/popper.min.js',
+            'node_modules/bootstrap/dist/js/bootstrap.min.js',
+            'src/scripts/vendor/*.js'
+            ], condition)
+            .pipe(babel())
+            .pipe(concat('vendor.min.js'))
+            .pipe(dest('app/js', condition))
+    }
+
     function watcher() {
         watch('src/views/**/*.pug', series(html, reload));
         watch('src/styles/*.scss', series(css, reload));
@@ -76,6 +89,7 @@ sass.compiler = require('node-sass');
   
   
   exports.js = js;
+  exports.vendor = vendor;
   exports.css = css;
   //task("css", css); //Another way to do
   exports.html = html;
