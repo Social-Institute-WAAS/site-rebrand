@@ -57,9 +57,9 @@ sass.compiler = require('node-sass');
 
     function vendor() {
         return src([
-            'node_modules/jquery/dist/jquery.slim.min.js',
-            'node_modules/popper.js/dist/popper.min.js',
-            'node_modules/bootstrap/dist/js/bootstrap.min.js',
+            'node_modules/jquery/dist/jquery.slim.js',
+            'node_modules/popper.js/dist/popper.js',
+            'node_modules/bootstrap/dist/js/bootstrap.js',
             'src/scripts/vendor/*.js'
             ], condition)
             .pipe(babel())
@@ -74,7 +74,7 @@ sass.compiler = require('node-sass');
     }
 
     function getAssets() {
-        return src('assets/*')
+        return src('src/assets/**/*')
             .pipe(dest('app/assets'))
     }
 
