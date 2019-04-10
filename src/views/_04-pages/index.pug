@@ -39,5 +39,86 @@ block main
           .c-card__body.text-center
             p
               | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. 
-            a.btn.btn-link.c-card__link(href="#") mais detalhes
-    
+
+  //- EVENTS
+  section.l-section
+    h2.l-section__title#eventos Eventos
+    .row
+      //- Hackateen
+      .col-md-6
+        .c-card.w-100
+          h3.c-card__title 
+            | Hackateen
+          .c-card__body.text-center
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus.
+      //- Dojo
+      .col-md-6
+        .c-card.w-100
+          h3.c-card__title 
+            | Dojo
+          .c-card__body.text-center
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus.
+  
+  //- AWARDS
+  section.l-section.mb-4
+    h2.l-section__title#premios Premios
+    .row
+      +repeat(4)
+        .col-md-3.text-center
+          img(src="https://placeimg.com/120/120/any").img-fluid
+          .clearfix
+          span.mt-2 Logo
+  
+  //- OPERACAO
+  section.l-section.mb-4
+    h2.l-section__title#operacao Operacao
+    .row
+      .col-md-4.text-center.text-black-50
+        h3.mt-2 
+          strong + 600
+          |  Ninjas graduados
+
+      .col-md-4.text-center.text-black-50
+        h3.mt-2 
+          strong + 8
+          |  cidades
+      
+      .col-md-4.text-center.text-black-50
+        h3.mt-2 
+          strong + 1000
+          |  horas 
+
+  //- AWARDS
+  section.l-section.mb-4
+    h2.l-section__title#premios Parceiros
+    .row
+      +repeat(4)
+        .col-md-3.text-center
+          img(src="https://placeimg.com/120/120/any").rounded-circle
+  
+  //- NA MIDIA
+  section.c-card.c-card--section.mb-4
+    h2.c-card__title.mb-4.text-center#metodologia Na Midia
+    .c-card__body
+      .card-deck.justify-content-center
+        +repeat(6)
+          .card.h-50.text-center.bg-transparent.border-0
+             .card-img-top
+               img(src="https://placeimg.com/120/120/any").rounded   
+             .card-body
+              h4 Card Title
+              p.card-text 
+                | Text  Text Text Text 
+  
+  //- NEWSLETTER
+  section.l-section.mb-4
+    .c-card.c-card--section.w-75.mx-auto
+      h2.c-card__title.mb-4.text-center#newsletter Newsletter
+      p Inscreva-se para receber as novidades mais recentes
+      form
+        .input-group.input-group-lg(action="post" target="_self")
+          input.form-control.c-search__input(type="text" placeholder="E-mail" aria-label="E-mail")
+          .input-group-append
+            button.btn.btn-success(type="submit")
+              span Inscreve
+        

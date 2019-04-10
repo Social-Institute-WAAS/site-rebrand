@@ -1,4 +1,17 @@
 .c-nav {
     background-color: $blue;
 
+    .navbar-brand .icon {
+        font-size: 3rem;
+    }
+    &__list {
+
+    }
+    &__item {
+        
+    }
+    &__item-link {
+        font-size: $font-size-lg;
+    }
+
 }
