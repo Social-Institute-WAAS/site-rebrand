@@ -1,21 +1,23 @@
+//00 TOOLBOX
 @import "node_modules/bootstrap/scss/functions";
-@import "./settings/variables";
+@import "_00-toolbox/variables";
+@import "_00-toolbox/settings";
+@import "_00-toolbox/fonts";
+
 //LIB
 @import "node_modules/bootstrap/scss/bootstrap.scss";
-
-//00 TOOLBOX
-@import "_00-toolbox/settings";
-
 
 //01 ELEMENTS
 
 
 //02 COMPONENTS
-
+@import "./_02-components/card";
+@import "./_02-components/nav";
 
 
 //03 LAYOUTS
-
+@import "./_03-layouts/section";
+@import "./_03-layouts/footer";
 
 
 //04 PAPES
