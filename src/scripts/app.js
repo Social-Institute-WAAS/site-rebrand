@@ -1,15 +1,17 @@
 
-// FIXED NAVBAR
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop + 0.5;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("fixed-top")
-  } else {
-    navbar.classList.remove("fixed-top");
-  }
-}
+$(document).ready(()=>{
+    $('#navbar .nav-item').on('click', function(){
+        var parent = $(this).closest(' #navbar');
+        parent.find('.nav-item').removeClass('active');
+        $(this).addClass('active');
+    });
+    $('#navbar .c-search__input').on('focus', function(){
+        var parent = $(this).closest('.c-search__wrapper');
+        parent.addClass('focus');
+    });
+    $('#navbar .c-search__input').on('focusout', function(){
+        var parent = $(this).closest('.c-search__wrapper');
+        parent.removeClass('focus');
+    });
+});
 

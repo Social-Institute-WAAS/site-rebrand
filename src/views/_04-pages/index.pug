@@ -3,45 +3,47 @@ extends ../_00-toolbox/templates/master.pug
 block main
 
   //- COVER
-  .c-card.c-card--cover
-    img(src="", alt="")
-    h1.c-card__title.w-25
-      | Tecnologia Fortalecendo Jovens
+  section.container
+    .c-card.c-card--cover(style="background-image:url(https://placeimg.com/480/480/any)")
+      h1.c-card__title.w-25
+        | Tecnologia Fortalecendo Jovens
   
   //- COMO FAZEMOS
-  .c-card.c-card--section
-    h2.c-card__title.text-center#como-fazemos Como Fazemos
-    .c-card__body
-      p
-        | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. Aenean fringilla eleifend bibendum. Integer efficitur nulla eget congue bibendum. Praesent convallis nisi ut magna pharetra condimentum. Vestibulum cursus, arcu non aliquet fermentum, magna sem suscipit urna, a convallis nunc lectus eget urna. Praesent tristique ligula non purus fermentum dignissim.
+  section.container
+    .c-card.c-card--section
+      h2.c-card__title.text-center#como-fazemos Como Fazemos
+      .c-card__body
+        p
+          | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. Aenean fringilla eleifend bibendum. Integer efficitur nulla eget congue bibendum. Praesent convallis nisi ut magna pharetra condimentum. Vestibulum cursus, arcu non aliquet fermentum, magna sem suscipit urna, a convallis nunc lectus eget urna. Praesent tristique ligula non purus fermentum dignissim.
   
   //- COMO FAZEMOS
-  section.c-card.c-card--section
-    h2.c-card__title.text-center#metodologia Metodologia
-    .c-card__body
-      p
-        | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. Aenean fringilla eleifend bibendum. Integer efficitur nulla eget congue bibendum. Praesent convallis nisi ut magna pharetra condimentum. Vestibulum cursus, arcu non aliquet fermentum, magna sem suscipit urna, a convallis nunc lectus eget urna. Praesent tristique ligula non purus fermentum dignissim.
-      a.btn.btn-link.c-card__link(href="#") mais detalhes
+  section.container
+    .c-card.c-card--section
+      h2.c-card__title.text-center#metodologia Metodologia
+      .c-card__body
+        p
+          | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. Aenean fringilla eleifend bibendum. Integer efficitur nulla eget congue bibendum. Praesent convallis nisi ut magna pharetra condimentum. Vestibulum cursus, arcu non aliquet fermentum, magna sem suscipit urna, a convallis nunc lectus eget urna. Praesent tristique ligula non purus fermentum dignissim.
+        a.btn.btn-link.c-card__link(href="#") mais detalhes
   
   //- SISTEMA DE GRADUACAO
-  section.l-section
+  section.l-section.container.c-grad
     h2.l-section__title#sistema-de-graduacao Sistema de Graduacao
+    .c-grad__display
+      .card-deck
+        - var etapas = ['Despertar', 'Aprender', 'Explorar', 'Prototipar', 'Desafiar', 'Aprimorar', 'Transmitir', 'Empoderar']
 
-    .card-deck.justify-content-center
-      - var etapas = ['Despertar', 'Aprender', 'Explorar', 'Prototipar', 'Desafiar', 'Aprimorar', 'Transmitir', 'Empoderar']
-
-      each val, index in etapas
-        .c-card.mx-2(style="width: 16.5rem")
-          .c-card__img.c-card__img--circle
-            img(src="https://placeimg.com/480/480/any").img-fluid
-          h3.c-card__title.text-center#metodologia.pt-3.pb-2
-            = val
-          .c-card__body.text-center
-            p
-              | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. 
+        each val, index in etapas
+          .c-card(style="width: 16.5rem")
+            .c-card__img.c-card__img--circle
+              img(src="https://placeimg.com/480/480/any").img-fluid
+            h3.c-card__title.text-center#metodologia.pt-3.pb-2
+              = val
+            .c-card__body.text-center
+              p
+                | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. 
 
   //- EVENTS
-  section.l-section
+  section.l-section.container
     h2.l-section__title#eventos Eventos
     .row
       //- Hackateen
@@ -60,17 +62,17 @@ block main
             p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus.
   
   //- AWARDS
-  section.l-section.mb-4
+  section.l-section.mb-4.container
     h2.l-section__title#premios Premios
     .row
       +repeat(4)
-        .col-md-3.text-center
+        .col-6.col-md-3.text-center
           img(src="https://placeimg.com/120/120/any").img-fluid
           .clearfix
           span.mt-2 Logo
   
   //- OPERACAO
-  section.l-section.mb-4
+  section.l-section.mb-4.container
     h2.l-section__title#operacao Operacao
     .row
       .col-md-4.text-center.text-black-50
@@ -89,35 +91,36 @@ block main
           |  horas 
 
   //- AWARDS
-  section.l-section.mb-4
+  section.l-section.mb-4.container
     h2.l-section__title#premios Parceiros
     .row
       +repeat(4)
-        .col-md-3.text-center
+        .col-md-3.col-6.my-2.text-center
           img(src="https://placeimg.com/120/120/any").rounded-circle
   
   //- NA MIDIA
-  section.c-card.c-card--section.mb-4
-    h2.c-card__title.mb-4.text-center#metodologia Na Midia
-    .c-card__body
-      .card-deck.justify-content-center
-        +repeat(6)
-          .card.h-50.text-center.bg-transparent.border-0
-             .card-img-top
-               img(src="https://placeimg.com/120/120/any").rounded   
-             .card-body
-              h4 Card Title
-              p.card-text 
-                | Text  Text Text Text 
+  section.container
+    .c-card.c-card--section.mb-4.px-0
+      h2.c-card__title.mb-4.text-center#metodologia Na Midia
+      .c-card__body.h-100
+        .card-deck.justify-content-center
+          +repeat(8)
+            .c-card.text-center.bg-transparent.border-0
+              .card-img-top
+                img(src="https://placeimg.com/120/120/any").rounded   
+              .c-card__body
+                h4 Card Title
+                p.card-text 
+                  | Text  Text Text Text 
   
   //- NEWSLETTER
-  section.l-section.mb-4
-    .c-card.c-card--section.w-75.mx-auto
+  section.l-section.mb-4.container
+    .c-card.c-card--section.c-card-newsletter.mx-auto
       h2.c-card__title.mb-4.text-center#newsletter Newsletter
       p Inscreva-se para receber as novidades mais recentes
       form
         .input-group.input-group-lg(action="post" target="_self")
-          input.form-control.c-search__input(type="text" placeholder="E-mail" aria-label="E-mail")
+          input.form-control(type="text" placeholder="E-mail" aria-label="E-mail")
           .input-group-append
             button.btn.btn-success(type="submit")
               span Inscreve
