@@ -1,10 +1,10 @@
-nav#navbar.c-nav.navbar.navbar-expand-md.navbar-dark.mb-4.c-nav
+nav#navbar.c-nav.navbar.navbar-expand-lg.navbar-dark.fixed-top.mb-4.c-nav
 	a.navbar-brand(href="#") 
 		span.icon.icon-waas(role="icon")
 		
 	button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" )
-		//- span.icon.icon-bars(role="icon")
-		span.navbar-toggler-icon
+		span.icon.icon-bars(role="icon")
+		//- span.navbar-toggler-icon
 
 	.collapse.navbar-collapse#navbarCollapse
 		ul.navbar-nav.mr-auto.c-nav__list
@@ -20,9 +20,9 @@ nav#navbar.c-nav.navbar.navbar-expand-md.navbar-dark.mb-4.c-nav
 		form.c-search
 			.input-group.input-group-lg.c-search__wrapper
 				input.form-control.c-search__input(type="text" placeholder="Search" aria-label="Search")
-				.input-group-append
-					button.btn.bg-white.py-1(type="submit")
-						span.icon.icon-search.text-primary
+				.input-group-append.c-search__append
+					button.btn.py-1(type="submit")
+						span.icon.icon-search
 						span.sr-only Buscar
 			
 

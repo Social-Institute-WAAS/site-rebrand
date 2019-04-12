@@ -57,7 +57,7 @@ sass.compiler = require('node-sass');
 
     function vendor() {
         return src([
-            'node_modules/jquery/dist/jquery.slim.js',
+            'node_modules/jquery/dist/jquery.js',
             'node_modules/popper.js/dist/popper.js',
             'node_modules/bootstrap/dist/js/bootstrap.js',
             'src/scripts/vendor/*.js'

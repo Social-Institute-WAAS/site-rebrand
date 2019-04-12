@@ -1,0 +1,101 @@
+.c-card {
+    background-color: $gray-200;
+    padding: $card-spacer-y $card-spacer-x;
+    border-radius: $card-border-radius;
+    margin: 1rem 0;
+
+    &__title {
+        font-weight: 900;
+        color: $gray-600;
+    }
+    &__img {
+        overflow: hidden;
+        margin: $card-spacer-y $card-spacer-x;
+        &--circle {
+            border-radius: 50%;
+        }
+    }
+
+    &__body {
+        color: $gray-600;
+    }
+
+    &__link {
+        display: flex;
+        justify-content: flex-end;
+        text-decoration: underline;
+    }
+
+    // COVER ##################
+    &--cover {
+        padding: $jumbotron-padding;
+        display: flex;
+        align-content: flex-end;
+        flex-wrap: wrap;
+        height: 70vh;
+        min-height: 480px;
+        background-size: cover;
+        background-position: center center;
+        border: solid 8px $blue;
+        position: relative;
+        &:before {
+            content: '';
+            z-index: 2;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 70%;
+            background-image: linear-gradient(rgba($blue, 0), rgba($blue, .7), rgba($blue, 1));
+        }
+        @include media-breakpoint-down(sm) {
+            height: 60vh;
+            min-height: 300px;
+        }
+        h1 {
+            font-size:$font-size-xl;
+            color: $white;
+            z-index: 9;
+            @include media-breakpoint-down(sm) {
+                font-size: 2rem;    
+            }
+        }
+    }
+
+    // SECTION #################
+    &--section {
+        padding: $jumbotron-padding;
+        @include media-breakpoint-down(sm) {
+            .card-deck {
+                flex-direction: row;
+                flex-wrap: wrap;
+                .c-card {
+                    padding-left: .5rem;
+                    padding-right: .5rem;
+                }
+            }
+            
+        }
+    }
+
+    // NEWLETTER
+    &__newsletter {
+        width: 75%;
+        @include media-breakpoint-down(md) {
+            width: 100%;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+} // \ end .c-card
