@@ -6,7 +6,7 @@ const minifyCSS = require('gulp-csso');
 const concat = require('gulp-concat');
 const babel = require('gulp-babel');
 const autoprefixer = require('gulp-autoprefixer');
-//const uglify = require('gulp-uglify');
+const terser = require('gulp-terser');
 const inject = require('gulp-inject'); // Add the inject task
 const browserSync = require('browser-sync');
 const server = browserSync.create();
@@ -51,18 +51,20 @@ sass.compiler = require('node-sass');
     function js() {
         return src('src/scripts/*.js', condition)
             .pipe(babel())
+            .pipe(terser())
             .pipe(concat('app.min.js'))
             .pipe(dest('app/js', condition))
     }
 
     function vendor() {
         return src([
-            'node_modules/jquery/dist/jquery.js',
-            'node_modules/popper.js/dist/popper.js',
-            'node_modules/bootstrap/dist/js/bootstrap.js',
-            'src/scripts/vendor/*.js'
+            // 'node_modules/jquery/dist/jquery.js',
+            // 'node_modules/popper.js/dist/popper.js',
+            // 'node_modules/bootstrap/dist/js/bootstrap.js',
+            'src/scripts/vendor/hammer.min.js'
             ], condition)
             .pipe(babel())
+            // .pipe(terser())
             .pipe(concat('vendor.min.js'))
             .pipe(dest('app/js', condition))
     }
