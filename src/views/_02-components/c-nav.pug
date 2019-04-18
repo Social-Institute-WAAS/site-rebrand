@@ -19,9 +19,11 @@ nav#navbar.c-nav.navbar.navbar-expand-lg.navbar-dark.fixed-top.mb-4
 				li.nav-item.c-nav__item
 					a.nav-link.c-nav__item-link(href="#")= val
 
-	form.c-search.c-nav__search
+	form.c-search.c-nav__search(method="post" target="_self" name="s")#search_form
+		button.c-search--toggle(type="button")
+			span.icon.icon-search
 		.input-group.input-group-lg.c-search__wrapper
-			input.form-control.c-search__input(type="text" placeholder="Search" aria-label="Search")
+			input.form-control.c-search__input(type="text" name="search_field" placeholder="Search" aria-label="Search")
 			.input-group-append.c-search__append
 				button.btn.py-1(type="submit")
 					span.icon.icon-search
