@@ -32,7 +32,7 @@ sass.compiler = require('node-sass');
 
     function html() {
         return src(['src/views/*.pug','src/views/_04-pages/*.pug'])
-            .pipe(pug())
+            .pipe(pug({pretty: true}))
             .pipe(dest('app'))
     }
 
