@@ -2,7 +2,7 @@
   "name": "waas-site-rebrand",
   "version": "1.0.0",
   "description": "Site for Rebrand WAAS",
-  "main": "index.html",
+  "main": "./app/index.html",
   "scripts": {
     "watcher": "NODE_ENV=development gulp watcher",
     "build": "gulp build",
