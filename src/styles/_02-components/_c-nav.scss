@@ -31,6 +31,14 @@
     }
   }
 
+  .c-search--toggle {
+    display: none;
+    color: $white;
+    background: none;
+    border: none;
+    width: 50px;
+  }
+
   @include media-breakpoint-down(lg) {
     display: inline-flex;
     justify-content: space-between;
@@ -52,11 +60,20 @@
 
     &__search {
       order: 3;
-      .c-search__input {
+      .c-search__wrapper {
         display: none;
+        opacity: 0;
+        transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+      }
+      .c-search__input {
+        // display: none;
       }
       .c-search__append {
-        margin: 0;
+        // margin: 0;
+      }
+      .c-search--toggle {
+        display: block;
       }
     }
     &__list {
@@ -69,10 +86,12 @@
   }
   &__menu {
     @include media-breakpoint-down(lg) {
-      position: fixed;
+      position: absolute;
       background-color: $blue;
       height: 100vh;
+      max-height: 100vmax;
       width: 30vw;
+      top: 0;
       bottom: 0;
       // left: 0;
       left: -100%;
@@ -104,7 +123,12 @@
   @include media-breakpoint-down(lg) {
   }
 }
+body {
+  position: relative;
+  .c-nav {
+    transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
 
+<<<<<<< HEAD
 @include media-breakpoint-down(md) {
   body.is-expanded {
     .c-nav {
@@ -121,6 +145,54 @@
         right: 0;
         margin: 0 auto;
       }
+=======
+  }
+}
+body.is-expanded {
+  .c-nav {
+    padding-bottom: 76px;
+  }
+  
+  .c-nav__search {
+    .c-search__wrapper {
+      display: inline-flex;
+      opacity: 1;
+      position: fixed;
+      top: 96px;
+      left: 0;
+      width: 90vw;
+      right: 0;
+      margin: 0 auto;
+      // background-color: $white;
+>>>>>>> 0102775650f2f1a602430c219e0c55ab570e6b94
     }
+    // .c-search__append {
+    //   width: 47px;
+    //   height: 62px;
+    //   &.is-button {
+    //     &:before {
+    //       font-family: 'icomoon' !important;
+    //       content: "\f00d";
+    //       font-size: 2.5rem;
+    //       display: inline-block;
+    //       height: 47px;
+    //       width: 62px;
+    //       text-align: center;
+    //       color: $white;
+    //     }
+    //     &:hover {
+    //       cursor: pointer;
+    //     } 
+    //   }
+    // }
+    // button {
+    //   position: fixed;
+    //   top: 97px;
+    //   right: 22px;
+    //   background: $white;
+    //   .icon {
+    //     color: $blue;
+    //   }
+    // }
   }
 }
