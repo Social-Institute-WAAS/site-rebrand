@@ -28,22 +28,6 @@
         <?php wp_head(); ?>
     <head>
 <body <?php body_class(); ?> id="site">
-
- <?php if ( has_nav_menu( 'social' ) ) : ?>
-		<nav class="social-navigation" aria-label="<?php esc_attr_e( 'Social Links Menu', 'waas_theme' ); ?>">
-			<?php
-        wp_nav_menu(
-          array(
-            'theme_location' => 'social',
-            'menu_class'     => 'social-links-menu',
-            'link_before'    => '<span class="screen-reader-text">',
-            'link_after'     => '</span>' . waas_theme_get_icon_svg( 'link' ),
-            'depth'          => 1,
-          )
-        );
-			?>
-		</nav><!-- .social-navigation -->
-  <?php endif; ?>
   
   <header>
     <nav class="c-nav navbar navbar-expand-lg navbar-dark fixed-top mb-4" id="navbar"><a class="navbar-brand c-nav__brand" href="#"> <span class="icon icon-waas" role="icon"></span></a>
@@ -68,10 +52,10 @@
       <form class="c-search c-nav__search" action="/" method="get">
         <div class="input-group input-group-lg c-search__wrapper">
           <input class="form-control c-search__input" type="text" name="s" id="search" placeholder="Search" aria-label="Search" value="<?php the_search_query(); ?>" />
-  
           <div class="input-group-append c-search__append">
             <button class="btn py-1" type="submit"><span class="icon icon-search"></span><span class="sr-only">Buscar</span></button>
           </div>
+          
         </div>
       </form>
     </nav>

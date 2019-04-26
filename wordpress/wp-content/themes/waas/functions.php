@@ -132,7 +132,7 @@ function loadjs() {
     //false not in the footer
     // wp_register_script('vendorjs', get_template_directory_uri(). '/scripts/vendor.min.js' , '', 1, true);
     // wp_enqueue_script('vendorjs');
-    wp_register_script('appjs', get_template_directory_uri(). '/scripts/app.min.js' , '', 1, true);
+    wp_register_script('appjs', get_template_directory_uri(). '/scripts/app.min.js' , '', 2 , true);
     wp_enqueue_script('appjs');
 
 }
