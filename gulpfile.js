@@ -10,9 +10,8 @@ const terser = require('gulp-terser');
 const inject = require('gulp-inject'); // Add the inject task
 const browserSync = require('browser-sync');
 const server = browserSync.create();
-
-var ENV = "DEV"; 
-var condition = ENV == "DEV" ? { sourcemaps: true } : { sourcemaps: false };
+ 
+var condition = process.env.NODE_ENV === "development" ? { sourcemaps: true } : { sourcemaps: false };
 
 sass.compiler = require('node-sass');
 

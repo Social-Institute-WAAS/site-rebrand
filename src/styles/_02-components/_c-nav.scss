@@ -105,20 +105,22 @@
   }
 }
 
-body.is-expanded {
-  .c-nav {
-    padding-bottom: 76px;
-  }
-  
-  .c-nav__search {
-    .c-search__input {
-      display: inline-block;
-      position: fixed;
-      top: 96px;
-      left: 0;
-      width: 90vw;
-      right: 0;
-      margin: 0 auto;
+@include media-breakpoint-down(md) {
+  body.is-expanded {
+    .c-nav {
+      padding-bottom: 76px;
+    }
+    
+    .c-nav__search {
+      .c-search__input {
+        display: inline-block;
+        position: fixed;
+        top: 96px;
+        left: 0;
+        width: 90vw;
+        right: 0;
+        margin: 0 auto;
+      }
     }
   }
 }
