@@ -11,7 +11,7 @@ const inject = require('gulp-inject'); // Add the inject task
 const browserSync = require('browser-sync');
 const server = browserSync.create();
  
-var condition = process.env.NODE_ENV === "development" ? { sourcemaps: true } : { sourcemaps: false };
+const condition = process.env.NODE_ENV === "development" ? { sourcemaps: true } : { sourcemaps: false };
 
 sass.compiler = require('node-sass');
 

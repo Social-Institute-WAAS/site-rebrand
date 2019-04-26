@@ -38,25 +38,32 @@ $(document).ready(() => {
     $("#navbar .c-search__input").focus();
   });
 
+    
+    $('.c-search--toggle').on('click', function(){
+        $(this).find('span').toggleClass('icon-search icon-close');
+        $('body').toggleClass('is-expanded');
+        //$('#navbar .c-search__input').focus();
+    });
 
 });
 
-//HAMMERJS
+// HAMMERJS
 var w = window.innerWidth;
 
 if (w <= 992) {
-    console.log(w);
-    var myMenu = document.getElementById('navbarCollapse');
+    // console.log(w);
+    var myElement = document.getElementById('navbarCollapse'),
+    myMenu = $('#navbarCollapse');
     // create a simple instance
     // by default, it only adds horizontal recognizers
-    var mc = new Hammer(myMenu);
+    var mc = new Hammer(myElement);
 
     // listen to events...
-    mc.on("panleft tap press", function(ev) {
+    mc.on("panleft panright tap press", function(ev) {
         if (ev.type == "panleft") {
-            console.log("LEFT");
-            $('#navbarCollapse').removeClass('active');
+            //console.log("LEFT");
+            myMenu.removeClass('active');
         }
     });
 
-}
+} 
