@@ -1,5 +1,5 @@
 
-const { src, dest, parallel,task, series, watch} = require('gulp');
+const { src, dest, parallel, series, watch} = require('gulp');
 const pug = require('gulp-pug');
 const sass = require('gulp-sass');
 const minifyCSS = require('gulp-csso');
@@ -7,12 +7,11 @@ const concat = require('gulp-concat');
 const babel = require('gulp-babel');
 const autoprefixer = require('gulp-autoprefixer');
 const terser = require('gulp-terser');
-const inject = require('gulp-inject'); // Add the inject task
+// const inject = require('gulp-inject'); // Add the inject task
 const browserSync = require('browser-sync');
 const server = browserSync.create();
-
-var ENV = "DEV"; 
-var condition = ENV == "DEV" ? { sourcemaps: true } : { sourcemaps: false };
+ 
+const condition = process.env.NODE_ENV === "development" ? { sourcemaps: true } : { sourcemaps: false };
 
 sass.compiler = require('node-sass');
 
@@ -81,7 +80,6 @@ sass.compiler = require('node-sass');
     }
 
     function build(done) {
-        ENV = "PROD";
         html(); 
         css();
         js();

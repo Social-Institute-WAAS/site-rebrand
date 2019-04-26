@@ -10,7 +10,7 @@ block main
   
   //- COMO FAZEMOS
   section.container
-    .c-card.c-card--section
+    .c-card.c-card--section.bullets
       h2.c-card__title.text-center#como-fazemos Como Fazemos
       .c-card__body
         p
@@ -18,7 +18,7 @@ block main
   
   //- COMO FAZEMOS
   section.container
-    .c-card.c-card--section
+    .c-card.c-card--section.bullets.bullets--orange.bullets--right
       h2.c-card__title.text-center#metodologia Metodologia
       .c-card__body
         p
@@ -33,7 +33,7 @@ block main
         - var etapas = ['Despertar', 'Aprender', 'Explorar', 'Prototipar', 'Desafiar', 'Aprimorar', 'Transmitir', 'Empoderar']
 
         each val, index in etapas
-          .c-card(style="width: 16.5rem")
+          .c-card(style="width: 16.5rem").bullets.bullets--top-center
             .c-card__img.c-card__img--circle
               img(src="https://placeimg.com/480/480/any").img-fluid
             h3.c-card__title.text-center#metodologia.pt-3.pb-2
@@ -100,7 +100,7 @@ block main
   
   //- NA MIDIA
   section.container
-    .c-card.c-card--section.mb-4.px-0
+    .c-card.c-card--section.mb-4.px-0.bullets.bullets--red
       h2.c-card__title.mb-4.text-center#metodologia Na Midia
       .c-card__body.h-100
         .card-deck.justify-content-center
@@ -115,13 +115,12 @@ block main
   
   //- NEWSLETTER
   section.l-section.mb-4.container
-    .c-card.c-card--section.c-card-newsletter.mx-auto
+    .c-card.c-card--section.c-card-newsletter.mx-auto.bullets.bullets--orange
       h2.c-card__title.mb-4.text-center#newsletter Newsletter
       p Inscreva-se para receber as novidades mais recentes
       form
-        .input-group.input-group-lg(action="post" target="_self")
-          input.form-control(type="text" placeholder="E-mail" aria-label="E-mail")
-          .input-group-append
-            button.btn.btn-success(type="submit")
-              span Inscreve
+        .form-group.form-group-lg.text-right(action="post" target="_self")
+          input.form-control.form-control-lg(type="text" placeholder="E-mail" aria-label="E-mail")
+          button.btn.btn-success.btn-lg.mt-3(type="submit")
+            span Inscreve
         
