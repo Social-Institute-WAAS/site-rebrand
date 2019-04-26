@@ -31,9 +31,13 @@ sass.compiler = require('node-sass');
 
     function html() {
         return src(['src/views/*.pug','src/views/_04-pages/*.pug'])
+<<<<<<< 5c4c4dbc4a61384d34697eb525027d0dea020875
             .pipe(pug({
                 pretty:true
             }))
+=======
+            .pipe(pug({pretty: true}))
+>>>>>>> Theme building by template referente twentynineteen
             .pipe(dest('app'))
     }
 
