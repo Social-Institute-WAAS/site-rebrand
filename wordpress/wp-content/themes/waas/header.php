@@ -49,13 +49,13 @@
             );
           ?>
       </div>
-      <form class="c-search c-nav__search" action="/" method="get">
+      <form class="c-search c-nav__search" method="post" target="_self" action="/" method="get"id="search_form">
+        <button class="c-search--toggle" type="button"><span class="icon icon-search"></span></button>
         <div class="input-group input-group-lg c-search__wrapper">
-          <input class="form-control c-search__input" type="text" name="s" id="search" placeholder="Search" aria-label="Search" value="<?php the_search_query(); ?>" />
+          <input class="form-control c-search__input" type="text" name="s" placeholder="Search" aria-label="Search" value="<?php the_search_query();?>" />
           <div class="input-group-append c-search__append">
             <button class="btn py-1" type="submit"><span class="icon icon-search"></span><span class="sr-only">Buscar</span></button>
           </div>
-          
         </div>
       </form>
     </nav>

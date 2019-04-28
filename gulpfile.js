@@ -10,8 +10,14 @@ const terser = require('gulp-terser');
 // const inject = require('gulp-inject'); // Add the inject task
 const browserSync = require('browser-sync');
 const server = browserSync.create();
+const hash = require('gulp-hash');
  
 const condition = process.env.NODE_ENV === "development" ? { sourcemaps: true } : { sourcemaps: false };
+
+var options = {
+    hashLength: 4,
+    template: '<%= name %>.<%= hash %><%= ext %>'
+}
 
 sass.compiler = require('node-sass');
 
@@ -42,8 +48,9 @@ sass.compiler = require('node-sass');
                 browsers: ['last 2 versions'],
                 cascade: false
             }))
-            .pipe(minifyCSS())
-            .pipe(concat('app.min.css'))
+            // .pipe(minifyCSS())
+            .pipe(concat('style.css'))
+            .pipe(hash(options))
             .pipe(dest('app/css', condition ))
     }
 
