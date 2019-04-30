@@ -2,8 +2,8 @@
 /*
 Theme Name: WAAS
 Author: Adão Lima
-
 */
+
 @font-face {
   font-family: 'icomoon';
   src: url("./assets/fonts/icomoon.eot?mrwqmo");
@@ -8537,3 +8537,20 @@ body {
   .l-footer h5,
   .l-footer p {
     color: #6c757d; }
+
+  /* ADJUST OBJECT IMAGE */
+  .c-card--cover .textwidget {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .c-card--cover .textwidget figure,
+  .c-card--cover .textwidget figure img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+  }

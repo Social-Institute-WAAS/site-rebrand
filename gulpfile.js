@@ -7,17 +7,16 @@ const concat = require('gulp-concat');
 const babel = require('gulp-babel');
 const autoprefixer = require('gulp-autoprefixer');
 const terser = require('gulp-terser');
-// const inject = require('gulp-inject'); // Add the inject task
+const inject = require('gulp-inject'); // Add the inject task
 const browserSync = require('browser-sync');
+const crypto = require('crypto');
 const server = browserSync.create();
-const hash = require('gulp-hash');
  
 const condition = process.env.NODE_ENV === "development" ? { sourcemaps: true } : { sourcemaps: false };
 
-var options = {
-    hashLength: 4,
-    template: '<%= name %>.<%= hash %><%= ext %>'
-}
+
+var string = Date.now().toString(36);
+const myHash = crypto.createHash('md5').update(string).digest('hex').substr(0,4);
 
 sass.compiler = require('node-sass');
 
@@ -49,8 +48,7 @@ sass.compiler = require('node-sass');
                 cascade: false
             }))
             // .pipe(minifyCSS())
-            .pipe(concat('style.css'))
-            .pipe(hash(options))
+            // .pipe(concat('style.' + myHash +'.css'))
             .pipe(dest('app/css', condition ))
     }
 

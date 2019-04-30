@@ -67,11 +67,6 @@ endif;
 add_action( 'after_setup_theme', 'waas_theme_setup' );
 
 
-
-
-
-
-
 /**
  * Register widget area.
  *
@@ -79,19 +74,128 @@ add_action( 'after_setup_theme', 'waas_theme_setup' );
  */
 function waas_theme_widgets_init() {
 
+  // COVER ##############
+  register_sidebar( 
+    array( 
+      'name'          => __( 'Home - Cover', 'waas_theme' ),
+      'id'            => 'home-cover',
+      'description'   => __( 'Add widgets here to appear in your footer.', 'waas_theme' ),
+      'before_widget' => '',
+      'after_widget'  => '',
+      'before_title'  => '<h1 class="c-card__title w-25" >',
+      'after_title'   => '</h1>',
+    ) 
+  );
+  
+  //COMO FAZEMOS ##########
+  register_sidebar( 
+    array( 
+      'name'            => __( 'Home - Como Fazemos', 'waas_theme' ),
+      'id'              => 'how-we-do',
+      'description'     => __( 'This is the home top section.', 'waas_theme' ),
+      'before_widget'   => '<section class="container"><div class="c-card c-card--section bullets">',
+      'after_widget'    => '</div></section>',
+      'before_title'  => '<h2 class="c-card__title text-center">',
+      'after_title'   => '</h1>',
+    )
+  );
+
+  // METODOLOGIA ##########
+  register_sidebar( 
+    array( 
+      'name'            => __( 'Home - Metodologia', 'waas_theme' ),
+      'id'              => 'methodology',
+      'description'     => __( 'This is the home top section.', 'waas_theme' ),
+      'before_widget'   => '<section class="container"><div class="c-card c-card--section bullets bullets--orange bullets--right">',
+      'after_widget'    => '</div></section>',
+      'before_title'  => '<h2 class="c-card__title text-center">',
+      'after_title'   => '</h1>',
+    )
+  );
+
+  // GRADUACOES ##########
+  register_sidebar( 
+    array( 
+      'name'            => __( 'Home - Graduations', 'waas_theme' ),
+      'id'              => 'graduations',
+      'description'     => __( 'This is the home top section.', 'waas_theme' ),
+      'before_widget'   => '<div class="c-card bullets bullets--top-center" style="width: 16.5rem">',
+      'after_widget'    => '</div>',
+      'before_title'  => '<h3 class="c-card__title text-center pt-3 pb-2">',
+      'after_title'   => '</h3>',
+    )
+  );
+
+  // SERVICES ##########
+  register_sidebar( 
+    array( 
+      'name'            => __( 'Home - Services', 'waas_theme' ),
+      'id'              => 'services',
+      'description'     => __( 'This is the home top section.', 'waas_theme' ),
+      'before_widget'   => '<div class="c-card" style="width: 16.5rem">',
+      'after_widget'    => '</div>',
+      'before_title'  => '<h3 class="c-card__title text-center pt-3 pb-2">',
+      'after_title'   => '</h3>',
+    )
+  );
+
+  // AWARDS ##########
+  register_sidebar( 
+    array( 
+      'name'            => __( 'Home - Awards', 'waas_theme' ),
+      'id'              => 'awards',
+      'description'     => __( 'This is the home top section.', 'waas_theme' ),
+      'before_widget'   => '<div class="c-card text-center border-0" style="width: 16.5rem">',
+      'after_widget'    => '</div>',
+      'before_title'  => '<h3 class="d-none">',
+      'after_title'   => '</h3>',
+    )
+  );
+
+   // PARTNERS ##########
+   register_sidebar( 
+    array( 
+      'name'            => __( 'Home - Partners', 'waas_theme' ),
+      'id'              => 'partners',
+      'description'     => __( 'This is the home top section.', 'waas_theme' ),
+      'before_widget'   => '<div class="c-card text-center border-0" style="width: 16.5rem">',
+      'after_widget'    => '</div>',
+      'before_title'  => '<h3>',
+      'after_title'   => '</h3>',
+    )
+  );
+
+  // OPERATIONS ##########
+  register_sidebar( 
+    array( 
+      'name'            => __( 'Home - Operations', 'waas_theme' ),
+      'id'              => 'operations',
+      'description'     => __( 'This is the home top section.', 'waas_theme' ),
+      'before_widget'   => '<div class="c-card text-center border-0" style="width: 16.5rem">',
+      'after_widget'    => '</div>',
+      'before_title'  => '<h3>',
+      'after_title'   => '</h3>',
+    )
+  );
+
+
+  //FOOTER #############
 	register_sidebar(
 		array(
 			'name'          => __( 'Footer', 'waas_theme' ),
 			'id'            => 'sidebar-1',
 			'description'   => __( 'Add widgets here to appear in your footer.', 'waas_theme' ),
-			'before_widget' => '<section id="%1$s" class="widget %2$s">',
-			'after_widget'  => '</section>',
-			'before_title'  => '<h2 class="widget-title">',
-			'after_title'   => '</h2>',
+			'before_widget' => '<section class="footer l-footer mt-4"><div class="container">',
+			'after_widget'  => ' </div></section>',
+			// 'before_title'  => '<h2 class="widget-title">',
+			// 'after_title'   => '</h2>',
 		)
-	);
+  );
+    
+  
 
 }
+
 add_action( 'widgets_init', 'waas_theme_widgets_init' );
 
 
@@ -106,7 +210,7 @@ function load_stylesheets() {
     // wp_enqueue_style('bootstrap');
     
     // THE LAST to overwrite
-    wp_register_style('style', get_template_directory_uri().'/style.77b9.css', array() , false, 'all' );
+    wp_register_style('style', get_template_directory_uri().'/style.css', array() , false, 'all' );
     wp_enqueue_style('style');
 }
 
@@ -136,6 +240,8 @@ function loadjs() {
 }
 
 add_action('wp_enqueue_scripts', 'loadjs');
+
+
 
 
 

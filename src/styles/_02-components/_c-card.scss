@@ -154,6 +154,24 @@
                 font-size: 2rem;    
             }
         }
+
+        /* ADJUST OBJECT IMAGE */
+        .textwidget {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            figure,
+            figure img {
+                 object-fit: cover;
+                 width: 100%;
+                 height: 100%;
+                 object-position: center;
+            }
+        }
+
+       
     }
 
     // SECTION #################
