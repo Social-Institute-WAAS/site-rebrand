@@ -1,18 +1,22 @@
 
-const { src, dest, parallel,task, series, watch} = require('gulp');
+const { src, dest, parallel, series, watch} = require('gulp');
 const pug = require('gulp-pug');
 const sass = require('gulp-sass');
 const minifyCSS = require('gulp-csso');
 const concat = require('gulp-concat');
 const babel = require('gulp-babel');
 const autoprefixer = require('gulp-autoprefixer');
-//const uglify = require('gulp-uglify');
+const terser = require('gulp-terser');
 const inject = require('gulp-inject'); // Add the inject task
 const browserSync = require('browser-sync');
+const crypto = require('crypto');
 const server = browserSync.create();
+ 
+const condition = process.env.NODE_ENV === "development" ? { sourcemaps: true } : { sourcemaps: false };
 
-var ENV = "DEV"; 
-var condition = ENV == "DEV" ? { sourcemaps: true } : { sourcemaps: false };
+
+var string = Date.now().toString(36);
+const myHash = crypto.createHash('md5').update(string).digest('hex').substr(0,4);
 
 sass.compiler = require('node-sass');
 
@@ -32,7 +36,7 @@ sass.compiler = require('node-sass');
 
     function html() {
         return src(['src/views/*.pug','src/views/_04-pages/*.pug'])
-            .pipe(pug())
+            .pipe(pug({pretty: true}))
             .pipe(dest('app'))
     }
 
@@ -43,26 +47,28 @@ sass.compiler = require('node-sass');
                 browsers: ['last 2 versions'],
                 cascade: false
             }))
-            .pipe(minifyCSS())
-            .pipe(concat('app.min.css'))
+            // .pipe(minifyCSS())
+            // .pipe(concat('style.' + myHash +'.css'))
             .pipe(dest('app/css', condition ))
     }
 
     function js() {
         return src('src/scripts/*.js', condition)
             .pipe(babel())
+            .pipe(terser())
             .pipe(concat('app.min.js'))
             .pipe(dest('app/js', condition))
     }
 
     function vendor() {
         return src([
-            'node_modules/jquery/dist/jquery.js',
-            'node_modules/popper.js/dist/popper.js',
-            'node_modules/bootstrap/dist/js/bootstrap.js',
-            'src/scripts/vendor/*.js'
+            // 'node_modules/jquery/dist/jquery.js',
+            // 'node_modules/popper.js/dist/popper.js',
+            // 'node_modules/bootstrap/dist/js/bootstrap.js',
+            'src/scripts/vendor/hammer.min.js'
             ], condition)
             .pipe(babel())
+            // .pipe(terser())
             .pipe(concat('vendor.min.js'))
             .pipe(dest('app/js', condition))
     }
@@ -79,7 +85,6 @@ sass.compiler = require('node-sass');
     }
 
     function build(done) {
-        ENV = "PROD";
         html(); 
         css();
         js();
