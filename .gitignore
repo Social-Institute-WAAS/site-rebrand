@@ -1,1 +1,4 @@
 node_modules
+db_data
+wordpress/wp-admin/
+wordpress/wp-includes/
