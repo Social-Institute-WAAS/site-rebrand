@@ -1,24 +1,27 @@
 section.footer.l-footer.mt-4
   .container
       
-    .row.text-center.my-4
+    .row.text-center.my-4.d-flex.justify-content-around.flex-wrap.flex-sm-column.flex-md-row
 
-        .col-xs-12.col-sm-3.col-md-3
+        .pt-4.order-sm-1
+          h5.l-footer__title Links
+
+        .pt-4.order-sm-2
+          h5.l-footer__title Links
+          ul.list-unstyled.quick-links
+            +repeat(4)
+              li
+                a(href="#") Item
+
+        .pt-4.order-sm-3
+          h5.l-footer__title Links
+          ul.list-unstyled.quick-links
+            +repeat(4)
+              li
+                a(href="#") Item
+        
+        .pt-4.order-sm-0.order-md-4
           span.icon.icon-waas-complete.text-muted(style="font-size: 7rem")
-
-        .col-6.col-sm-3.col-md-3.pt-4
-          h5.l-footer__title Links
-          ul.list-unstyled.quick-links
-            +repeat(4)
-              li
-                a(href="#") Item
-
-        .col-6.col-sm-3.col-md-3.pt-4
-          h5.l-footer__title Links
-          ul.list-unstyled.quick-links
-            +repeat(4)
-              li
-                a(href="#") Item
 
     .row.text-center
       p.w-100.col-12.text-center Copyright 2019 Instituto Social WAAS

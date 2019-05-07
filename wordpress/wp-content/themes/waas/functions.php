@@ -40,6 +40,7 @@ if ( ! function_exists( 'waas_theme_setup' ) ) :
             array(
                 'top-menu' => __('Primary', 'waas_theme'),
                 'footer-menu' => __('Footer Menu', 'waas_theme'),
+                'footer-social' => __('Footer Social', 'waas_theme'),
                 'social' => __('Social Links Menu', 'waas_theme')
             )
         );
@@ -145,9 +146,9 @@ function waas_theme_widgets_init() {
       'name'            => __( 'Home - Awards', 'waas_theme' ),
       'id'              => 'awards',
       'description'     => __( 'This is the home top section.', 'waas_theme' ),
-      'before_widget'   => '<div class="c-card text-center border-0" style="width: 16.5rem">',
+      'before_widget'   => '<div class="col-6 col-md-3 text-center d-flex flex-column">',
       'after_widget'    => '</div>',
-      'before_title'  => '<h3 class="d-none">',
+      'before_title'  => '<h3 class="order-2 mt-3">',
       'after_title'   => '</h3>',
     )
   );
@@ -158,9 +159,9 @@ function waas_theme_widgets_init() {
       'name'            => __( 'Home - Partners', 'waas_theme' ),
       'id'              => 'partners',
       'description'     => __( 'This is the home top section.', 'waas_theme' ),
-      'before_widget'   => '<div class="c-card text-center border-0" style="width: 16.5rem">',
+      'before_widget'   => '<div class="col-6 col-md-3 text-center d-flex flex-column">',
       'after_widget'    => '</div>',
-      'before_title'  => '<h3>',
+      'before_title'  => '<h3 class="order-2 mt-3">',
       'after_title'   => '</h3>',
     )
   );
@@ -178,17 +179,29 @@ function waas_theme_widgets_init() {
     )
   );
 
+  // MIDIA ##########
+  register_sidebar( 
+    array( 
+      'name'            => __( 'Home - MEDIA', 'waas_theme' ),
+      'id'              => 'media',
+      'description'     => __( 'This is the home top section.', 'waas_theme' ),
+      'before_widget'   => '<div class="c-card text-center bg-transparent border-0">',
+      'after_widget'    => '</div>',
+      'before_title'  => '<h3>',
+      'after_title'   => '</h3>',
+    )
+  );
 
   //FOOTER #############
 	register_sidebar(
 		array(
-			'name'          => __( 'Footer', 'waas_theme' ),
-			'id'            => 'sidebar-1',
+			'name'          => __( 'Home - Footer', 'waas_theme' ),
+			'id'            => 'footer-contact',
 			'description'   => __( 'Add widgets here to appear in your footer.', 'waas_theme' ),
 			'before_widget' => '<section class="footer l-footer mt-4"><div class="container">',
 			'after_widget'  => ' </div></section>',
-			// 'before_title'  => '<h2 class="widget-title">',
-			// 'after_title'   => '</h2>',
+			'before_title'  => '<h2 class="d-none">',
+			'after_title'   => '</h2>',
 		)
   );
     

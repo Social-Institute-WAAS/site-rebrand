@@ -18,6 +18,19 @@ nav#navbar.c-nav.navbar.navbar-expand-lg.navbar-dark.fixed-top.mb-4
 			each val, index in menu
 				li.nav-item.c-nav__item
 					a.nav-link.c-nav__item-link(href="#")= val
+		ul.navbar-nav.c-nav__social
+			li.c-nav-item.nav-item
+				a.nav-link.c-nav__item-link(href="#")
+					span.sr-only Facebook
+					span.icon.icon-facebook
+			li.c-nav-item.nav-item
+				a.nav-link.c-nav__item-link(href="#")
+					span.sr-only Instagram
+					span.icon.icon-instagram
+			li.c-nav-item.nav-item
+				a.nav-link.c-nav__item-link(href="#")
+					span.sr-only Linkedin
+					span.icon.icon-linkedin
 
 	form.c-search.c-nav__search(method="post" target="_self" name="s")#search_form
 		button.c-search--toggle(type="button")

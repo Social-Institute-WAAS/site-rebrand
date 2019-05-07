@@ -1,3 +1,37 @@
 body {
     padding: $body-padding;
+    &.admin-bar {
+        nav.c-nav{
+            margin-top: 32px; 
+        }
+    }
+}
+h1 {
+    a {
+        color: $white;
+        &:hover,
+        &:focus {
+            color: rgba($white, .6);
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    html #wpadminbar {
+        position: fixed;
+    }
+}
+
+button {
+    @include media-breakpoint-down(lg) {
+        &:focus{
+            outline: none;
+            // opacity: .8;
+            border-radius: 10%;
+            .icon {
+               color:rgba($white, .5);
+            }
+            // background: rgba($black, .3)!important;
+        }
+     }
 }

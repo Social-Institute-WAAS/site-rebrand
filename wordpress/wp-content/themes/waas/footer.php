@@ -2,35 +2,51 @@
 </main>
     <footer class="footer l-footer mt-4">
       <div class="container">
-        <div class="row text-center my-4">
-          <div class="col-xs-6 col-sm-3 col-md-3 pt-4">
-            <h5 class="l-footer__title">Links</h5>
-            <ul class="list-unstyled quick-links">
-                <li><a href="#">Item</a></li>
-                <li><a href="#">Item</a></li>
-                <li><a href="#">Item</a></li>
-                <li><a href="#">Item</a></li>
-            </ul>
+        <div class="row d-flex justify-content-around flex-wrap flex-column flex-sm-column flex-md-row my-4">
+
+        <?php if ( is_active_sidebar('footer-contact') ) : ?>
+          <div class="order-sm-1 pt-4 text-left">
+            <h5 class="l-footer__title"> <?php echo __('Contact', 'waas_theme') ?></h5>
+            <?php dynamic_sidebar('footer-contact');  ?>
+          </div> 
+          <?php endif; ?>
+
+          
+          <div class="order-sm-2 pt-4 text-left">
+            <h5 class="l-footer__title"><?php echo __('Menu', 'waas_theme') ?></h5>
+            <?php wp_nav_menu(
+                array(
+                  'theme_location' => 'top-menu',
+                  'menu_class' => 'list-unstyled quick-links',
+                  'link_class' => '',
+                  'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+                  'walker'          => new WP_Bootstrap_Navwalker()
+                )
+              );
+            ?>
           </div>
-          <div class="col-xs-6 col-sm-3 col-md-3 pt-4">
-            <h5 class="l-footer__title">Links</h5>
-            <ul class="list-unstyled quick-links">
-                <li><a href="#">Item</a></li>
-                <li><a href="#">Item</a></li>
-                <li><a href="#">Item</a></li>
-                <li><a href="#">Item</a></li>
-            </ul>
+
+          <div class="order-sm-3 pt-4 text-left">
+            <h5 class="l-footer__title"><?php echo __('Social', 'waas_theme') ?></h5>
+              <?php wp_nav_menu(
+                array(
+                  'theme_location' => 'footer-social',
+                  'menu_class' => 'list-unstyled quick-links',
+                  'link_class' => '',
+                  'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+                  'walker'          => new WP_Bootstrap_Navwalker()
+                )
+              );
+            ?>
+            
           </div>
-          <div class="col-xs-12 col-sm-3 col-md-3 pt-4">
-            <h5 class="l-footer__title">Links</h5>
-            <ul class="list-unstyled quick-links">
-                <li><a href="#">Item</a></li>
-                <li><a href="#">Item</a></li>
-                <li><a href="#">Item</a></li>
-                <li><a href="#">Item</a></li>
-            </ul>
+
+          <div class="order-sm-0 order-md-4">
+            <span class="icon icon-waas-complete text-muted" style="font-size: 8rem"></span>
+            <p class="pt-3">Tecnologia Fortalecendo Jovens</p>
           </div>
-          <div class="col-xs-12 col-sm-3 col-md-3"><span class="icon icon-waas-complete text-muted" style="font-size: 8rem"></span><p class="pt-3">Tecnologia Fortalecendo Jovens</p></div>
+
+
         </div>
         <div class="row text-center">
           <p class="w-100 col-12 text-center">Copyright 2019 Instituto Social WAAS </p>
