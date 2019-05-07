@@ -48,6 +48,11 @@
               )
             );
           ?>
+          <ul class="navbar-nav c-nav__social">
+            <li class="c-nav-item nav-item active"><a class="nav-link c-nav__item-link" href="#"><span class="sr-only">Facebook</span><span class="icon icon-facebook"></span></a></li>
+            <li class="c-nav-item nav-item"><a class="nav-link c-nav__item-link" href="#"><span class="sr-only">Instagram</span><span class="icon icon-instagram"></span></a></li>
+            <li class="c-nav-item nav-item"><a class="nav-link c-nav__item-link" href="#"><span class="sr-only">Linkedin</span><span class="icon icon-linkedin"></span></a></li>
+          </ul>
       </div>
       <form class="c-search c-nav__search" method="post" target="_self" action="/" method="get"id="search_form">
         <button class="c-search--toggle" type="button"><span class="icon icon-search"></span></button>

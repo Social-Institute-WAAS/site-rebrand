@@ -25,24 +25,16 @@ $(document).ready(() => {
       $("#navbarCollapse").removeClass("active");
     });
   });
-
-  $(".c-search__append button").click(function(ev) {
-    let w = $(window).width();
-
-    if(w < 992) {
-      ev.preventDefault();
-    }
-    
-    isExpanded = true;
-    $(this).closest("body").toggleClass("is-expanded");
-    $("#navbar .c-search__input").focus();
-  });
-
     
     $('.c-search--toggle').on('click', function(){
         $(this).find('span').toggleClass('icon-search icon-close');
         $('body').toggleClass('is-expanded');
         //$('#navbar .c-search__input').focus();
+        $("#navbar .c-search__input").on("focusin", function() {
+          console.log('TEST');
+          // var parent = $(this).closest(".c-search__wrapper");
+          // parent.removeClass("focus");
+        });
     });
 
 });
