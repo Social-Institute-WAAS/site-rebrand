@@ -6,3 +6,4 @@ wordpress/wp-admin
 wordpress/wp-includes
 docker-compose.prod.yml
 .env.prod
+node_modules
