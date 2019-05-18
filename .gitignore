@@ -5,4 +5,4 @@ db_data/**/*.*
 wordpress/wp-admin
 wordpress/wp-includes
 docker-compose.prod.yml
-
+.env.prod
