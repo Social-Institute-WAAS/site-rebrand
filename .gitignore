@@ -1,4 +1,8 @@
 node_modules/
+db_data
 db_data/
+db_data/**/*.*
 wordpress/wp-admin
 wordpress/wp-includes
+docker-compose.prod.yml
+
