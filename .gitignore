@@ -4,6 +4,8 @@ db_data/
 db_data/**/*.*
 wordpress/wp-admin
 wordpress/wp-includes
+wordpress/wp-content/plugins
 docker-compose.prod.yml
 .env.prod
 node_modules
+.DS_Store
