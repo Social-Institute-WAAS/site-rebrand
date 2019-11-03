@@ -4,6 +4,8 @@ db_data/
 db_data/**/*.*
 .env.prod
 node_modules
+node_modules/**
+./node_modules
 .DS_Store
 wordpress/wp-admin
 wordpress/wp-includes
