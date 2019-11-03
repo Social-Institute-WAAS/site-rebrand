@@ -8350,6 +8350,9 @@ h1 a {
       height: 70%;
       background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(2, 41, 206, 0)), color-stop(rgba(2, 41, 206, 0.7)), to(#0229ce));
       background-image: linear-gradient(rgba(2, 41, 206, 0), rgba(2, 41, 206, 0.7), #0229ce); }
+    .c-card--cover--orange:before {
+      background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 170, 0, 0)), color-stop(rgba(255, 170, 0, 0.7)), to(#ffaa00));
+      background-image: linear-gradient(rgba(255, 170, 0, 0), rgba(255, 170, 0, 0.7), #ffaa00); }
     @media (max-width: 767.98px) {
       .c-card--cover {
         height: 60vh;
@@ -8357,7 +8360,11 @@ h1 a {
     .c-card--cover h1 {
       font-size: 3.25rem;
       color: #fff;
-      z-index: 9; }
+      z-index: 9;
+      position: absolute;
+      bottom: 0;
+      text-align: center;
+      padding: 0 1rem; }
       @media (max-width: 767.98px) {
         .c-card--cover h1 {
           font-size: 2rem; } }
@@ -8645,7 +8652,7 @@ body {
         -ms-flex-direction: row;
         flex-direction: row; }
         .c-grad__display .card-deck > .c-card:first-child {
-          margin-left: 0; } }
+          margin-left: 16px; } }
 
 .l-section__title {
   font-weight: 900;

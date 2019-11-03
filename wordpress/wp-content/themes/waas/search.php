@@ -35,7 +35,7 @@ get_header();
 			endwhile;
 
 			// Previous/next page navigation.
-			waas_the_posts_navigation();
+			waas_theme_posts_navigation();
 
 			// If no content, include the "No posts found" template.
 		else :

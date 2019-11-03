@@ -2,10 +2,14 @@ node_modules/
 db_data
 db_data/
 db_data/**/*.*
+.env.prod
+node_modules
+.DS_Store
 wordpress/wp-admin
 wordpress/wp-includes
 wordpress/wp-content/plugins
 docker-compose.prod.yml
-.env.prod
-node_modules
-.DS_Store
+wordpress/wp-config.php
+wordpress/wp-content/uploads/2019/*
+wordpress/wp-content/wflogs
+wordpress/wp-content/updraft

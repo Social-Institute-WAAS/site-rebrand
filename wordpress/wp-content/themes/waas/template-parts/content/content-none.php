@@ -8,9 +8,9 @@
 
 ?>
 
-<section class="no-results not-found">
+<section class="no-results not-found container l-section">
 	<header class="page-header">
-		<h1 class="page-title"><?php _e( 'Nothing Found', 'waas_theme' ); ?></h1>
+		<h1 class="page-title l-section__title"><?php _e( 'Nothing Found', 'waas_theme' ); ?></h1>
 	</header><!-- .page-header -->
 
 	<div class="page-content">

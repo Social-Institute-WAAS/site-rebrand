@@ -1,3 +1,40 @@
+# BEGIN WP Hide & Security Enhancer
+<IfModule mod_rewrite.c> 
+RewriteEngine On 
+RewriteBase / 
+#WriteCheckString:1558408646_38108
+RewriteRule .* - [E=HTTP_MOD_REWRITE:On]
+
+RewriteRule ^themes/main.css /wp-content/themes/waas/style.css [L,QSA]
+
+RewriteRule ^themes/(.+) /wp-content/themes/waas/$1 [L,QSA]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteCond %{HTTP_COOKIE} !^.*wordpress_logged_in.*$ [NC]
+RewriteRule ^wp-includes(.+) /index.php?wph-throw-404 [L]
+
+RewriteRule ^sources/(.+) /wp-includes/$1 [L,QSA]
+
+RewriteRule ^medias/(.+) /wp-content/uploads/$1 [L,QSA]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-content/uploads/(.+) /index.php?wph-throw-404 [L]
+
+RewriteRule ^comments.php /wp-comments-post.php [L,QSA]
+
+RewriteRule ^content/(.+) /wp-content/$1 [L,QSA]
+
+RewriteRule ^login(.*) /wp-login.php$1 [L,QSA]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-login.php /index.php?wph-throw-404 [L]
+
+RewriteCond %{REQUEST_URI} /admin$
+RewriteRule ^(.*)$ /admin/ [R=301,L]
+RewriteRule ^admin(.*) /wp-admin$1 [L,QSA]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-admin(.+) /index.php?wph-throw-404 [L]
+
+</IfModule> 
+
+# END WP Hide & Security Enhancer
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -7,4 +44,5 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
 </IfModule>
+
 # END WordPress

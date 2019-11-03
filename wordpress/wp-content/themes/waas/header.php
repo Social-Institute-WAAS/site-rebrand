@@ -30,7 +30,7 @@
 <body <?php body_class(); ?> id="site">
   
   <header>
-    <nav class="c-nav navbar navbar-expand-lg navbar-dark fixed-top mb-4" id="navbar"><a class="navbar-brand c-nav__brand" href="#"> <span class="icon icon-waas" role="icon"></span></a>
+    <nav class="c-nav navbar navbar-expand-lg navbar-dark fixed-top mb-4" id="navbar"><a class="navbar-brand c-nav__brand" href="/"> <span class="icon icon-waas" role="icon"></span></a>
       <button class="navbar-toggler c-nav__btn-toggle" id="js-btn-toggle" type="button" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="icon icon-bars" role="icon"></span></button>
       <div class="navbar-collapse c-nav__menu c-menu" id="navbarCollapse">
         <div class="c-menu__header">
@@ -49,9 +49,9 @@
             );
           ?>
           <ul class="navbar-nav c-nav__social">
-            <li class="c-nav-item nav-item active"><a class="nav-link c-nav__item-link" href="#"><span class="sr-only">Facebook</span><span class="icon icon-facebook"></span></a></li>
-            <li class="c-nav-item nav-item"><a class="nav-link c-nav__item-link" href="#"><span class="sr-only">Instagram</span><span class="icon icon-instagram"></span></a></li>
-            <li class="c-nav-item nav-item"><a class="nav-link c-nav__item-link" href="#"><span class="sr-only">Linkedin</span><span class="icon icon-linkedin"></span></a></li>
+            <li class="c-nav-item nav-item"><a class="nav-link c-nav__item-link" href="https://www.facebook.com/waas.ninja/" target="_blank"><span class="sr-only">Facebook</span><span class="icon icon-facebook"></span></a></li>
+            <li class="c-nav-item nav-item"><a class="nav-link c-nav__item-link" href="https://www.instagram.com/waas.ninja/" target="_blank"><span class="sr-only" >Instagram</span><span class="icon icon-instagram"></span></a></li>
+            <li class="c-nav-item nav-item"><a class="nav-link c-nav__item-link" href="https://www.linkedin.com/company/instituto-social-waas" target="_blank"><span class="sr-only">Linkedin</span><span class="icon icon-linkedin"></span></a></li>
           </ul>
       </div>
       <form class="c-search c-nav__search" method="post" target="_self" action="/" method="get"id="search_form">

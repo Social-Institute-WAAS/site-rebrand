@@ -88,26 +88,26 @@ function waas_theme_widgets_init() {
     ) 
   );
   
-  //COMO FAZEMOS ##########
+  //PORQUE ##########
   register_sidebar( 
     array( 
-      'name'            => __( 'Home - Como Fazemos', 'waas_theme' ),
-      'id'              => 'how-we-do',
+      'name'            => __( 'Home - Why We do', 'waas_theme' ),
+      'id'              => 'why-we-do',
       'description'     => __( 'This is the home top section.', 'waas_theme' ),
-      'before_widget'   => '<section class="container"><div class="c-card c-card--section bullets">',
+      'before_widget'   => '<section class="container" id="porque-fazemos"><div class="c-card c-card--section bullets">',
       'after_widget'    => '</div></section>',
       'before_title'  => '<h2 class="c-card__title text-center">',
       'after_title'   => '</h1>',
     )
   );
 
-  // METODOLOGIA ##########
+  // COMO FAZEMOS ##########
   register_sidebar( 
     array( 
-      'name'            => __( 'Home - Metodologia', 'waas_theme' ),
-      'id'              => 'methodology',
+      'name'            => __( 'Home - How We do', 'waas_theme' ),
+      'id'              => 'how-we-do',
       'description'     => __( 'This is the home top section.', 'waas_theme' ),
-      'before_widget'   => '<section class="container"><div class="c-card c-card--section bullets bullets--orange bullets--right">',
+      'before_widget'   => '<section class="container" id="como-fazemos"><div class="c-card c-card--section bullets bullets--orange bullets--right">',
       'after_widget'    => '</div></section>',
       'before_title'  => '<h2 class="c-card__title text-center">',
       'after_title'   => '</h1>',
@@ -120,7 +120,7 @@ function waas_theme_widgets_init() {
       'name'            => __( 'Home - Graduations', 'waas_theme' ),
       'id'              => 'graduations',
       'description'     => __( 'This is the home top section.', 'waas_theme' ),
-      'before_widget'   => '<div class="c-card bullets bullets--top-center" style="width: 16.5rem">',
+      'before_widget'   => '<div class="c-card bullets bullets--top-center px-2" style="width: 16.5rem">',
       'after_widget'    => '</div>',
       'before_title'  => '<h3 class="c-card__title text-center pt-3 pb-2">',
       'after_title'   => '</h3>',
@@ -133,7 +133,7 @@ function waas_theme_widgets_init() {
       'name'            => __( 'Home - Services', 'waas_theme' ),
       'id'              => 'services',
       'description'     => __( 'This is the home top section.', 'waas_theme' ),
-      'before_widget'   => '<div class="c-card" style="width: 16.5rem">',
+      'before_widget'   => '<div class="c-card bullets bullets--blue" style="width: 19.5rem">',
       'after_widget'    => '</div>',
       'before_title'  => '<h3 class="c-card__title text-center pt-3 pb-2">',
       'after_title'   => '</h3>',
@@ -148,7 +148,7 @@ function waas_theme_widgets_init() {
       'description'     => __( 'This is the home top section.', 'waas_theme' ),
       'before_widget'   => '<div class="col-6 col-md-3 text-center d-flex flex-column">',
       'after_widget'    => '</div>',
-      'before_title'  => '<h3 class="order-2 mt-3">',
+      'before_title'  => '<h3 class="order-2 mt-3 small">',
       'after_title'   => '</h3>',
     )
   );
@@ -159,9 +159,9 @@ function waas_theme_widgets_init() {
       'name'            => __( 'Home - Partners', 'waas_theme' ),
       'id'              => 'partners',
       'description'     => __( 'This is the home top section.', 'waas_theme' ),
-      'before_widget'   => '<div class="col-6 col-md-3 text-center d-flex flex-column">',
+      'before_widget'   => '<div class="col-6 col-md-3 p-2 text-center d-flex flex-row align-items-center justify-content-center">',
       'after_widget'    => '</div>',
-      'before_title'  => '<h3 class="order-2 mt-3">',
+      'before_title'  => '<h3 class="order-2 mt-3 d-none">',
       'after_title'   => '</h3>',
     )
   );
@@ -198,8 +198,8 @@ function waas_theme_widgets_init() {
 			'name'          => __( 'Home - Footer', 'waas_theme' ),
 			'id'            => 'footer-contact',
 			'description'   => __( 'Add widgets here to appear in your footer.', 'waas_theme' ),
-			'before_widget' => '<section class="footer l-footer mt-4"><div class="container">',
-			'after_widget'  => ' </div></section>',
+			'before_widget' => '<div class="container">',
+			'after_widget'  => ' </div>',
 			'before_title'  => '<h2 class="d-none">',
 			'after_title'   => '</h2>',
 		)
@@ -269,6 +269,18 @@ if ( ! file_exists( get_template_directory() . '/classes/class-wp-bootstrap-navw
 	// file exists... require it.
 	require_once get_template_directory() . '/classes/class-wp-bootstrap-navwalker.php';
 }
+
+
+/**
+ * SVG Icons class.
+ */
+require get_template_directory() . '/classes/class-waas-theme-svg-icons.php';
+
+/**
+ * Enhance the theme by hooking into WordPress.
+ */
+require get_template_directory() . '/inc/template-functions.php';
+
 
 /**
  * SVG Icons related functions.

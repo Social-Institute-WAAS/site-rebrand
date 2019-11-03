@@ -144,6 +144,11 @@
             height: 70%;
             background-image: linear-gradient(rgba($blue, 0), rgba($blue, .7), rgba($blue, 1));
         }
+        &--orange {
+            &:before {
+                background-image: linear-gradient(rgba($orange, 0), rgba($orange, .7), rgba($orange, 1));
+            }
+        }
         @include media-breakpoint-down(sm) {
             height: 60vh;
             min-height: 300px;
@@ -152,6 +157,10 @@
             font-size:$font-size-xl;
             color: $white;
             z-index: 9;
+            position: absolute;
+            bottom: 0;
+            text-align: center;
+            padding: 0 1rem;
             @include media-breakpoint-down(sm) {
                 font-size: 2rem;    
             }

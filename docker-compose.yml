@@ -27,7 +27,7 @@ services:
      env_file:
         - .env.local
      volumes:
-      - ./wordpress:/var/www/html
+      - $PWD/wordpress:/var/www/html
     #  ports:
     #    - "80:80"
      expose:
