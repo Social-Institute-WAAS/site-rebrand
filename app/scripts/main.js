@@ -45,7 +45,18 @@ $(document).ready(() => {
         //$('#navbar .c-search__input').focus();
     });
 
+    // ACTIVE BG NAVBAR
+    const navBar = $('#navbar');
+    $(window).on('scroll', function() {
+      if ($(this).scrollTop() > navBar.height()) { 
+        navBar.addClass('with-background');
+      } else {
+        navBar.removeClass('with-background');
+      }
+    });
+
 });
+
 
 // HAMMERJS
 var w = window.innerWidth;
@@ -59,11 +70,10 @@ if (w <= 992) {
     var mc = new Hammer(myElement);
 
     // listen to events...
-    mc.on("panleft panright tap press", function(ev) {
-        if (ev.type == "panleft") {
+    mc.on('panleft panright tap press', function(ev) {
+        if (ev.type == 'panleft') {
             //console.log("LEFT");
             myMenu.removeClass('active');
         }
     });
-
 } 

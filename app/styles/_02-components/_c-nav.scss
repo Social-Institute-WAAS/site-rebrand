@@ -1,6 +1,8 @@
 .c-nav {
-
+  transition: all .5s ease;
+  background-color: transparent;
   &.with-background {
+    transition: all .5s ease;
     background-color: $blue;
   }
   
