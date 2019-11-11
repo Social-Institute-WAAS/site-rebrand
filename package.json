@@ -41,5 +41,10 @@
     "node-sass": "^4.11.0",
     "popper.js": "^1.15.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 10"
+  ]
 }
