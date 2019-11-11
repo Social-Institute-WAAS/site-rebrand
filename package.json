@@ -1,7 +1,7 @@
 {
   "private": true,
   "engines": {
-    "node": ">=10"
+    "node": "10"
   },
   "name": "waas-site-rebrand",
   "version": "1.0.0",

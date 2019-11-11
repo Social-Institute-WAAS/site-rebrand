@@ -1,14 +1,30 @@
 .c-nav {
   transition: all .5s ease;
-  background-color: rgba($blue, .6);
+  background-color: rgba($white, .8);
   &.with-background {
     transition: all .5s ease;
-    background-color: $blue;
+    background-color: $white;
+    border-bottom: 6px solid $blue;
+    #logo-waas {
+      display: none;
+    }
+    #logotipo-waas {
+      display: flex;
+    }
   }
   
   .c-menu {
+    color: $blue;
     @include media-breakpoint-down(lg) {
       z-index: 999;
+    }
+
+    @include media-breakpoint-down(sm) {
+
+      .c-nav__item-link {
+        color: $white;
+      }
+
     }
     &__header {
       // display: flex;
@@ -21,10 +37,10 @@
       align-items: center;
       // opacity: .8;
       .icon {
-        color: $white;
+        color: $blue;
       }
       button {
-        background: $white;
+        background: $blue;
         border-radius: 50%;
         border: none;
         display: inline-flex;
@@ -33,12 +49,20 @@
           color: $blue;
         }
       }
+      @include media-breakpoint-down(sm) {
+        .icon {
+          color: white;
+        }
+        button {
+          background: white;
+        }
+      }
     }
   }
 
   .c-search--toggle {
     display: none;
-    color: $white;
+    color: $blue;
     background: none;
     border: none;
     width: 50px;
@@ -109,13 +133,13 @@
       }
     }
     @include media-breakpoint-down(md) {
-      width: 70vw;
+      width: 80vw;
     }
   }
   &__btn-toggle {
     border: none;
     .icon {
-      color: rgba(#fff, 1);
+      color: $blue;
     }
   }
   // &__list {
@@ -124,6 +148,7 @@
   // }
   &__item-link {
     font-size: $font-size-lg;
+    color: $blue;
   }
   @include media-breakpoint-down(lg) {
   }
@@ -139,6 +164,10 @@ body {
   body.is-expanded {
     .c-nav {
       padding-bottom: 76px;
+      &__wrapper {
+        display: block;
+        opacity: 1;
+      }
     }
     
     .c-nav__search {

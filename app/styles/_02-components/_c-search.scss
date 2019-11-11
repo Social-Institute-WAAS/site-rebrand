@@ -1,14 +1,15 @@
 .c-search {
     &__input {
         border-radius: $btn-border-radius!important;
-        border-width: 0;
-        background-color: rgba($color: darken($blue, 15%), $alpha: .5);
-        color: $white;
+        // border-width: 0;
+        background-color: rgba($color: $gray-200, $alpha: .5);
+        border: 2px solid $blue;
+        color: $blue;
         &.form-control{
             padding-right: 65px;
         }
         &::placeholder {
-            color: rgba($white, .7);
+            color: rgba($blue, .7);
         }
     }
     &__append {
@@ -18,7 +19,7 @@
             cursor: pointer;
         }
         .icon-search {
-            color: $white;
+            color: $blue;
         }
     }
     &__wrapper.focus {

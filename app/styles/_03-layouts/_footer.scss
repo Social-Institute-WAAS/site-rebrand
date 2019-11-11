@@ -1,6 +1,22 @@
 .l-footer {
     background-color: $gray-800;
     padding: 1.5rem 0 .5rem;
+    #logo-waas {
+        height: 120px;
+        // ORANGE
+        .st0{
+            fill:none;
+            display: none;
+        }
+        // NONE
+        .st1{fill:none;}
+        // BLUE
+        .st2{fill:$gray-400;}
+        // RED
+        .st3{fill:$gray-400;}
+
+    }
+
     &__title {
         font-weight: bold;
     }
