@@ -1,6 +1,6 @@
 .c-nav {
   transition: all .5s ease;
-  background-color: transparent;
+  background-color: rgba($blue, .6);
   &.with-background {
     transition: all .5s ease;
     background-color: $blue;
