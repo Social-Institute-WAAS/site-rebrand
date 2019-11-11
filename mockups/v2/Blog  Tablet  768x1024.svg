@@ -1,0 +1,258 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="768" height="2664" viewBox="0 0 768 2664">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="50" height="15" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-Blog_Tablet_768x1024_">
+      <rect width="768" height="2664"/>
+    </clipPath>
+  </defs>
+  <g id="Blog_Tablet_768x1024_" data-name="Blog  Tablet  768x1024 " clip-path="url(#clip-Blog_Tablet_768x1024_)">
+    <rect width="768" height="2664" fill="#fff"/>
+    <g id="Header">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="768" height="60" fill="#d9d9d9"/>
+      <g id="Menu" transform="translate(16.5 22.5)">
+        <path id="Path_15" data-name="Path 15" d="M4,8H28M4,16H28M4,24H28" transform="translate(-4 -8)" fill="rgba(144,144,144,0.33)" stroke="rgba(0,0,0,0.5)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+      <path id="ic_search_24px" d="M20.845,18.7H19.717l-.4-.385a9.293,9.293,0,1,0-1,1l.385.4v1.128l7.138,7.124,2.127-2.127Zm-8.566,0A6.424,6.424,0,1,1,18.7,12.279,6.416,6.416,0,0,1,12.279,18.7Z" transform="translate(722.521 14.521)"/>
+      <rect id="Rectangle_23" data-name="Rectangle 23" width="230" height="45" rx="5" transform="translate(528 8)" fill="#fff" opacity="0.436"/>
+      <text id="WAAS" transform="translate(370.5 40)" fill="#707070" font-size="30" font-family="Nunito-Black, Nunito" font-weight="800"><tspan x="-48.36" y="0">WAAS</tspan></text>
+    </g>
+    <g id="Group_42" data-name="Group 42" transform="translate(77 -555)">
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="593" height="199" rx="5" transform="translate(10 2644)" fill="#d1d1d1"/>
+      <text id="Newsletter" transform="translate(25.5 2663)" fill="#707070" font-size="30" font-family="Nunito-ExtraBold, Nunito" font-weight="800"><tspan x="0" y="30">Newsletter</tspan></text>
+      <rect id="Rectangle_10" data-name="Rectangle 10" width="562" height="41" rx="5" transform="translate(25.5 2734)" fill="#efe7e7"/>
+      <text id="Inscreva-se_para_receber_as_novidades_mais_recentes." data-name="Inscreva-se para receber as novidades mais recentes." transform="translate(25.5 2698)" fill="#707070" font-size="18" font-family="Nunito-Regular, Nunito"><tspan x="0" y="18">Inscreva-se para receber </tspan><tspan y="18" font-size="16">as novidades mais recentes.</tspan></text>
+      <g id="Group_17" data-name="Group 17" transform="translate(487.5 2783)">
+        <rect id="Rectangle_11" data-name="Rectangle 11" width="100" height="41" rx="5" fill="#a2a2a2"/>
+        <text id="Inscrever" transform="translate(13 26)" fill="#fff" font-size="18" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Inscrever</tspan></text>
+      </g>
+    </g>
+    <g id="Group_43" data-name="Group 43" transform="translate(87 -576)">
+      <rect id="Rectangle_12" data-name="Rectangle 12" width="768" height="362" transform="translate(-87 2881)" fill="#707070"/>
+      <text id="Rodapé" transform="translate(137 2912)" fill="#fff" font-size="22" font-family="Nunito-ExtraBold, Nunito" font-weight="800" opacity="0.537"><tspan x="0" y="22">Rodapé</tspan></text>
+      <g id="Group_18" data-name="Group 18">
+        <rect id="Rectangle_13" data-name="Rectangle 13" width="126" height="18" transform="translate(26 2957)" fill="#9f9f9f"/>
+        <rect id="Rectangle_14" data-name="Rectangle 14" width="96" height="18" transform="translate(26 2991)" fill="#9f9f9f"/>
+        <rect id="Rectangle_15" data-name="Rectangle 15" width="63" height="18" transform="translate(26 3025)" fill="#9f9f9f"/>
+      </g>
+      <g id="Group_64" data-name="Group 64" transform="translate(0 17)">
+        <rect id="Rectangle_16" data-name="Rectangle 16" width="128.438" height="18" transform="translate(441 2962)" fill="#9f9f9f"/>
+        <rect id="Rectangle_17" data-name="Rectangle 17" width="78" height="18" transform="translate(441 2996)" fill="#9f9f9f"/>
+        <rect id="Rectangle_18" data-name="Rectangle 18" width="120.438" height="18" transform="translate(441 3030)" fill="#9f9f9f"/>
+      </g>
+      <g id="Group_19" data-name="Group 19" transform="translate(0 144)">
+        <rect id="Rectangle_13-2" data-name="Rectangle 13" width="126" height="18" transform="translate(26 2957)" fill="#9f9f9f"/>
+        <rect id="Rectangle_14-2" data-name="Rectangle 14" width="96" height="18" transform="translate(26 2991)" fill="#9f9f9f"/>
+        <rect id="Rectangle_15-2" data-name="Rectangle 15" width="63" height="18" transform="translate(26 3025)" fill="#9f9f9f"/>
+      </g>
+      <g id="Group_44" data-name="Group 44" transform="translate(33.938 -110)">
+        <rect id="Rectangle_19" data-name="Rectangle 19" width="167" height="18" transform="translate(179.563 3067)" fill="#9f9f9f"/>
+        <rect id="Rectangle_20" data-name="Rectangle 20" width="78" height="18" transform="translate(179.563 3101)" fill="#9f9f9f"/>
+        <rect id="Rectangle_21" data-name="Rectangle 21" width="159" height="18" transform="translate(179.563 3135)" fill="#9f9f9f"/>
+      </g>
+      <text id="Contato" transform="translate(25.5 3065)" fill="#fff" font-size="22" font-family="Nunito-ExtraBold, Nunito" font-weight="800" opacity="0.486"><tspan x="0" y="22">Contato</tspan></text>
+      <text id="WAAS-2" data-name="WAAS" transform="translate(73.5 2935)" fill="#c3c3c3" font-size="30" font-family="Nunito-Black, Nunito" font-weight="800"><tspan x="-48.36" y="0">WAAS</tspan></text>
+      <text id="Sociais" transform="translate(441.5 2939)" fill="#fff" font-size="22" font-family="Nunito-ExtraBold, Nunito" font-weight="800" opacity="0.486"><tspan x="0" y="22">Sociais</tspan></text>
+    </g>
+    <g id="Group_98" data-name="Group 98" transform="translate(-1 36)">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="593" height="515.438" rx="5" transform="translate(87 75)" fill="#d1d1d1"/>
+      <text id="Tecnologia_Fortacelendo_Jovens" data-name="Tecnologia 
+Fortacelendo
+Jovens" transform="translate(105 367.438)" fill="#707070" font-size="44" font-family="Nunito-ExtraBold, Nunito" font-weight="800"><tspan x="0" y="44">Tecnologia </tspan><tspan x="0" y="90">Fortacelendo</tspan><tspan x="0" y="136">Jovens</tspan></text>
+      <g id="Tag" transform="translate(105 349.246)" clip-path="url(#clip-path)">
+        <rect id="Rectangle_24" data-name="Rectangle 24" width="50" height="15" rx="3" fill="#fff" opacity="0.633"/>
+        <text id="Ciências" transform="translate(5 11)" fill="#707070" font-size="11" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Ciências</tspan></text>
+      </g>
+      <g id="Group_66" data-name="Group 66" transform="translate(159 349.246)">
+        <rect id="Rectangle_24-2" data-name="Rectangle 24" width="57.241" height="15" rx="3" fill="#fff" opacity="0.633"/>
+        <text id="Educação" transform="translate(5 11)" fill="#707070" font-size="11" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Educação</tspan></text>
+      </g>
+      <g id="Group_97" data-name="Group 97" transform="translate(-4114 259)">
+        <text id="Name" transform="translate(4273 294.004)" fill="#707070" font-size="18" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Name</tspan></text>
+        <circle id="Ellipse_7" data-name="Ellipse 7" cx="21.5" cy="21.5" r="21.5" transform="translate(4219 265.004)" fill="#f0f0f0"/>
+      </g>
+      <text id="_20_03_2019" data-name="20/03/2019" transform="translate(656 561.004)" fill="#707070" font-size="10" font-family="Nunito-Regular, Nunito"><tspan x="-53.66" y="0">20/03/2019</tspan></text>
+    </g>
+    <g id="Group_116" data-name="Group 116">
+      <rect id="Rectangle_27" data-name="Rectangle 27" width="595" height="32" rx="15" transform="translate(86 69)" fill="#edebeb"/>
+      <g id="Group_75" data-name="Group 75" transform="translate(223.5 6)">
+        <text id="Blog_Transmitir" data-name="Blog Transmitir" transform="translate(11.5 63)" fill="#707070" font-size="22" font-family="Nunito-ExtraBold, Nunito" font-weight="800"><tspan x="69.602" y="22">Blog Transmitir</tspan></text>
+        <g id="Group_73" data-name="Group 73" transform="translate(248 71)">
+          <path id="Path_16" data-name="Path 16" d="M3145,82s3.975,3.126,0,8.156" transform="translate(-3145 -77.743)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+          <path id="Path_17" data-name="Path 17" d="M3145,82s6.976,4.738,0,12.363" transform="translate(-3144.293 -79.928)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+          <path id="Path_18" data-name="Path 18" d="M3145,82s9.182,6.331,0,16.521" transform="translate(-3143.233 -82)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+        </g>
+        <g id="Group_74" data-name="Group 74" transform="translate(72.848 87.521) rotate(180)">
+          <path id="Path_16-2" data-name="Path 16" d="M0,0S3.975,3.126,0,8.156" transform="translate(0 4.257)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+          <path id="Path_17-2" data-name="Path 17" d="M0,0S6.976,4.738,0,12.363" transform="translate(0.707 2.072)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+          <path id="Path_18-2" data-name="Path 18" d="M0,0S9.182,6.331,0,16.521" transform="translate(1.767 0)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_100" data-name="Group 100" transform="translate(77 389)">
+      <rect id="Rectangle_3-2" data-name="Rectangle 3" width="289" height="371.652" rx="5" transform="translate(10 248)" fill="#d1d1d1"/>
+      <text id="MAKER_a_revolução_na_sociedade_contemporânea_" data-name="MAKER a revolução na sociedade contemporânea
+" transform="translate(26 466.137)" fill="#707070" font-size="24" font-family="Nunito-ExtraBold, Nunito" font-weight="800"><tspan x="0" y="24">MAKER a revolução </tspan><tspan x="0" y="50">na sociedade </tspan><tspan x="0" y="76">contemporânea</tspan></text>
+      <text id="Name-2" data-name="Name" transform="translate(75.032 582.652)" fill="#707070" font-size="18" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Name</tspan></text>
+      <circle id="Ellipse_7-2" data-name="Ellipse 7" cx="21.5" cy="21.5" r="21.5" transform="translate(24 553.652)" fill="#f0f0f0"/>
+      <g id="Group_69" data-name="Group 69" transform="translate(27 459.917) rotate(-90)">
+        <rect id="Rectangle_24-3" data-name="Rectangle 24" width="41" height="15" rx="3" transform="translate(15) rotate(90)" fill="#fff" opacity="0.633"/>
+        <text id="Maker" transform="translate(4 5) rotate(90)" fill="#707070" font-size="11" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Maker</tspan></text>
+      </g>
+      <g id="Group_70" data-name="Group 70" transform="translate(70.19 444.917)">
+        <rect id="Rectangle_24-4" data-name="Rectangle 24" width="57.241" height="15" rx="3" transform="translate(0 0)" fill="#fff" opacity="0.633"/>
+        <text id="Educação-2" data-name="Educação" transform="translate(5 11)" fill="#707070" font-size="11" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Educação</tspan></text>
+      </g>
+      <text id="_20_03_2019-2" data-name="20/03/2019" transform="translate(289 599.652)" fill="#707070" font-size="10" font-family="Nunito-Regular, Nunito"><tspan x="-53.66" y="0">20/03/2019</tspan></text>
+    </g>
+    <g id="Group_101" data-name="Group 101" transform="translate(379.738 304)">
+      <rect id="Rectangle_3-3" data-name="Rectangle 3" width="290.262" height="180.652" rx="5" transform="translate(10 333)" fill="#d1d1d1"/>
+      <text id="MAKER_a_revolução_na_sociedade_contemporânea_2" data-name="MAKER a revolução na sociedade contemporânea
+" transform="translate(26 373.956)" fill="#707070" font-size="24" font-family="Nunito-ExtraBold, Nunito" font-weight="800"><tspan x="0" y="24">MAKER a revolução </tspan><tspan x="0" y="48">na sociedade </tspan><tspan x="0" y="72">contemporânea</tspan></text>
+      <text id="Name-3" data-name="Name" transform="translate(75.372 485.652)" fill="#707070" font-size="18" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Name</tspan></text>
+      <circle id="Ellipse_7-3" data-name="Ellipse 7" cx="21.5" cy="21.5" r="21.5" transform="translate(24 456.652)" fill="#f0f0f0"/>
+      <g id="Group_69-2" data-name="Group 69" transform="translate(27 369) rotate(-90)">
+        <rect id="Rectangle_24-5" data-name="Rectangle 24" width="41" height="15" rx="3" transform="translate(15) rotate(90)" fill="#fff" opacity="0.633"/>
+        <text id="Maker-2" data-name="Maker" transform="translate(4 5) rotate(90)" fill="#707070" font-size="11" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Maker</tspan></text>
+      </g>
+      <g id="Group_70-2" data-name="Group 70" transform="translate(74.83 354)">
+        <rect id="Rectangle_24-6" data-name="Rectangle 24" width="57.241" height="15" rx="3" fill="#fff" opacity="0.633"/>
+        <text id="Educação-3" data-name="Educação" transform="translate(5 11)" fill="#707070" font-size="11" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Educação</tspan></text>
+      </g>
+      <text id="_20_03_2019-3" data-name="20/03/2019" transform="translate(290.262 495.652)" fill="#707070" font-size="10" font-family="Nunito-Regular, Nunito"><tspan x="-53.66" y="0">20/03/2019</tspan></text>
+    </g>
+    <g id="Group_102" data-name="Group 102" transform="translate(379.738 496)">
+      <rect id="Rectangle_3-4" data-name="Rectangle 3" width="290.262" height="180.652" rx="5" transform="translate(10 333)" fill="#d1d1d1"/>
+      <text id="MAKER_a_revolução_na_sociedade_contemporânea_3" data-name="MAKER a revolução na sociedade contemporânea
+" transform="translate(26 373.956)" fill="#707070" font-size="24" font-family="Nunito-ExtraBold, Nunito" font-weight="800"><tspan x="0" y="24">MAKER a revolução </tspan><tspan x="0" y="48">na sociedade </tspan><tspan x="0" y="72">contemporânea</tspan></text>
+      <text id="Name-4" data-name="Name" transform="translate(75.372 485.652)" fill="#707070" font-size="18" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Name</tspan></text>
+      <circle id="Ellipse_7-4" data-name="Ellipse 7" cx="21.5" cy="21.5" r="21.5" transform="translate(24 456.652)" fill="#f0f0f0"/>
+      <g id="Group_69-3" data-name="Group 69" transform="translate(27 369) rotate(-90)">
+        <rect id="Rectangle_24-7" data-name="Rectangle 24" width="41" height="15" rx="3" transform="translate(15) rotate(90)" fill="#fff" opacity="0.633"/>
+        <text id="Maker-3" data-name="Maker" transform="translate(4 5) rotate(90)" fill="#707070" font-size="11" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Maker</tspan></text>
+      </g>
+      <g id="Group_70-3" data-name="Group 70" transform="translate(74.83 354)">
+        <rect id="Rectangle_24-8" data-name="Rectangle 24" width="57.241" height="15" rx="3" fill="#fff" opacity="0.633"/>
+        <text id="Educação-4" data-name="Educação" transform="translate(5 11)" fill="#707070" font-size="11" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Educação</tspan></text>
+      </g>
+      <text id="_20_03_2019-4" data-name="20/03/2019" transform="translate(290.262 495.652)" fill="#707070" font-size="10" font-family="Nunito-Regular, Nunito"><tspan x="-53.66" y="0">20/03/2019</tspan></text>
+    </g>
+    <g id="Group_106" data-name="Group 106" transform="translate(77 -82)">
+      <rect id="Rectangle_3-5" data-name="Rectangle 3" width="593" height="371.652" rx="5" transform="translate(10 1102)" fill="#d1d1d1"/>
+      <g id="Group_108" data-name="Group 108" transform="translate(23.5 1336.841)">
+        <text id="Post_especial_sobre_os_vencedores_do_HACKATEEN_" data-name="Post especial sobre os vencedores do HACKATEEN
+" transform="translate(0 14.811)" fill="#707070" font-size="38" font-family="Nunito-ExtraBold, Nunito" font-weight="800"><tspan x="84.989" y="38">Post especial sobre os </tspan><tspan x="32.739" y="80">vencedores do HACKATEEN</tspan></text>
+        <g id="Group_107" data-name="Group 107" transform="translate(229.004)">
+          <g id="Group_69-4" data-name="Group 69" transform="translate(0 15) rotate(-90)">
+            <rect id="Rectangle_24-9" data-name="Rectangle 24" width="41" height="15" rx="3" transform="translate(15) rotate(90)" fill="#fff" opacity="0.633"/>
+            <text id="Maker-4" data-name="Maker" transform="translate(4 5) rotate(90)" fill="#707070" font-size="11" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Maker</tspan></text>
+          </g>
+          <g id="Group_70-4" data-name="Group 70" transform="translate(47)">
+            <rect id="Rectangle_24-10" data-name="Rectangle 24" width="57.241" height="15" rx="3" fill="#fff" opacity="0.633"/>
+            <text id="Educação-5" data-name="Educação" transform="translate(5 11)" fill="#707070" font-size="11" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Educação</tspan></text>
+          </g>
+        </g>
+        <text id="_20_03_2019-5" data-name="20/03/2019" transform="translate(309 117.811)" fill="#707070" font-size="10" font-family="Nunito-Regular, Nunito"><tspan x="-53.66" y="0">20/03/2019</tspan></text>
+      </g>
+    </g>
+    <g id="Group_109" data-name="Group 109" transform="translate(77 1454)">
+      <rect id="Rectangle_3-6" data-name="Rectangle 3" width="290.262" height="180.652" rx="5" transform="translate(10 333)" fill="#d1d1d1"/>
+      <text id="MAKER_a_revolução_na_sociedade_contemporânea_4" data-name="MAKER a revolução na sociedade contemporânea
+" transform="translate(26 373.956)" fill="#707070" font-size="24" font-family="Nunito-ExtraBold, Nunito" font-weight="800"><tspan x="0" y="24">MAKER a revolução </tspan><tspan x="0" y="48">na sociedade </tspan><tspan x="0" y="72">contemporânea</tspan></text>
+      <text id="Name-5" data-name="Name" transform="translate(75.372 485.652)" fill="#707070" font-size="18" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Name</tspan></text>
+      <circle id="Ellipse_7-5" data-name="Ellipse 7" cx="21.5" cy="21.5" r="21.5" transform="translate(24 456.652)" fill="#f0f0f0"/>
+      <g id="Group_69-5" data-name="Group 69" transform="translate(27 369) rotate(-90)">
+        <rect id="Rectangle_24-11" data-name="Rectangle 24" width="41" height="15" rx="3" transform="translate(15) rotate(90)" fill="#fff" opacity="0.633"/>
+        <text id="Maker-5" data-name="Maker" transform="translate(4 5) rotate(90)" fill="#707070" font-size="11" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Maker</tspan></text>
+      </g>
+      <g id="Group_70-5" data-name="Group 70" transform="translate(74.83 354)">
+        <rect id="Rectangle_24-12" data-name="Rectangle 24" width="57.241" height="15" rx="3" fill="#fff" opacity="0.633"/>
+        <text id="Educação-6" data-name="Educação" transform="translate(5 11)" fill="#707070" font-size="11" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Educação</tspan></text>
+      </g>
+      <text id="_20_03_2019-6" data-name="20/03/2019" transform="translate(290.262 495.652)" fill="#707070" font-size="10" font-family="Nunito-Regular, Nunito"><tspan x="-53.66" y="0">20/03/2019</tspan></text>
+    </g>
+    <g id="Group_110" data-name="Group 110" transform="translate(381 1454)">
+      <rect id="Rectangle_3-7" data-name="Rectangle 3" width="290.262" height="180.652" rx="5" transform="translate(10 333)" fill="#d1d1d1"/>
+      <text id="MAKER_a_revolução_na_sociedade_contemporânea_5" data-name="MAKER a revolução na sociedade contemporânea
+" transform="translate(26 373.956)" fill="#707070" font-size="24" font-family="Nunito-ExtraBold, Nunito" font-weight="800"><tspan x="0" y="24">MAKER a revolução </tspan><tspan x="0" y="48">na sociedade </tspan><tspan x="0" y="72">contemporânea</tspan></text>
+      <text id="Name-6" data-name="Name" transform="translate(75.372 485.652)" fill="#707070" font-size="18" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Name</tspan></text>
+      <circle id="Ellipse_7-6" data-name="Ellipse 7" cx="21.5" cy="21.5" r="21.5" transform="translate(24 456.652)" fill="#f0f0f0"/>
+      <g id="Group_69-6" data-name="Group 69" transform="translate(27 369) rotate(-90)">
+        <rect id="Rectangle_24-13" data-name="Rectangle 24" width="41" height="15" rx="3" transform="translate(15) rotate(90)" fill="#fff" opacity="0.633"/>
+        <text id="Maker-6" data-name="Maker" transform="translate(4 5) rotate(90)" fill="#707070" font-size="11" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Maker</tspan></text>
+      </g>
+      <g id="Group_70-6" data-name="Group 70" transform="translate(74.83 354)">
+        <rect id="Rectangle_24-14" data-name="Rectangle 24" width="57.241" height="15" rx="3" fill="#fff" opacity="0.633"/>
+        <text id="Educação-7" data-name="Educação" transform="translate(5 11)" fill="#707070" font-size="11" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Educação</tspan></text>
+      </g>
+      <text id="_20_03_2019-7" data-name="20/03/2019" transform="translate(290.262 495.652)" fill="#707070" font-size="10" font-family="Nunito-Regular, Nunito"><tspan x="-53.66" y="0">20/03/2019</tspan></text>
+    </g>
+    <g id="Group_103" data-name="Group 103" transform="translate(78 1155)">
+      <rect id="Rectangle_3-8" data-name="Rectangle 3" width="289" height="371.652" rx="5" transform="translate(10 248)" fill="#d1d1d1"/>
+      <text id="MAKER_a_revolução_na_sociedade_contemporânea_6" data-name="MAKER a revolução na sociedade contemporânea
+" transform="translate(26 466.137)" fill="#707070" font-size="24" font-family="Nunito-ExtraBold, Nunito" font-weight="800"><tspan x="0" y="24">MAKER a revolução </tspan><tspan x="0" y="50">na sociedade </tspan><tspan x="0" y="76">contemporânea</tspan></text>
+      <text id="Name-7" data-name="Name" transform="translate(75.032 582.652)" fill="#707070" font-size="18" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Name</tspan></text>
+      <circle id="Ellipse_7-7" data-name="Ellipse 7" cx="21.5" cy="21.5" r="21.5" transform="translate(24 553.652)" fill="#f0f0f0"/>
+      <g id="Group_69-7" data-name="Group 69" transform="translate(27 459.917) rotate(-90)">
+        <rect id="Rectangle_24-15" data-name="Rectangle 24" width="41" height="15" rx="3" transform="translate(15) rotate(90)" fill="#fff" opacity="0.633"/>
+        <text id="Maker-7" data-name="Maker" transform="translate(4 5) rotate(90)" fill="#707070" font-size="11" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Maker</tspan></text>
+      </g>
+      <g id="Group_70-7" data-name="Group 70" transform="translate(70.19 444.917)">
+        <rect id="Rectangle_24-16" data-name="Rectangle 24" width="57.241" height="15" rx="3" transform="translate(0 0)" fill="#fff" opacity="0.633"/>
+        <text id="Educação-8" data-name="Educação" transform="translate(5 11)" fill="#707070" font-size="11" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Educação</tspan></text>
+      </g>
+      <text id="_20_03_2019-8" data-name="20/03/2019" transform="translate(289 599.652)" fill="#707070" font-size="10" font-family="Nunito-Regular, Nunito"><tspan x="-53.66" y="0">20/03/2019</tspan></text>
+    </g>
+    <g id="Group_111" data-name="Group 111" transform="translate(381 1071)">
+      <rect id="Rectangle_3-9" data-name="Rectangle 3" width="290.262" height="180.652" rx="5" transform="translate(10 333)" fill="#d1d1d1"/>
+      <text id="MAKER_a_revolução_na_sociedade_contemporânea_7" data-name="MAKER a revolução na sociedade contemporânea
+" transform="translate(26 373.956)" fill="#707070" font-size="24" font-family="Nunito-ExtraBold, Nunito" font-weight="800"><tspan x="0" y="24">MAKER a revolução </tspan><tspan x="0" y="48">na sociedade </tspan><tspan x="0" y="72">contemporânea</tspan></text>
+      <text id="Name-8" data-name="Name" transform="translate(75.372 485.652)" fill="#707070" font-size="18" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Name</tspan></text>
+      <circle id="Ellipse_7-8" data-name="Ellipse 7" cx="21.5" cy="21.5" r="21.5" transform="translate(24 456.652)" fill="#f0f0f0"/>
+      <g id="Group_69-8" data-name="Group 69" transform="translate(27 369) rotate(-90)">
+        <rect id="Rectangle_24-17" data-name="Rectangle 24" width="41" height="15" rx="3" transform="translate(15) rotate(90)" fill="#fff" opacity="0.633"/>
+        <text id="Maker-8" data-name="Maker" transform="translate(4 5) rotate(90)" fill="#707070" font-size="11" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Maker</tspan></text>
+      </g>
+      <g id="Group_70-8" data-name="Group 70" transform="translate(74.83 354)">
+        <rect id="Rectangle_24-18" data-name="Rectangle 24" width="57.241" height="15" rx="3" fill="#fff" opacity="0.633"/>
+        <text id="Educação-9" data-name="Educação" transform="translate(5 11)" fill="#707070" font-size="11" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Educação</tspan></text>
+      </g>
+      <text id="_20_03_2019-9" data-name="20/03/2019" transform="translate(290.262 495.652)" fill="#707070" font-size="10" font-family="Nunito-Regular, Nunito"><tspan x="-53.66" y="0">20/03/2019</tspan></text>
+    </g>
+    <g id="Group_112" data-name="Group 112" transform="translate(381 1263)">
+      <rect id="Rectangle_3-10" data-name="Rectangle 3" width="290.262" height="180.652" rx="5" transform="translate(10 333)" fill="#d1d1d1"/>
+      <text id="MAKER_a_revolução_na_sociedade_contemporânea_8" data-name="MAKER a revolução na sociedade contemporânea
+" transform="translate(26 373.956)" fill="#707070" font-size="24" font-family="Nunito-ExtraBold, Nunito" font-weight="800"><tspan x="0" y="24">MAKER a revolução </tspan><tspan x="0" y="48">na sociedade </tspan><tspan x="0" y="72">contemporânea</tspan></text>
+      <text id="Name-9" data-name="Name" transform="translate(75.372 485.652)" fill="#707070" font-size="18" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Name</tspan></text>
+      <circle id="Ellipse_7-9" data-name="Ellipse 7" cx="21.5" cy="21.5" r="21.5" transform="translate(24 456.652)" fill="#f0f0f0"/>
+      <g id="Group_69-9" data-name="Group 69" transform="translate(27 369) rotate(-90)">
+        <rect id="Rectangle_24-19" data-name="Rectangle 24" width="41" height="15" rx="3" transform="translate(15) rotate(90)" fill="#fff" opacity="0.633"/>
+        <text id="Maker-9" data-name="Maker" transform="translate(4 5) rotate(90)" fill="#707070" font-size="11" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Maker</tspan></text>
+      </g>
+      <g id="Group_70-9" data-name="Group 70" transform="translate(74.83 354)">
+        <rect id="Rectangle_24-20" data-name="Rectangle 24" width="57.241" height="15" rx="3" fill="#fff" opacity="0.633"/>
+        <text id="Educação-10" data-name="Educação" transform="translate(5 11)" fill="#707070" font-size="11" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Educação</tspan></text>
+      </g>
+      <text id="_20_03_2019-10" data-name="20/03/2019" transform="translate(290.262 495.652)" fill="#707070" font-size="10" font-family="Nunito-Regular, Nunito"><tspan x="-53.66" y="0">20/03/2019</tspan></text>
+    </g>
+    <g id="Group_113" data-name="Group 113" transform="translate(231 452)">
+      <g id="Group_83" data-name="Group 83">
+        <circle id="Ellipse_8" data-name="Ellipse 8" cx="23.351" cy="23.351" r="23.351" transform="translate(47 1562)" fill="#d8d8d8"/>
+        <text id="_1" data-name="1" transform="translate(69.5 1593)" fill="#707070" font-size="24" font-family="Nunito-ExtraBold, Nunito" font-weight="800"><tspan x="-7.2" y="0">1</tspan></text>
+      </g>
+      <g id="Group_84" data-name="Group 84" transform="translate(56)">
+        <circle id="Ellipse_8-2" data-name="Ellipse 8" cx="23.351" cy="23.351" r="23.351" transform="translate(47 1562)" fill="#d8d8d8"/>
+        <text id="_2" data-name="2" transform="translate(69.5 1593)" fill="#707070" font-size="24" font-family="Nunito-ExtraBold, Nunito" font-weight="800"><tspan x="-7.212" y="0">2</tspan></text>
+      </g>
+      <g id="Group_85" data-name="Group 85" transform="translate(112)">
+        <circle id="Ellipse_8-3" data-name="Ellipse 8" cx="23.351" cy="23.351" r="23.351" transform="translate(47 1562)" fill="#d8d8d8"/>
+        <text id="_3" data-name="3" transform="translate(69.5 1593)" fill="#707070" font-size="24" font-family="Nunito-ExtraBold, Nunito" font-weight="800"><tspan x="-7.2" y="0">3</tspan></text>
+      </g>
+      <g id="Group_86" data-name="Group 86" transform="translate(165)">
+        <circle id="Ellipse_8-4" data-name="Ellipse 8" cx="23.351" cy="23.351" r="23.351" transform="translate(47 1562)" fill="#d8d8d8"/>
+        <text id="_4" data-name="4" transform="translate(69.5 1593)" fill="#707070" font-size="24" font-family="Nunito-ExtraBold, Nunito" font-weight="800"><tspan x="-7.2" y="0">4</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

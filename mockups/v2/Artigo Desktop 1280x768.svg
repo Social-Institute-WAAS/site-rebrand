@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="2447" viewBox="0 0 1280 2447">
+  <defs>
+    <clipPath id="clip-Artigo_Desktop_1280x768_">
+      <rect width="1280" height="2447"/>
+    </clipPath>
+  </defs>
+  <g id="Artigo_Desktop_1280x768_" data-name="Artigo Desktop 1280x768 " clip-path="url(#clip-Artigo_Desktop_1280x768_)">
+    <rect width="1280" height="2447" fill="#fff"/>
+    <g id="Header">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="1280" height="80" fill="#d9d9d9"/>
+      <rect id="Rectangle_22" data-name="Rectangle 22" width="242" height="65" rx="5" transform="translate(1027 7)" fill="#fff" opacity="0.436"/>
+      <path id="ic_search_24px" d="M29.291,26.136H27.629l-.589-.568a13.692,13.692,0,1,0-1.472,1.472l.568.589v1.662l10.516,10.5,3.134-3.134Zm-12.62,0a9.465,9.465,0,1,1,9.465-9.465A9.452,9.452,0,0,1,16.671,26.136Z" transform="translate(1215.704 19.707)" opacity="0.463"/>
+      <text id="WAAS" transform="translate(131.214 61)" fill="#707070" font-size="60" font-family="Nunito-Black, Nunito" font-weight="800"><tspan x="-96.72" y="0">WAAS</tspan></text>
+      <text id="Contato" transform="translate(890 52)" fill="#707070" font-size="22" font-family="Nunito-SemiBold, Nunito" font-weight="600"><tspan x="-39.732" y="0">Contato</tspan></text>
+      <rect id="Rectangle_28" data-name="Rectangle 28" width="185" height="32" rx="15" transform="translate(656 28)" fill="#edebeb"/>
+      <text id="Blog_Transmitir" data-name="Blog Transmitir" transform="translate(748 52)" fill="#707070" font-size="22" font-family="Nunito-Black, Nunito" font-weight="800"><tspan x="-81.312" y="0">Blog Transmitir</tspan></text>
+      <text id="Metodologia" transform="translate(453 51)" fill="#707070" font-size="22" font-family="Nunito-SemiBold, Nunito" font-weight="600"><tspan x="-61.765" y="0">Metodologia</tspan></text>
+      <text id="Hackateen" transform="translate(595 51)" fill="#707070" font-size="22" font-family="Nunito-SemiBold, Nunito" font-weight="600"><tspan x="-52.976" y="0">Hackateen</tspan></text>
+      <text id="Sobre_nós" data-name="Sobre nós" transform="translate(314 51)" fill="#707070" font-size="22" font-family="Nunito-SemiBold, Nunito" font-weight="600"><tspan x="-50.083" y="0">Sobre nós</tspan></text>
+    </g>
+    <g id="Group_21" data-name="Group 21" transform="translate(181.5 19.375)">
+      <path id="Path_19" data-name="Path 19" d="M5,0H892c2.761,0,5,2.745,5,6.132V480.785c0,3.387-2.239,6.132-5,6.132H5c-2.761,0-5-2.745-5-6.132V6.132C0,2.745,2.239,0,5,0Z" transform="translate(10 72)" fill="#d1d1d1"/>
+      <text id="Tecnologia_Fortacelendo_Jovens" data-name="Tecnologia 
+Fortacelendo
+Jovens" transform="translate(29.5 364.144)" fill="#707070" font-size="55" font-family="Nunito-ExtraBold, Nunito" font-weight="800"><tspan x="0" y="56">Tecnologia </tspan><tspan x="0" y="114">Fortacelendo</tspan><tspan x="0" y="172">Jovens</tspan></text>
+    </g>
+    <g id="Group_43" data-name="Group 43" transform="translate(86 -796)">
+      <rect id="Rectangle_12" data-name="Rectangle 12" width="1280" height="362" transform="translate(-87 2881)" fill="#707070"/>
+      <text id="Rodapé" transform="translate(216 2910)" fill="#fff" font-size="22" font-family="Nunito-ExtraBold, Nunito" font-weight="800" opacity="0.537"><tspan x="0" y="22">Rodapé</tspan></text>
+      <g id="Group_18" data-name="Group 18" transform="translate(104 2993)">
+        <rect id="Rectangle_13" data-name="Rectangle 13" width="126" height="18" fill="#9f9f9f"/>
+        <rect id="Rectangle_14" data-name="Rectangle 14" width="96" height="18" transform="translate(0 34)" fill="#9f9f9f"/>
+        <rect id="Rectangle_15" data-name="Rectangle 15" width="63" height="18" transform="translate(0 68)" fill="#9f9f9f"/>
+      </g>
+      <g id="Group_19" data-name="Group 19" transform="translate(317.5 2993)">
+        <rect id="Rectangle_13-2" data-name="Rectangle 13" width="126" height="18" fill="#9f9f9f"/>
+        <rect id="Rectangle_14-2" data-name="Rectangle 14" width="96" height="18" transform="translate(0 34)" fill="#9f9f9f"/>
+        <rect id="Rectangle_15-2" data-name="Rectangle 15" width="63" height="18" transform="translate(0 68)" fill="#9f9f9f"/>
+      </g>
+      <g id="Group_60" data-name="Group 60" transform="translate(303.5 36)">
+        <g id="Group_44" data-name="Group 44" transform="translate(469.5 2957)">
+          <rect id="Rectangle_19" data-name="Rectangle 19" width="167" height="18" fill="#9f9f9f"/>
+          <rect id="Rectangle_20" data-name="Rectangle 20" width="78" height="18" transform="translate(0 34)" fill="#9f9f9f"/>
+          <rect id="Rectangle_21" data-name="Rectangle 21" width="159" height="18" transform="translate(0 68)" fill="#9f9f9f"/>
+        </g>
+      </g>
+      <text id="Contato-2" data-name="Contato" transform="translate(317 2957)" fill="#fff" font-size="22" font-family="Nunito-ExtraBold, Nunito" font-weight="800" opacity="0.486"><tspan x="0" y="22">Contato</tspan></text>
+      <text id="WAAS-2" data-name="WAAS" transform="translate(151.5 2935)" fill="#c3c3c3" font-size="30" font-family="Nunito-Black, Nunito" font-weight="800"><tspan x="-48.36" y="0">WAAS</tspan></text>
+      <g id="Group_61" data-name="Group 61" transform="translate(60.5 36)">
+        <g id="Group_44-2" data-name="Group 44" transform="translate(469.5 2957)">
+          <rect id="Rectangle_19-2" data-name="Rectangle 19" width="167" height="18" fill="#9f9f9f"/>
+          <rect id="Rectangle_20-2" data-name="Rectangle 20" width="78" height="18" transform="translate(0 34)" fill="#9f9f9f"/>
+          <rect id="Rectangle_21-2" data-name="Rectangle 21" width="159" height="18" transform="translate(0 68)" fill="#9f9f9f"/>
+        </g>
+      </g>
+      <text id="Redes_Sociais" data-name="Redes Sociais" transform="translate(773 2957)" fill="#fff" font-size="22" font-family="Nunito-ExtraBold, Nunito" font-weight="800" opacity="0.486"><tspan x="0" y="22">Redes Sociais</tspan></text>
+    </g>
+    <g id="Group_117" data-name="Group 117" transform="translate(-25 -172)">
+      <g id="Group_115" data-name="Group 115" transform="translate(234 534.088)">
+        <rect id="Rectangle_24" data-name="Rectangle 24" width="67.193" height="20.158" rx="3" transform="translate(0)" fill="#fff" opacity="0.633"/>
+        <text id="Ciências" transform="translate(6.719 14)" fill="#707070" font-size="14" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Ciências</tspan></text>
+      </g>
+      <g id="Group_114" data-name="Group 114" transform="translate(306.568 534.088)">
+        <rect id="Rectangle_24-2" data-name="Rectangle 24" width="76.924" height="20.158" rx="3" fill="#fff" opacity="0.633"/>
+        <text id="Educação" transform="translate(6.719 14)" fill="#707070" font-size="14" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Educação</tspan></text>
+      </g>
+    </g>
+    <g id="Group_97" data-name="Group 97" transform="translate(-4028 331)">
+      <text id="Name" transform="translate(4273 294.004)" fill="#707070" font-size="18" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Name</tspan></text>
+      <circle id="Ellipse_7" data-name="Ellipse 7" cx="21.5" cy="21.5" r="21.5" transform="translate(4219 265.004)" fill="#f0f0f0"/>
+    </g>
+    <text id="_20_03_2019" data-name="20/03/2019" transform="translate(1066 561.004)" fill="#707070" font-size="14" font-family="Nunito-Regular, Nunito"><tspan x="-75.124" y="0">20/03/2019</tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua._Lacinia_quis_vel_eros_donec_ac_odio_tempor_orci_dapibus._Mauris_ultrices_eros_in_cursus_turpis_massa_tincidunt_dui._Diam_maecenas_se" data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacinia quis vel eros donec ac odio tempor orci dapibus. Mauris ultrices eros in cursus turpis massa tincidunt dui. Diam maecenas se" transform="translate(193.5 650)" fill="#707070" font-size="16" font-family="Nunito-Regular, Nunito"><tspan x="0" y="16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </tspan><tspan x="0" y="34">Lacinia quis vel eros donec ac odio tempor orci dapibus. Mauris ultrices eros in cursus turpis massa tincidunt dui. Diam </tspan><tspan x="0" y="52">maecenas sed enim ut sem viverra aliquet. Ultrices dui sapien eget mi. Semper eget duis at tellus at urna condimentum. </tspan><tspan x="0" y="70">Mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Mi bibendum neque egestas congue quisque egestas diam. </tspan><tspan x="0" y="88">Tellus in metus vulputate eu scelerisque felis imperdiet. Egestas purus viverra accumsan in nisl nisi. Bibendum neque egestas </tspan><tspan x="0" y="106">congue quisque egestas diam in arcu cursus. Dolor sed viverra ipsum nunc aliquet. Lectus proin nibh nisl condimentum. Nunc </tspan><tspan x="0" y="124">lobortis mattis aliquam faucibus purus in massa tempor nec.</tspan><tspan x="0" y="142"></tspan><tspan x="0" y="160">Scelerisque eu ultrices vitae auctor eu augue. Pharetra diam sit amet nisl. Id velit ut tortor pretium viverra suspendisse. Dolor </tspan><tspan x="0" y="178">sit amet consectetur adipiscing. Sagittis eu volutpat odio facilisis mauris sit amet. Nulla facilisi etiam dignissim diam quis enim </tspan><tspan x="0" y="196">lobortis scelerisque fermentum. Ut sem nulla pharetra diam sit amet. Tortor at auctor urna nunc. Rhoncus dolor purus non </tspan><tspan x="0" y="214">enim praesent elementum. Non curabitur gravida arcu ac. Morbi tristique senectus et netus et.</tspan><tspan x="0" y="232"></tspan><tspan x="0" y="250">A erat nam at lectus urna duis convallis convallis tellus. Magnis dis parturient montes nascetur ridiculus mus. Ipsum a arcu </tspan><tspan x="0" y="268">cursus vitae congue mauris. Vivamus at augue eget arcu dictum varius duis at consectetur. Sagittis aliquam malesuada </tspan><tspan x="0" y="286">bibendum arcu vitae elementum curabitur vitae. Sagittis vitae et leo duis ut diam quam nulla porttitor. Gravida cum sociis </tspan><tspan x="0" y="304">natoque penatibus et magnis dis parturient. Nulla aliquet enim tortor at auctor urna nunc. Porttitor rhoncus dolor purus non </tspan><tspan x="0" y="322">enim praesent elementum facilisis. Pulvinar sapien et ligula ullamcorper. Id cursus metus aliquam eleifend mi in nulla posuere </tspan><tspan x="0" y="340">sollicitudin. Blandit cursus risus at ultrices mi. Nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus. </tspan><tspan x="0" y="358">Elementum facilisis leo vel fringilla est. Vel eros donec ac odio tempor orci dapibus ultrices. Morbi leo urna molestie at </tspan><tspan x="0" y="376">elementum. Eget arcu dictum varius duis. Sit amet porttitor eget dolor morbi non arcu risus. Turpis massa sed elementum </tspan><tspan x="0" y="394">tempus.</tspan></text>
+    <rect id="Rectangle_29" data-name="Rectangle 29" width="748" height="320" rx="5" transform="translate(264 1059.5)" fill="#d1d1d1"/>
+    <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua._Lacinia_quis_vel_eros_donec_ac_odio_tempor_orci_dapibus._Mauris_ultrices_eros_in_cursus_turpis_massa_tincidunt_dui._Diam_maecenas_se-2" data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacinia quis vel eros donec ac odio tempor orci dapibus. Mauris ultrices eros in cursus turpis massa tincidunt dui. Diam maecenas se" transform="translate(193 1400)" fill="#707070" font-size="16" font-family="Nunito-Regular, Nunito"><tspan x="0" y="16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </tspan><tspan x="0" y="34">Lacinia quis vel eros donec ac odio tempor orci dapibus. Mauris ultrices eros in cursus turpis massa tincidunt dui. Diam </tspan><tspan x="0" y="52">maecenas sed enim ut sem viverra aliquet. Ultrices dui sapien eget mi. Semper eget duis at tellus at urna condimentum. </tspan><tspan x="0" y="70">Mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Mi bibendum neque egestas congue quisque egestas diam. </tspan><tspan x="0" y="88">Tellus in metus vulputate eu scelerisque felis imperdiet. Egestas purus viverra accumsan in nisl nisi. Bibendum neque egestas </tspan><tspan x="0" y="106">congue quisque egestas diam in arcu cursus. Dolor sed viverra ipsum nunc aliquet. Lectus proin nibh nisl condimentum. Nunc </tspan><tspan x="0" y="124">lobortis mattis aliquam faucibus purus in massa tempor nec.</tspan><tspan x="0" y="142"></tspan><tspan x="0" y="160">Scelerisque eu ultrices vitae auctor eu augue. Pharetra diam sit amet nisl. Id velit ut tortor pretium viverra suspendisse. Dolor </tspan><tspan x="0" y="178">sit amet consectetur adipiscing. Sagittis eu volutpat odio facilisis mauris sit amet. Nulla facilisi etiam dignissim diam quis enim </tspan><tspan x="0" y="196">lobortis scelerisque fermentum. Ut sem nulla pharetra diam sit amet. Tortor at auctor urna nunc. Rhoncus dolor purus non </tspan><tspan x="0" y="214">enim praesent elementum. Non curabitur gravida arcu ac. Morbi tristique senectus et netus et.</tspan><tspan x="0" y="232"></tspan></text>
+    <g id="Group_144" data-name="Group 144" transform="translate(180 83)">
+      <rect id="Rectangle_26" data-name="Rectangle 26" width="151" height="38" rx="16" transform="translate(11 1553)" fill="#f8f7f7"/>
+      <g id="Group_95" data-name="Group 95" transform="translate(2)">
+        <circle id="Ellipse_9" data-name="Ellipse 9" cx="12" cy="12" r="12" transform="translate(58 1561)" fill="#d8d8d8"/>
+        <circle id="Ellipse_10" data-name="Ellipse 10" cx="12" cy="12" r="12" transform="translate(89 1561)" fill="#d8d8d8"/>
+        <circle id="Ellipse_11" data-name="Ellipse 11" cx="12" cy="12" r="12" transform="translate(120 1561)" fill="#d8d8d8"/>
+        <path id="ic_share_24px" d="M18,16.08a2.912,2.912,0,0,0-1.96.77L8.91,12.7A3.274,3.274,0,0,0,9,12a3.274,3.274,0,0,0-.09-.7l7.05-4.11A2.993,2.993,0,1,0,15,5a3.274,3.274,0,0,0,.09.7L8.04,9.81a3,3,0,1,0,0,4.38l7.12,4.16a2.821,2.821,0,0,0-.08.65A2.92,2.92,0,1,0,18,16.08Z" transform="translate(21 1561)" fill="#95989a"/>
+      </g>
+    </g>
+    <g id="Group_148" data-name="Group 148" transform="translate(0 6)">
+      <text id="Leia_também" data-name="Leia também" transform="translate(191 1695)" fill="#707070" font-size="22" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="22">Leia também</tspan></text>
+      <g id="Group_141" data-name="Group 141" transform="translate(190.5 1739.359)">
+        <text id="Artigo_recomendado" data-name="Artigo recomendado" transform="translate(1.282 222.13)" fill="#707070" font-size="22" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="22">Artigo recomendado</tspan></text>
+        <rect id="Rectangle_9" data-name="Rectangle 9" width="213.308" height="209.615" rx="5" transform="translate(0.5)" fill="#efe7e7"/>
+        <text id="by" transform="translate(1.282 259.73)" fill="#707070" font-size="14" font-family="Nunito-SemiBold, Nunito" font-weight="600"><tspan x="0" y="14">by</tspan></text>
+        <text id="Author_Name" data-name="Author Name" transform="translate(25.697 258.166)" fill="#707070" font-size="16" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="16">Author Name</tspan></text>
+      </g>
+      <g id="Group_145" data-name="Group 145" transform="translate(419.842 1739.359)">
+        <text id="Artigo_recomendado-2" data-name="Artigo recomendado" transform="translate(1.282 222.13)" fill="#707070" font-size="22" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="22">Artigo recomendado</tspan></text>
+        <rect id="Rectangle_9-2" data-name="Rectangle 9" width="211.308" height="209.615" rx="5" transform="translate(0.5)" fill="#efe7e7"/>
+        <text id="by-2" data-name="by" transform="translate(1.282 259.73)" fill="#707070" font-size="14" font-family="Nunito-SemiBold, Nunito" font-weight="600"><tspan x="0" y="14">by</tspan></text>
+        <text id="Author_Name-2" data-name="Author Name" transform="translate(25.697 258.166)" fill="#707070" font-size="16" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="16">Author Name</tspan></text>
+      </g>
+      <g id="Group_146" data-name="Group 146" transform="translate(646.5 1739.359)">
+        <text id="Artigo_recomendado-3" data-name="Artigo recomendado" transform="translate(1.282 222.13)" fill="#707070" font-size="22" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="22">Artigo recomendado</tspan></text>
+        <rect id="Rectangle_9-3" data-name="Rectangle 9" width="211.308" height="209.615" rx="5" transform="translate(0.5)" fill="#efe7e7"/>
+        <text id="by-3" data-name="by" transform="translate(1.282 259.73)" fill="#707070" font-size="14" font-family="Nunito-SemiBold, Nunito" font-weight="600"><tspan x="0" y="14">by</tspan></text>
+        <text id="Author_Name-3" data-name="Author Name" transform="translate(25.697 258.166)" fill="#707070" font-size="16" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="16">Author Name</tspan></text>
+      </g>
+      <g id="Group_147" data-name="Group 147" transform="translate(874.5 1739.359)">
+        <text id="Artigo_recomendado-4" data-name="Artigo recomendado" transform="translate(1.282 222.13)" fill="#707070" font-size="22" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="22">Artigo recomendado</tspan></text>
+        <rect id="Rectangle_9-4" data-name="Rectangle 9" width="211.308" height="209.615" rx="5" transform="translate(0.5)" fill="#efe7e7"/>
+        <text id="by-4" data-name="by" transform="translate(1.282 259.73)" fill="#707070" font-size="14" font-family="Nunito-SemiBold, Nunito" font-weight="600"><tspan x="0" y="14">by</tspan></text>
+        <text id="Author_Name-4" data-name="Author Name" transform="translate(25.697 258.166)" fill="#707070" font-size="16" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="16">Author Name</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
