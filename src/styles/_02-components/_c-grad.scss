@@ -1,0 +1,30 @@
+.c-grad {
+    
+    &__display {
+        overflow-x: hidden;
+        // justify-content: center;
+        @include make-container();
+        @include make-container-max-widths();
+        padding: 0px!important;
+        .card-deck {
+            justify-content: center;
+            .c-card {
+                margin-left: .5rem;
+                margin-right: .5rem;
+            }
+        }
+        
+        @include media-breakpoint-down(lg) {
+            overflow-x: auto;
+            .card-deck {
+                display: inline-flex;
+                flex-wrap: nowrap;
+                justify-content: flex-start;
+                flex-direction: row;
+                > .c-card:first-child {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
