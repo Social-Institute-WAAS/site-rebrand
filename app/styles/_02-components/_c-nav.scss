@@ -1,5 +1,8 @@
 .c-nav {
-  background-color: $blue;
+
+  &.with-background {
+    background-color: $blue;
+  }
   
   .c-menu {
     @include media-breakpoint-down(lg) {

@@ -17,9 +17,9 @@
             font-variant: normal;
             text-transform: none;
             font-size: $font-size-lg * 1.3;
-            content: '\e902';
+            content: "\e902";
             position: absolute;
-            bottom: -24px;
+            bottom: -23px;
             left: 33px;
             z-index: 2;
             color: $gray-400;
@@ -126,11 +126,14 @@
         display: flex;
         align-content: flex-end;
         flex-wrap: wrap;
-        height: 70vh;
+        height: 100vh;
+        margin: calc(-70px - 15px - 0.6rem) -15px 30px;
         min-height: 480px;
         background-size: cover;
         background-position: center center;
-        border: solid 8px $blue;
+        // border: solid 8px $blue;
+        border: none;
+        border-radius: 0;
         position: relative;
         &:before {
             content: '';
@@ -145,6 +148,9 @@
         @include media-breakpoint-down(sm) {
             height: 60vh;
             min-height: 300px;
+        }
+        .container {
+            z-index: 9;
         }
         h1 {
             font-size:$font-size-xl;

@@ -31,7 +31,8 @@ head
 	link(href="https://fonts.googleapis.com/css?family=Nunito:400,900" rel="stylesheet")
 	link(rel="stylesheet", href!=`${page.url.static}css/app.min.css${page.version}`)
 
-
+	include head_styles
+	
 	include head_scripts 
 
 	block styles
