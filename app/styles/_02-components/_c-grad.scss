@@ -11,6 +11,10 @@
             .c-card {
                 margin-left: .5rem;
                 margin-right: .5rem;
+               &__img--circle {
+                    border: 2px solid $gray-200;
+                    box-shadow: 0px 10px 10px $gray-200;
+                }
             }
         }
         

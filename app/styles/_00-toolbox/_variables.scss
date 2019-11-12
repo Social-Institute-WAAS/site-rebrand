@@ -1123,3 +1123,11 @@ $positions: static, relative, absolute, fixed, sticky !default;
 
 $print-page-size:                   a3 !default;
 $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
+
+// PUSHY BUTONS
+
+// Sizes
+$large: 1.50em;
+$default: 1.25em;
+$medium: 1em;
+$small: 0.75em;
