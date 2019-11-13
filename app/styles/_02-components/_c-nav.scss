@@ -15,6 +15,22 @@
       }
     }
   }
+
+  &__brand {
+    min-width: 173px;
+    height: 60px;
+    #logo-waas {
+      height: 112px;
+      width: 173px;
+      margin: 0 .5rem;
+      position: absolute;
+      background-color: rgba($white, 1);
+      top: 0;
+      padding: 10px 10px 15px;
+      border-radius: 0 0 5px 5px;
+      box-shadow: 0 10px 15px rgba($black, .2);
+    }
+  }
   
   .c-menu {
     color: $blue;
