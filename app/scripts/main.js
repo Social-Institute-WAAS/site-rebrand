@@ -42,7 +42,7 @@ $(document).ready(() => {
     $('.c-search--toggle').on('click', function(){
         $(this).find('span').toggleClass('icon-search icon-close');
         $('body').toggleClass('is-expanded');
-        //$('#navbar .c-search__input').focus();
+        $('#navbar .c-search__input').focus();
     });
 
     // ACTIVE BG NAVBAR

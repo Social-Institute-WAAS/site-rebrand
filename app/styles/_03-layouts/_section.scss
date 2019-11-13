@@ -19,6 +19,23 @@
         #{$lsc}__title {
             color: $white;
         }
+        position: relative;
+        *{
+            z-index: 1;
+        }
+        // &:after {
+        //     content: '';
+        //     z-index: 0;
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     height: 100%;
+        //     width: 100%;
+        //     opacity: .2;
+        //     mix-blend-mode: overlay;
+        //     background-image: url(../images/waas-pattern.png);
+        //     background-position: center;
+        // }
     }
     &.bg-orange{
         background-color: $orange;
