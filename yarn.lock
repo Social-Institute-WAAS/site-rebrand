@@ -650,6 +650,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@glidejs/glide@^3.4.1":
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@glidejs/glide/-/glide-3.4.1.tgz#8ad21f3169076e32bbfd75ed0753807662c25e90"
+  integrity sha512-C34AEcK1HjSyxilRToUL54I6KAoodojUbeRlXoruobZuG0eGm8xfDL+3kgkWj7AJK4EZtunSOYfoqMp70eDtwg==
+
 "@gulp-sourcemaps/identity-map@1.X":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@gulp-sourcemaps/identity-map/-/identity-map-1.0.2.tgz#1e6fe5d8027b1f285dc0d31762f566bccd73d5a9"
@@ -1237,6 +1242,11 @@ backo2@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/backo2/-/backo2-1.0.2.tgz#31ab1ac8b129363463e35b3ebb69f4dfcfba7947"
   integrity sha1-MasayLEpNjRj41s+u2n038+6eUc=
+
+baguettebox.js@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/baguettebox.js/-/baguettebox.js-1.11.0.tgz#38b4e478dc91cad9e19060a15b19aae94724728d"
+  integrity sha512-4IEXDE2Yje3o8nOdGoonxOfpiveXfF6YV4ggV04ky/pMquH/cKM1Tv7LeD3QPH6RK72V6c+oRFFLnrMc4xO5Cg==
 
 balanced-match@^1.0.0:
   version "1.0.0"

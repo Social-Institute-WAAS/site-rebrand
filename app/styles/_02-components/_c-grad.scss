@@ -5,12 +5,12 @@
         // justify-content: center;
         @include make-container();
         @include make-container-max-widths();
-        padding: 0px!important;
+        padding: 1rem 0;
         .card-deck {
             justify-content: center;
             .c-card {
-                margin-left: .5rem;
-                margin-right: .5rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
                &__img--circle {
                     border: 2px solid $gray-200;
                     box-shadow: 0px 10px 10px $gray-200;
@@ -26,7 +26,7 @@
                 justify-content: flex-start;
                 flex-direction: row;
                 > .c-card:first-child {
-                    margin-left: 0;
+                    margin-left: 1rem;
                 }
             }
         }

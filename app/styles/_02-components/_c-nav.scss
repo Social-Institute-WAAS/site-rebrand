@@ -10,6 +10,9 @@
     }
     #logotipo-waas {
       display: flex;
+      @media (max-width:400px) {
+        width: 150px;  
+      }
     }
   }
   
@@ -36,6 +39,9 @@
       height: 70px;
       align-items: center;
       // opacity: .8;
+      @media (max-width:400px) {
+        height: 50px;  
+      }
       .icon {
         color: $blue;
       }
@@ -55,6 +61,15 @@
         }
         button {
           background: white;
+        }
+        #logo-waas {
+          display: none;
+        }
+        #logotipo-waas {
+          display: flex;
+          .st0 {
+            fill: $white;
+          }
         }
       }
     }
@@ -126,10 +141,10 @@
       left: -100%;
       padding: 1rem 1.5rem;
       transition: all 0.3s cubic-bezier(0.73, 0.1, 0.45, 1);
-      box-shadow: 0px 10px 0 rgba(#000, 0.4);
+      box-shadow: 0px 00px 0 rgba(#000, 0.4);
       &.active {
         left: 0%;
-        box-shadow: 10px 10px 0 rgba(#000, 0.4);
+        box-shadow: 10px 0px 0 rgba(#000, 0.4);
       }
     }
     @include media-breakpoint-down(md) {
