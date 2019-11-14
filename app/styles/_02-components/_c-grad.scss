@@ -26,9 +26,25 @@
                 justify-content: flex-start;
                 flex-direction: row;
                 > .c-card:first-child {
-                    margin-left: 1rem;
+                    margin-left: 2rem;
                 }
             }
+        }
+        @include media-breakpoint-down(xs) {
+            .card-deck {
+                > .c-card:first-child {
+                    margin-left: 1.5rem;
+                }
+            }
+        }
+    }
+
+    @include media-breakpoint-down(lg) {
+        & {
+            margin-right: -15px;
+            margin-left: -15px;
+            padding-left: 0!important;
+            padding-right: 0!important;
         }
     }
 }

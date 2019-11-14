@@ -207,10 +207,12 @@
 
             @include media-breakpoint-down(sm) {
                 font-size: 3rem;
-                padding-bottom: 15vh;    
+                padding-bottom: 15vh;
+                width: 100%;    
             }
             @media (max-width:400px) {
-                font-size: 2.2rem;    
+                font-size: 2.2rem;
+                width: 55%;        
             }
         }
     }

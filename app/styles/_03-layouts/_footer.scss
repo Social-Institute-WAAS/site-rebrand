@@ -1,9 +1,58 @@
 .l-footer {
     background-color: $gray-800;
     padding: 1.5rem 0 .5rem;
+
+    &__badges {
+        opacity: .7;
+    }
     
+    a {
+        &:hover {
+            color: $orange;
+
+        }
+        &.btn {
+            &--ods {
+                &:hover {
+                  color: #29ABE2;
+                }
+            }
+            &--ods-4 {
+                &:hover {
+                  color: #C5192D;
+                }
+              }
+            &--ods-8 {
+                &:hover {
+                    color: #A21942;
+                }
+            }
+        }
+    }
+    &__wrapper {
+        @include media-breakpoint-down(xs){
+            display: flex;
+            flex-direction: column;
+            flex: wrap;
+            justify-content: center;
+        }
+    }
+    &__block {
+        text-align: left;
+        width: 100%;
+        @include media-breakpoint-down(xs){
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .btn {
+                justify-content: center;
+            }
+        }
+    }
     #logo-waas {
         height: 120px;
+        margin: 1rem auto;
         // ORANGE
         .st0{
             fill:none;
