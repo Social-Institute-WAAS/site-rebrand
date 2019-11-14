@@ -47,10 +47,13 @@ $(document).ready(function () {
 
   function navbarBg() {
     var navBar = $('#navbar');
+    var alertScroll = $('.alert-has-scroll');
 
     if ($(this).scrollTop() > navBar.height()) {
       navBar.addClass('with-background');
+      alertScroll.fadeOut();
     } else {
+      alertScroll.fadeIn();
       navBar.removeClass('with-background');
     }
   }
