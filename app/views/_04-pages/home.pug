@@ -1,10 +1,13 @@
 extends ../_00-toolbox/templates/master.pug
 
+block append pageTitle
+  - page.title = page.name
+  - page.current = "home"
+
 block main
 
-
   //- COVER
-  section#cover.c-slider
+  section#home.cover.c-slider
     .c-slider-indicator
       span.dot(onclick="currentSlide(1)")
       span.dot(onclick="currentSlide(2)")
@@ -110,9 +113,9 @@ block main
               a.c-btn.c-btn--df.c-btn--blue.w-100(href='#').d-flex.justify-content-center Leia mais
     
   //- CONQUISTAS
-  section.l-section.bg-blue
+  section#conquistas.l-section.bg-blue
     .container
-      h2.l-section__title#conquistas
+      h2.l-section__title
         span.icon-trophy-cup-silhouette
         span.px-2 Conquistas
       .glide
@@ -135,9 +138,9 @@ block main
             button.glide__bullet(data-glide-dir=`=${counter++}`)
   
   //- MAIS CONQUISTAS
-  section.l-section
+  section#mais-conquistas.l-section
     .container
-      h2.l-section__title#mais-conquistas.text-primary.d-flex.align-items-center
+      h2.l-section__title.text-primary.d-flex.align-items-center
         span.icon-line-chart
         span.px-4 Mais conquistas
       .row
@@ -163,7 +166,7 @@ block main
             span Hackateens 
 
   //- PARTNERS
-  section.l-section(style="background-color: #fff;")#parceiros
+  section#parceiros.l-section.l-section-partners(style="background-color: #fff;")
     .container
       h2.l-section__title.text-primary
         span.icon-partners-claping-hands
@@ -171,7 +174,7 @@ block main
         span Parceiros
       .d-flex.flex-wrap.justify-content-center
         +repeat(9)
-          a(href="http://www.institutorobertbosch.org.br" target="_blank").text-center.p-2(style='width:12rem')
+          a.l-section-partners__item(href="http://www.institutorobertbosch.org.br" target="_blank").text-center.p-2
             img.img-fluid(src="images/parceiros/instituto-robert-bosch.jpg" alt='Instituto Robert Bosch')
   
   //- DEMPOIMENTOS
@@ -187,9 +190,9 @@ block main
               li.glide__slide
                 blockquote.blockquote.px-2
                   .row.c-card.bullets.py-4
-                    .col-sm-3.col-xs-12.text-center
+                    .col-md-3.col-sm-12.col-xs-12.text-center
                       img.img-fluid.rounded-circle(src="https://scontent.fbfh10-1.fna.fbcdn.net/v/t31.0-1/p320x320/28618862_10210831476923193_6680567936615428198_o.jpg?_nc_cat=109&_nc_oc=AQn19ilj7-L2fofzZIkJjm1aWiUDTsM_5HqyoUA7kD4PAUvZY78C0IBON-LSjH-pK9g&_nc_ht=scontent.fbfh10-1.fna&oh=ffa292f353567b117d198657686b2f14&oe=5E4E97D7" )
-                    .col-sm-9.col-xs-12
+                    .col-md-9.col-sm-12.col-xs-12
                       p Melhoooooor projeto de empreendedorismo social que já participei! WAAS vai salvar o mundo S2
                       footer.blockquote-footer Lucas Klein
         
@@ -215,7 +218,6 @@ block main
                     //- h4.c-card__title Card Title
                     p.card-text 
                       | O Menino que foi para a NASA, agora vai para HAVARD
-
     
   //- NEWSLETTER
   section.l-section.mb-4#newsletter
@@ -224,27 +226,34 @@ block main
         h2.l-section__title.c-card__title.mb-4.text-center 
           span.icon-broadcast
           span Fique ligado na gente 
-        .col-lg-8.mx-auto.mb-4
-          h3 
+        .col-lg-10.col-sm-12.mx-auto.mb-4.pb-4
+          h3.py-2.text-primary 
             span.icon-world-wide-web
             span  Redes Sociais  
 
-          ul
+          ul.c-social-buttons.list-unstyled.justify-content-center
             li
-              a(href='#') Instagram
+              a.c-btn.c-btn--df.c-btn--instagram.mx-1.d-flex.align-items-center(href="https://www.instagram.com/waas.ninja/" target="_blank") 
+                span.icon-instagram
+                span.pl-2  @waas.ninja
             li
-              a(href='#') Facebook
+              a.c-btn.c-btn--df.c-btn--facebook.mx-1.d-flex.align-items-center(href="https://www.facebook.com/waas.ninja" target="_blank") 
+                span.icon-facebook
+                span.pl-2 @waas.ninja
+            //- li
+            //-   a.c-btn.c-btn--df.c-btn--youtube.mx-1.d-flex.align-items-center(href="#") 
+            //-     span.icon-youtube
+                span.pl-2 Youtube
             li
-              a(href='#') Linkedin
-            li
-              a(href='#') Youtube
+              a.c-btn.c-btn--df.c-btn--linkedin.mx-1.d-flex.align-items-center(href="https://www.linkedin.com/company/instituto-social-waas" target="_blank") 
+                span.icon-linkedin
+                span.pl-2 @instituto-social-waas
 
-        .col-lg-8.mx-auto
-          h3 
+        .col-lg-10.col-sm-12.mx-auto
+          h3.p-2.text-primary 
             span.icon-envelope
-            span  Inscreva-se para receber as novidades mais recentes
-          form
-            .form-group.form-group-lg.text-right(action="post" target="_self")
+            span  Receba nossa news
+          .form-group.form-group-lg.text-right(action="post" target="_self")
               input.form-control.form-control-lg.mb-4(type="text" placeholder="E-mail" aria-label="E-mail")
               .d-flex
                 button.c-btn.c-btn--df.c-btn--green.w-100.d-flex.justify-content-center(type="submit")
