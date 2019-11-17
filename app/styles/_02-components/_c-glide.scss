@@ -1,0 +1,31 @@
+.glide {
+  $gl: &;
+  &-testimonial {
+
+    #{$gl}__bullet {
+      background-color: $gray-400;
+      &--active{
+        background-color: $gray-600;
+      }
+    }
+    .blockquote {
+      .row {
+        width: 70%;
+        margin: 1rem auto 2rem;
+        @include media-breakpoint-down(sm){
+          width: 100%;
+          padding-left: .5rem;
+        }
+      }
+    }
+    .blockquote p {
+      &:before {
+        font-family: 'icomoon';
+        content: "\e929";
+        font-size: $h1-font-size;
+        margin-right: .5rem;
+      }
+    }
+    
+  }
+}

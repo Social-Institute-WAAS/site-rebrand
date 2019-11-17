@@ -7,6 +7,7 @@ node_modules
 node_modules/**
 ./node_modules
 .DS_Store
+Thumbs.db
 wordpress/wp-admin
 wordpress/wp-includes
 wordpress/wp-content/plugins
@@ -15,3 +16,8 @@ wordpress/wp-config.php
 wordpress/wp-content/uploads/2019/*
 wordpress/wp-content/wflogs
 wordpress/wp-content/updraft
+
+# compiled output
+/dist
+/.tmp
+/.vscode

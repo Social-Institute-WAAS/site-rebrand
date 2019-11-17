@@ -1,0 +1,35 @@
+nav#navbar.c-nav.navbar.navbar-expand-lg.fixed-top.mb-4
+	.container
+		a.navbar-brand.c-nav__brand(href="#") 
+			//- span.icon.icon-waas(role="icon")
+			//- img(src="images/logo-waas.svg" style="height:70px")
+			include ../_01-elements/e-logo-waas
+			
+		button.navbar-toggler.c-nav__btn-toggle#js-btn-toggle(type="button" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" )
+			span.icon.icon-bars(role="icon")
+			//- span.navbar-toggler-icon
+
+		.navbar-collapse.c-nav__menu.c-menu#navbarCollapse
+			.c-menu__header
+				.c-menu__header
+					include ../_01-elements/e-logo-waas
+				button.c-menu__close
+					span.icon.icon-close(role="icon")
+
+			ul.navbar-nav.mr-auto.c-nav__list
+				- var menu = ['Sobre nós', 'Metodologia', 'Hackateen','Blog', 'Contato']
+				each val, index in menu
+					li.nav-item.c-nav__item
+						a.nav-link.c-nav__item-link(href="#")= val
+
+		form.c-search.c-nav__search(method="post" target="_self" name="s")#search_form
+			button.c-search--toggle(type="button")
+				span.icon.icon-search
+			.input-group.input-group-lg.c-search__wrapper
+				input.form-control.c-search__input(type="text" name="search_field" placeholder="Buscar" aria-label="Buscar")
+				.input-group-append.c-search__append
+					button.btn.py-1(type="submit")
+						span.icon.icon-search
+						span.sr-only Buscar
+				
+
