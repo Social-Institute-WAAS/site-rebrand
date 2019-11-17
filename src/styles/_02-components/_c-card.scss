@@ -126,11 +126,12 @@
         display: flex;
         align-content: flex-end;
         flex-wrap: wrap;
-        height: 70vh;
-        min-height: 480px;
+        margin: -30px -15px 0;
+        height: 100vh;
+        // min-height: 480px;
         background-size: cover;
         background-position: center center;
-        border: solid 8px $blue;
+        border: none;
         position: relative;
         &:before {
             content: '';
