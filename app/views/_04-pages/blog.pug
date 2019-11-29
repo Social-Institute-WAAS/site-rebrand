@@ -76,4 +76,16 @@ block main
               .c-card__link
                 a.c-btn.c-btn--df.c-btn--blue.c-btn--raio(href='#').d-flex Leia mais
         br
+
+  //- PAGINATION
+  nav.container
+    ul.pagination.d-flex.mx-auto
+      - var counter = 0;
+      li.page-item 
+        a.page-link(href="#")
+          span( aria-hidden="true") &laquo;
+          span.sr-only Anterior
+      +repeat(5)
+        li.page-item
+          a.page-link(href="#") #{counter++}
         
