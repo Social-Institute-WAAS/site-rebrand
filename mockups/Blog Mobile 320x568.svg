@@ -1,0 +1,312 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="2283" viewBox="0 0 320 2283">
+  <defs>
+    <style>
+      .cls-1, .cls-26 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-Blog_Mobile_320x568);
+      }
+
+      .cls-3 {
+        fill: #d9d9d9;
+      }
+
+      .cls-4 {
+        fill: rgba(144,144,144,0.33);
+        stroke: rgba(0,0,0,0.5);
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-26, .cls-4 {
+        stroke-linecap: round;
+      }
+
+      .cls-13, .cls-18, .cls-20, .cls-21, .cls-24, .cls-27, .cls-5, .cls-7, .cls-9 {
+        fill: #707070;
+      }
+
+      .cls-17, .cls-18, .cls-5 {
+        font-size: 30px;
+      }
+
+      .cls-17, .cls-5 {
+        font-family: Nunito-Black, Nunito;
+      }
+
+      .cls-14, .cls-16, .cls-17, .cls-18, .cls-27, .cls-5, .cls-7 {
+        font-weight: 800;
+      }
+
+      .cls-6 {
+        fill: #d1d1d1;
+      }
+
+      .cls-14, .cls-16, .cls-7 {
+        font-size: 22px;
+      }
+
+      .cls-14, .cls-16, .cls-18, .cls-27, .cls-7 {
+        font-family: Nunito-ExtraBold, Nunito;
+      }
+
+      .cls-8 {
+        fill: #efe7e7;
+      }
+
+      .cls-12, .cls-20, .cls-9 {
+        font-size: 18px;
+      }
+
+      .cls-21, .cls-24, .cls-9 {
+        font-family: Nunito-Regular, Nunito;
+      }
+
+      .cls-10 {
+        font-size: 16px;
+      }
+
+      .cls-11 {
+        fill: #a2a2a2;
+      }
+
+      .cls-12, .cls-14, .cls-16, .cls-23, .cls-29 {
+        fill: #fff;
+      }
+
+      .cls-12, .cls-20 {
+        font-family: Nunito-Bold, Nunito;
+        font-weight: 700;
+      }
+
+      .cls-14 {
+        opacity: 0.545;
+      }
+
+      .cls-15 {
+        fill: #9f9f9f;
+      }
+
+      .cls-16 {
+        opacity: 0.486;
+      }
+
+      .cls-17 {
+        fill: #c3c3c3;
+      }
+
+      .cls-19 {
+        fill: #f0f0f0;
+      }
+
+      .cls-21 {
+        font-size: 10px;
+      }
+
+      .cls-22 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-23 {
+        opacity: 0.633;
+      }
+
+      .cls-24 {
+        font-size: 11px;
+      }
+
+      .cls-25 {
+        fill: #edebeb;
+      }
+
+      .cls-26 {
+        stroke: #707070;
+      }
+
+      .cls-27 {
+        font-size: 24px;
+      }
+
+      .cls-28 {
+        fill: #d8d8d8;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="50" height="15"/>
+    </clipPath>
+    <clipPath id="clip-Blog_Mobile_320x568">
+      <rect width="320" height="2283"/>
+    </clipPath>
+  </defs>
+  <g id="Blog_Mobile_320x568" data-name="Blog Mobile 320x568" class="cls-2">
+    <rect class="cls-29" width="320" height="2283"/>
+    <g id="Header">
+      <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-3" width="320" height="60"/>
+      <g id="Menu" transform="translate(-57 -705)">
+        <path id="Path_15" data-name="Path 15" class="cls-4" d="M4,8H28M4,16H28M4,24H28" transform="translate(69.5 719.5)"/>
+      </g>
+      <path id="ic_search_24px" d="M20.845,18.7H19.717l-.4-.385a9.293,9.293,0,1,0-1,1l.385.4v1.128l7.138,7.124,2.127-2.127Zm-8.566,0A6.424,6.424,0,1,1,18.7,12.279,6.416,6.416,0,0,1,12.279,18.7Z" transform="translate(274.521 14.521)"/>
+      <text id="WAAS" class="cls-5" transform="translate(155.5 40)"><tspan x="-48.36" y="0">WAAS</tspan></text>
+    </g>
+    <g id="Group_35" data-name="Group 35" transform="translate(0 -957)">
+      <rect id="Rectangle_3" data-name="Rectangle 3" class="cls-6" width="300" height="199" rx="5" transform="translate(10 2644)"/>
+      <text id="Newsletter" class="cls-7" transform="translate(25.5 2661)"><tspan x="0" y="22">Newsletter</tspan></text>
+      <rect id="Rectangle_10" data-name="Rectangle 10" class="cls-8" width="269" height="41" rx="5" transform="translate(25.5 2735)"/>
+      <text id="Inscreva-se_para_receber_as_novidades_mais_recentes." data-name="Inscreva-se para receber as novidades mais recentes." class="cls-9" transform="translate(25.5 2688)"><tspan x="0" y="18">Inscreva-se para receber </tspan><tspan class="cls-10" y="18">as </tspan><tspan class="cls-10" x="0" y="36">novidades mais recentes.</tspan></text>
+      <g id="Group_17" data-name="Group 17" transform="translate(0 2)">
+        <rect id="Rectangle_11" data-name="Rectangle 11" class="cls-11" width="100" height="41" rx="5" transform="translate(194.5 2781)"/>
+        <text id="Inscrever" class="cls-12" transform="translate(207.5 2807)"><tspan x="0" y="0">Inscrever</tspan></text>
+      </g>
+    </g>
+    <g id="Group_89" data-name="Group 89" transform="translate(0 -952)">
+      <g id="Group_20" data-name="Group 20">
+        <rect id="Rectangle_12" data-name="Rectangle 12" class="cls-13" width="320" height="362" transform="translate(0 2881)"/>
+        <text id="Rodapé" class="cls-14" transform="translate(138.5 2905)"><tspan x="0" y="22">Rodapé</tspan></text>
+        <g id="Group_18" data-name="Group 18">
+          <rect id="Rectangle_13" data-name="Rectangle 13" class="cls-15" width="126" height="18" transform="translate(26 2957)"/>
+          <rect id="Rectangle_14" data-name="Rectangle 14" class="cls-15" width="96" height="18" transform="translate(26 2991)"/>
+          <rect id="Rectangle_15" data-name="Rectangle 15" class="cls-15" width="63" height="18" transform="translate(26 3025)"/>
+        </g>
+        <g id="Group_62" data-name="Group 62" transform="translate(0 30)">
+          <rect id="Rectangle_16" data-name="Rectangle 16" class="cls-15" width="128.438" height="18" transform="translate(179.563 2957)"/>
+          <rect id="Rectangle_17" data-name="Rectangle 17" class="cls-15" width="78" height="18" transform="translate(179.563 2991)"/>
+          <rect id="Rectangle_18" data-name="Rectangle 18" class="cls-15" width="120.438" height="18" transform="translate(179.563 3025)"/>
+        </g>
+        <g id="Group_19" data-name="Group 19" transform="translate(0 144)">
+          <rect id="Rectangle_13-2" data-name="Rectangle 13" class="cls-15" width="126" height="18" transform="translate(26 2957)"/>
+          <rect id="Rectangle_14-2" data-name="Rectangle 14" class="cls-15" width="96" height="18" transform="translate(26 2991)"/>
+          <rect id="Rectangle_15-2" data-name="Rectangle 15" class="cls-15" width="63" height="18" transform="translate(26 3025)"/>
+        </g>
+        <g id="Group_63" data-name="Group 63" transform="translate(0 33)">
+          <rect id="Rectangle_19" data-name="Rectangle 19" class="cls-15" width="128.438" height="18" transform="translate(179.563 3067)"/>
+          <rect id="Rectangle_20" data-name="Rectangle 20" class="cls-15" width="78" height="18" transform="translate(179.563 3101)"/>
+          <rect id="Rectangle_21" data-name="Rectangle 21" class="cls-15" width="120.438" height="18" transform="translate(179.563 3135)"/>
+        </g>
+        <text id="Contato" class="cls-16" transform="translate(25.5 3065)"><tspan x="0" y="22">Contato</tspan></text>
+        <text id="Sociais" class="cls-16" transform="translate(179.5 2946)"><tspan x="0" y="22">Sociais</tspan></text>
+      </g>
+      <text id="WAAS-2" data-name="WAAS" class="cls-17" transform="translate(76.5 2929)"><tspan x="-48.36" y="0">WAAS</tspan></text>
+    </g>
+    <g id="Group_77" data-name="Group 77" transform="translate(0 -25)">
+      <g id="Group_72" data-name="Group 72" transform="translate(10 133.259)">
+        <g id="Group_21" data-name="Group 21" transform="translate(0 0)">
+          <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-6" width="300" height="360.439" rx="5"/>
+          <text id="Tecnologia_Fortacelendo_Jovens" data-name="Tecnologia 
+Fortacelendo
+Jovens" class="cls-18" transform="translate(17 190.653)"><tspan x="0" y="30">Tecnologia </tspan><tspan x="0" y="62">Fortacelendo</tspan><tspan x="0" y="94">Jovens</tspan></text>
+          <circle id="Ellipse_6" data-name="Ellipse 6" class="cls-19" cx="21.5" cy="21.5" r="21.5" transform="translate(17 297.439)"/>
+        </g>
+        <text id="Name" class="cls-20" transform="translate(68 324.444)"><tspan x="0" y="0">Name</tspan></text>
+        <text id="_20_03_2019" data-name="20/03/2019" class="cls-21" transform="translate(287 336.444)"><tspan x="-53.66" y="0">20/03/2019</tspan></text>
+        <g id="Tag" class="cls-22" transform="translate(17 167.987)">
+          <rect id="Rectangle_24" data-name="Rectangle 24" class="cls-23" width="50" height="15" rx="3"/>
+          <text id="Ciências" class="cls-24" transform="translate(5 11)"><tspan x="0" y="0">Ciências</tspan></text>
+        </g>
+        <g id="Group_66" data-name="Group 66" transform="translate(71 167.987)">
+          <rect id="Rectangle_24-2" data-name="Rectangle 24" class="cls-23" width="57.241" height="15" rx="3"/>
+          <text id="Educação" class="cls-24" transform="translate(5 11)"><tspan x="0" y="0">Educação</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="Group_99" data-name="Group 99">
+      <rect id="Rectangle_27" data-name="Rectangle 27" class="cls-25" width="298" height="32" rx="15" transform="translate(12 67)"/>
+      <g id="Group_75" data-name="Group 75" transform="translate(2 4)">
+        <text id="Blog_Transmitir" data-name="Blog Transmitir" class="cls-7" transform="translate(11.5 63)"><tspan x="69.602" y="22">Blog Transmitir</tspan></text>
+        <g id="Group_73" data-name="Group 73" transform="translate(248 71)">
+          <path id="Path_16" data-name="Path 16" class="cls-26" d="M3145,82s3.975,3.126,0,8.156" transform="translate(-3145 -77.743)"/>
+          <path id="Path_17" data-name="Path 17" class="cls-26" d="M3145,82s6.976,4.738,0,12.363" transform="translate(-3144.293 -79.928)"/>
+          <path id="Path_18" data-name="Path 18" class="cls-26" d="M3145,82s9.182,6.331,0,16.521" transform="translate(-3143.233 -82)"/>
+        </g>
+        <g id="Group_74" data-name="Group 74" transform="translate(72.848 87.521) rotate(180)">
+          <path id="Path_16-2" data-name="Path 16" class="cls-26" d="M0,0S3.975,3.126,0,8.156" transform="translate(0 4.257)"/>
+          <path id="Path_17-2" data-name="Path 17" class="cls-26" d="M0,0S6.976,4.738,0,12.363" transform="translate(0.707 2.072)"/>
+          <path id="Path_18-2" data-name="Path 18" class="cls-26" d="M0,0S9.182,6.331,0,16.521" transform="translate(1.767 0)"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_81" data-name="Group 81" transform="translate(1 -146)">
+      <rect id="Rectangle_3-2" data-name="Rectangle 3" class="cls-6" width="300" height="325" rx="5" transform="translate(10 1102)"/>
+      <text id="Post_especial_sobre_os_vencedores_do_HACKATEEN_" data-name="Post especial sobre os vencedores do HACKATEEN
+" class="cls-27" transform="translate(23 1306)"><tspan x="11.072" y="24">Post especial sobre os </tspan><tspan x="54.248" y="50">vencedores do </tspan><tspan x="62.672" y="76">HACKATEEN</tspan></text>
+      <g id="Group_69" data-name="Group 69" transform="translate(-232.879 1592.121) rotate(-90)">
+        <rect id="Rectangle_24-3" data-name="Rectangle 24" class="cls-23" width="41" height="15" rx="3" transform="translate(305.121 341.88) rotate(90)"/>
+        <text id="Maker" class="cls-24" transform="translate(294.121 346.88) rotate(90)"><tspan x="0" y="0">Maker</tspan></text>
+      </g>
+      <g id="Group_70" data-name="Group 70" transform="translate(-96 1009)">
+        <rect id="Rectangle_24-4" data-name="Rectangle 24" class="cls-23" width="57.241" height="15" rx="3" transform="translate(249 278)"/>
+        <text id="Educação-2" data-name="Educação" class="cls-24" transform="translate(254 289)"><tspan x="0" y="0">Educação</tspan></text>
+      </g>
+      <text id="_20_03_2019-2" data-name="20/03/2019" class="cls-21" transform="translate(187 1404)"><tspan x="-53.66" y="0">20/03/2019</tspan></text>
+    </g>
+    <g id="Group_82" data-name="Group 82" transform="translate(0 230)">
+      <rect id="Rectangle_3-3" data-name="Rectangle 3" class="cls-6" width="300" height="279.004" rx="5" transform="translate(10 248)"/>
+      <text id="MAKER_a_revolução_na_sociedade_contemporânea_" data-name="MAKER a revolução na sociedade contemporânea
+" class="cls-27" transform="translate(26 373.786)"><tspan x="0" y="24">MAKER a revolução na </tspan><tspan x="0" y="50">sociedade </tspan><tspan x="0" y="76">contemporânea</tspan></text>
+      <text id="Name-2" data-name="Name" class="cls-20" transform="translate(78 490.004)"><tspan x="0" y="0">Name</tspan></text>
+      <circle id="Ellipse_7" data-name="Ellipse 7" class="cls-19" cx="21.5" cy="21.5" r="21.5" transform="translate(24 461.004)"/>
+      <g id="Group_69-2" data-name="Group 69" transform="translate(27 370) rotate(-90)">
+        <rect id="Rectangle_24-5" data-name="Rectangle 24" class="cls-23" width="41" height="15" rx="3" transform="translate(15) rotate(90)"/>
+        <text id="Maker-2" data-name="Maker" class="cls-24" transform="translate(4 5) rotate(90)"><tspan x="0" y="0">Maker</tspan></text>
+      </g>
+      <g id="Group_70-2" data-name="Group 70" transform="translate(71 355)">
+        <rect id="Rectangle_24-6" data-name="Rectangle 24" class="cls-23" width="57.241" height="15" rx="3" transform="translate(0 0)"/>
+        <text id="Educação-3" data-name="Educação" class="cls-24" transform="translate(5 11)"><tspan x="0" y="0">Educação</tspan></text>
+      </g>
+      <text id="_20_03_2019-3" data-name="20/03/2019" class="cls-21" transform="translate(300 507.004)"><tspan x="-53.66" y="0">20/03/2019</tspan></text>
+    </g>
+    <g id="Group_87" data-name="Group 87" transform="translate(7 35)">
+      <g id="Group_83" data-name="Group 83">
+        <circle id="Ellipse_8" data-name="Ellipse 8" class="cls-28" cx="23.351" cy="23.351" r="23.351" transform="translate(47 1562)"/>
+        <text id="_1" data-name="1" class="cls-27" transform="translate(69.5 1593)"><tspan x="-7.2" y="0">1</tspan></text>
+      </g>
+      <g id="Group_84" data-name="Group 84" transform="translate(56)">
+        <circle id="Ellipse_8-2" data-name="Ellipse 8" class="cls-28" cx="23.351" cy="23.351" r="23.351" transform="translate(47 1562)"/>
+        <text id="_2" data-name="2" class="cls-27" transform="translate(69.5 1593)"><tspan x="-7.212" y="0">2</tspan></text>
+      </g>
+      <g id="Group_85" data-name="Group 85" transform="translate(112)">
+        <circle id="Ellipse_8-3" data-name="Ellipse 8" class="cls-28" cx="23.351" cy="23.351" r="23.351" transform="translate(47 1562)"/>
+        <text id="_3" data-name="3" class="cls-27" transform="translate(69.5 1593)"><tspan x="-7.2" y="0">3</tspan></text>
+      </g>
+      <g id="Group_86" data-name="Group 86" transform="translate(165)">
+        <circle id="Ellipse_8-4" data-name="Ellipse 8" class="cls-28" cx="23.351" cy="23.351" r="23.351" transform="translate(47 1562)"/>
+        <text id="_4" data-name="4" class="cls-27" transform="translate(69.5 1593)"><tspan x="-7.2" y="0">4</tspan></text>
+      </g>
+    </g>
+    <g id="Group_79" data-name="Group 79" transform="translate(0 433)">
+      <rect id="Rectangle_3-4" data-name="Rectangle 3" class="cls-6" width="300" height="180.652" rx="5" transform="translate(10 333)"/>
+      <text id="MAKER_a_revolução_na_sociedade_contemporânea_2" data-name="MAKER a revolução na sociedade contemporânea
+" class="cls-27" transform="translate(26 373.956)"><tspan x="0" y="24">MAKER a revolução na </tspan><tspan x="0" y="48">sociedade </tspan><tspan x="0" y="72">contemporânea</tspan></text>
+      <text id="Name-3" data-name="Name" class="cls-20" transform="translate(78 485.652)"><tspan x="0" y="0">Name</tspan></text>
+      <circle id="Ellipse_7-2" data-name="Ellipse 7" class="cls-19" cx="21.5" cy="21.5" r="21.5" transform="translate(24 456.652)"/>
+      <g id="Group_69-3" data-name="Group 69" transform="translate(27 369) rotate(-90)">
+        <rect id="Rectangle_24-7" data-name="Rectangle 24" class="cls-23" width="41" height="15" rx="3" transform="translate(15) rotate(90)"/>
+        <text id="Maker-3" data-name="Maker" class="cls-24" transform="translate(4 5) rotate(90)"><tspan x="0" y="0">Maker</tspan></text>
+      </g>
+      <g id="Group_70-3" data-name="Group 70" transform="translate(71 354)">
+        <rect id="Rectangle_24-8" data-name="Rectangle 24" class="cls-23" width="57.241" height="15" rx="3"/>
+        <text id="Educação-4" data-name="Educação" class="cls-24" transform="translate(5 11)"><tspan x="0" y="0">Educação</tspan></text>
+      </g>
+      <text id="_20_03_2019-4" data-name="20/03/2019" class="cls-21" transform="translate(300 495.652)"><tspan x="-53.66" y="0">20/03/2019</tspan></text>
+    </g>
+    <g id="Group_88" data-name="Group 88" transform="translate(0 1040)">
+      <rect id="Rectangle_3-5" data-name="Rectangle 3" class="cls-6" width="300" height="279.004" rx="5" transform="translate(10 248)"/>
+      <text id="MAKER_a_revolução_na_sociedade_contemporânea_3" data-name="MAKER a revolução na sociedade contemporânea
+" class="cls-27" transform="translate(26 373.786)"><tspan x="0" y="24">MAKER a revolução na </tspan><tspan x="0" y="50">sociedade </tspan><tspan x="0" y="76">contemporânea</tspan></text>
+      <g id="Group_94" data-name="Group 94" transform="translate(0 4)">
+        <text id="Name-4" data-name="Name" class="cls-20" transform="translate(78 495.004)"><tspan x="0" y="0">Name</tspan></text>
+        <circle id="Ellipse_7-3" data-name="Ellipse 7" class="cls-19" cx="21.5" cy="21.5" r="21.5" transform="translate(24 466.004)"/>
+      </g>
+      <g id="Group_69-4" data-name="Group 69" transform="translate(27 370) rotate(-90)">
+        <rect id="Rectangle_24-9" data-name="Rectangle 24" class="cls-23" width="41" height="15" rx="3" transform="translate(15) rotate(90)"/>
+        <text id="Maker-4" data-name="Maker" class="cls-24" transform="translate(4 5) rotate(90)"><tspan x="0" y="0">Maker</tspan></text>
+      </g>
+      <g id="Group_70-4" data-name="Group 70" transform="translate(71 355)">
+        <rect id="Rectangle_24-10" data-name="Rectangle 24" class="cls-23" width="57.241" height="15" rx="3" transform="translate(0 0)"/>
+        <text id="Educação-5" data-name="Educação" class="cls-24" transform="translate(5 11)"><tspan x="0" y="0">Educação</tspan></text>
+      </g>
+      <text id="_20_03_2019-5" data-name="20/03/2019" class="cls-21" transform="translate(300 507.004)"><tspan x="-53.66" y="0">20/03/2019</tspan></text>
+    </g>
+  </g>
+</svg>

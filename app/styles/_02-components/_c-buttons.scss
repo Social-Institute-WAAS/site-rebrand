@@ -63,6 +63,33 @@
   &--red {
     background-color: $red;
   }
+  &--instagram {
+    background-color: #d6249f;
+    &:hover {
+      background-color: #fd5949;
+    }
+  }
+
+  &--facebook {
+    background-color: #4267B2;
+    &:hover {
+      background-color: #0078FF;
+    }
+  }
+
+  &--linkedin {
+    background-color: #2867B2;
+    &:hover {
+      background-color: $gray-600;
+    }
+  }
+
+  &--youtube {
+    background-color: #FF0000;
+    &:hover {
+      background-color: $gray-800;
+    }
+  }
 
   // Sizes
   // -----------

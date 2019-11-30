@@ -28,14 +28,17 @@ function showSlides(n) {
         dots[i].classList.remove('active');
     }
 
-  let currentSlide = slides[slideIndex-1];
-  let currentTitleEl = currentSlide.querySelector('.c-card__title');
-  let currentTitleText = currentTitleEl.textContent;
-  currentSlide.style.display = 'flex';
-  // slides[slideIndex-1].classList.add('in');
-  dots[slideIndex-1].classList.add('active');
-
+  try {
+    let currentSlide = slides[slideIndex-1];
+    let currentTitleEl = currentSlide.querySelector('.c-card__title');
+    let currentTitleText = currentTitleEl.textContent;
+    currentSlide.style.display = 'flex';
+    // slides[slideIndex-1].classList.add('in');
+    dots[slideIndex-1].classList.add('active');
   typeWriter(currentTitleEl, currentTitleText, 0);
+  } catch(err) {
+    err
+  }
 
 }
 

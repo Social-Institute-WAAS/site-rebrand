@@ -8,9 +8,9 @@
         margin-bottom: 1rem;
         padding: 2rem 0;
     }
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(md) {
         .container {
-            padding: 2rem 15px;
+            padding: 2rem 0px;
         }
     }
     &.bg-blue {
@@ -42,6 +42,13 @@
         &,
         #{$lsc}__title {
             color: $white;
+        }
+    }
+    &.bg-gray{
+        background-color: $gray-200;
+        &,
+        #{$lsc}__title {
+            color: $gray-600;
         }
     }
     &__img {
@@ -92,4 +99,21 @@
         }
     }
     
+    &-partners {
+        &__item {
+            width: 12rem;
+            @include media-breakpoint-down(sm) {
+                width: 9rem;
+            }
+        }
+    }
+
+    &-busca {
+        #{$lsc}__title{
+            //font-size: 1.5rem;
+            @include media-breakpoint-down(sm) {
+                font-size: 1.5rem;
+            }
+        }
+    }
 }

@@ -1,0 +1,12 @@
+.l-pages {
+  &__cover {
+    z-index: 0;
+    background-attachment: fixed;
+    @include media-breakpoint-down(sm) {
+        background-attachment: scroll;
+    }
+  }
+  &__content{
+    z-index: 1;
+  }
+}

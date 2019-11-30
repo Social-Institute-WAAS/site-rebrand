@@ -1,0 +1,310 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="768" height="3177" viewBox="0 0 768 3177">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Tablet_768x1024);
+      }
+
+      .cls-2 {
+        fill: #d9d9d9;
+      }
+
+      .cls-3 {
+        fill: rgba(144,144,144,0.33);
+        stroke: rgba(0,0,0,0.5);
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-22, .cls-24, .cls-26, .cls-28, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        opacity: 0.436;
+      }
+
+      .cls-10, .cls-11, .cls-13, .cls-19, .cls-23, .cls-5, .cls-7, .cls-8 {
+        fill: #707070;
+      }
+
+      .cls-11, .cls-27, .cls-5 {
+        font-size: 30px;
+      }
+
+      .cls-27, .cls-5 {
+        font-family: Nunito-Black, Nunito;
+      }
+
+      .cls-11, .cls-24, .cls-26, .cls-27, .cls-5, .cls-7, .cls-8 {
+        font-weight: 800;
+      }
+
+      .cls-6 {
+        fill: #d1d1d1;
+      }
+
+      .cls-7 {
+        font-size: 55px;
+      }
+
+      .cls-11, .cls-24, .cls-26, .cls-7, .cls-8 {
+        font-family: Nunito-ExtraBold, Nunito;
+      }
+
+      .cls-10, .cls-24, .cls-26, .cls-8 {
+        font-size: 22px;
+      }
+
+      .cls-10, .cls-13, .cls-19, .cls-9 {
+        font-family: Nunito-Regular, Nunito;
+      }
+
+      .cls-9 {
+        font-weight: 400;
+      }
+
+      .cls-12 {
+        fill: #b1b1b1;
+      }
+
+      .cls-13, .cls-20 {
+        font-size: 16px;
+      }
+
+      .cls-13 {
+        text-decoration: underline;
+      }
+
+      .cls-14 {
+        fill: #a5a5a5;
+      }
+
+      .cls-15 {
+        opacity: 0.54;
+      }
+
+      .cls-16 {
+        fill: none;
+        stroke: #e5e5e5;
+        stroke-width: 5px;
+        opacity: 0.701;
+      }
+
+      .cls-17 {
+        fill: #d8d8d8;
+      }
+
+      .cls-18 {
+        fill: #efe7e7;
+      }
+
+      .cls-19, .cls-22 {
+        font-size: 18px;
+      }
+
+      .cls-21 {
+        fill: #a2a2a2;
+      }
+
+      .cls-22 {
+        font-family: Nunito-Bold, Nunito;
+        font-weight: 700;
+      }
+
+      .cls-24 {
+        opacity: 0.537;
+      }
+
+      .cls-25 {
+        fill: #9f9f9f;
+      }
+
+      .cls-26 {
+        opacity: 0.486;
+      }
+
+      .cls-27 {
+        fill: #c3c3c3;
+      }
+    </style>
+    <clipPath id="clip-Tablet_768x1024">
+      <rect width="768" height="3177"/>
+    </clipPath>
+  </defs>
+  <g id="Tablet_768x1024" data-name="Tablet 768x1024" class="cls-1">
+    <rect class="cls-28" width="768" height="3177"/>
+    <g id="Header">
+      <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-2" width="768" height="60"/>
+      <g id="Menu" transform="translate(16.5 22.5)">
+        <path id="Path_15" data-name="Path 15" class="cls-3" d="M4,8H28M4,16H28M4,24H28" transform="translate(-4 -8)"/>
+      </g>
+      <path id="ic_search_24px" d="M20.845,18.7H19.717l-.4-.385a9.293,9.293,0,1,0-1,1l.385.4v1.128l7.138,7.124,2.127-2.127Zm-8.566,0A6.424,6.424,0,1,1,18.7,12.279,6.416,6.416,0,0,1,12.279,18.7Z" transform="translate(722.521 14.521)"/>
+      <rect id="Rectangle_23" data-name="Rectangle 23" class="cls-4" width="230" height="45" rx="5" transform="translate(528 8)"/>
+      <text id="WAAS" class="cls-5" transform="translate(370.5 40)"><tspan x="-48.36" y="0">WAAS</tspan></text>
+    </g>
+    <g id="Group_21" data-name="Group 21" transform="translate(77 3)">
+      <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-6" width="593" height="416.508" rx="5" transform="translate(10 72)"/>
+      <text id="Tecnologia_Fortacelendo_Jovens" data-name="Tecnologia 
+Fortacelendo
+Jovens" class="cls-7" transform="translate(30 287.508)"><tspan x="0" y="56">Tecnologia </tspan><tspan x="0" y="111">Fortacelendo</tspan><tspan x="0" y="166">Jovens</tspan></text>
+    </g>
+    <g id="Group_22" data-name="Group 22" transform="translate(78 171)">
+      <rect id="Rectangle_3" data-name="Rectangle 3" class="cls-6" width="592" height="126" rx="5" transform="translate(10 333)"/>
+      <text id="Como_fazemos_Resumo" data-name="Como fazemos | Resumo" class="cls-8" transform="translate(25 356)"><tspan x="155.364" y="22">Como fazemos </tspan><tspan class="cls-9" y="22">| Resumo</tspan></text>
+      <text id="Metodologia_Hackateen_Dojo_etc_" data-name="Metodologia, Hackateen, Dojo etc…
+" class="cls-10" transform="translate(26 393)"><tspan x="108.46" y="22">Metodologia, Hackateen, Dojo etc…</tspan><tspan x="280.5" y="57"></tspan></text>
+    </g>
+    <g id="Group_23" data-name="Group 23" transform="translate(79 141)">
+      <rect id="Rectangle_4" data-name="Rectangle 4" class="cls-6" width="591" height="171" rx="5" transform="translate(10 502)"/>
+      <text id="Metodologia" class="cls-11" transform="translate(26 521)"><tspan x="0" y="30">Metodologia</tspan></text>
+      <g id="Group_7" data-name="Group 7" transform="translate(25 569)">
+        <rect id="Rectangle_6" data-name="Rectangle 6" class="cls-12" width="439" height="20"/>
+        <rect id="Rectangle_7" data-name="Rectangle 7" class="cls-12" width="287" height="20" transform="translate(0 27)"/>
+        <rect id="Rectangle_8" data-name="Rectangle 8" class="cls-12" width="145.5" height="20" transform="translate(0 54)"/>
+      </g>
+      <text id="mais_detalhes" data-name="mais detalhes" class="cls-13" transform="translate(481 637)"><tspan x="4.42" y="16">mais detalhes</tspan></text>
+    </g>
+    <text id="Sistema_de_Graduação" data-name="Sistema de Graduação" class="cls-11" transform="translate(87 833)"><tspan x="138.76" y="30">Sistema de Graduação</tspan></text>
+    <g id="Group_30" data-name="Group 30" transform="translate(0 -10)">
+      <g id="Group_29" data-name="Group 29">
+        <g id="Group_26" data-name="Group 26" transform="translate(77 168)">
+          <rect id="Rectangle_5" data-name="Rectangle 5" class="cls-6" width="213" height="313" rx="5" transform="translate(10 735)"/>
+          <ellipse id="Ellipse_1" data-name="Ellipse 1" class="cls-14" cx="57.5" cy="61" rx="57.5" ry="61" transform="translate(59 766)"/>
+          <text id="Graduação_1" data-name="Graduação #1" class="cls-8" transform="translate(25.5 904)"><tspan x="18.56" y="22">Graduação #1</tspan></text>
+          <g id="Group_1" data-name="Group 1" transform="translate(25 947)">
+            <rect id="Rectangle_6-2" data-name="Rectangle 6" class="cls-12" width="181.5" height="20"/>
+            <rect id="Rectangle_7-2" data-name="Rectangle 7" class="cls-12" width="115" height="20" transform="translate(0 27)"/>
+            <rect id="Rectangle_8-2" data-name="Rectangle 8" class="cls-12" width="161.5" height="20" transform="translate(0 54)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_31" data-name="Group 31" transform="translate(238 -10)">
+      <g id="Group_29-2" data-name="Group 29">
+        <g id="Group_26-2" data-name="Group 26" transform="translate(77 168)">
+          <rect id="Rectangle_5-2" data-name="Rectangle 5" class="cls-6" width="213" height="313" rx="5" transform="translate(10 735)"/>
+          <ellipse id="Ellipse_1-2" data-name="Ellipse 1" class="cls-14" cx="57.5" cy="61" rx="57.5" ry="61" transform="translate(59 766)"/>
+          <text id="Graduação_2" data-name="Graduação #2" class="cls-8" transform="translate(25.5 904)"><tspan x="18.549" y="22">Graduação #2</tspan></text>
+          <g id="Group_1-2" data-name="Group 1" transform="translate(25 947)">
+            <rect id="Rectangle_6-3" data-name="Rectangle 6" class="cls-12" width="181.5" height="20"/>
+            <rect id="Rectangle_7-3" data-name="Rectangle 7" class="cls-12" width="115" height="20" transform="translate(0 27)"/>
+            <rect id="Rectangle_8-3" data-name="Rectangle 8" class="cls-12" width="161.5" height="20" transform="translate(0 54)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_32" data-name="Group 32" transform="translate(479 -10)">
+      <g id="Group_29-3" data-name="Group 29">
+        <g id="Group_26-3" data-name="Group 26" transform="translate(77 168)">
+          <rect id="Rectangle_5-3" data-name="Rectangle 5" class="cls-6" width="213" height="313" rx="5" transform="translate(10 735)"/>
+          <ellipse id="Ellipse_1-3" data-name="Ellipse 1" class="cls-14" cx="57.5" cy="61" rx="57.5" ry="61" transform="translate(59 766)"/>
+          <text id="Graduação_3" data-name="Graduação #3" class="cls-8" transform="translate(25.5 907)"><tspan x="18.56" y="22">Graduação #3</tspan></text>
+          <g id="Group_1-3" data-name="Group 1" transform="translate(25 947)">
+            <rect id="Rectangle_6-4" data-name="Rectangle 6" class="cls-12" width="181.5" height="20"/>
+            <rect id="Rectangle_7-4" data-name="Rectangle 7" class="cls-12" width="115" height="20" transform="translate(0 27)"/>
+            <rect id="Rectangle_8-4" data-name="Rectangle 8" class="cls-12" width="161.5" height="20" transform="translate(0 54)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_33" data-name="Group 33" transform="translate(77 726)">
+      <rect id="Rectangle_4-2" data-name="Rectangle 4" class="cls-6" width="594" height="159" rx="5" transform="translate(10 502)"/>
+      <text id="Hackateen" class="cls-8" transform="translate(26 517)"><tspan x="0" y="22">Hackateen</tspan></text>
+      <g id="Group_8" data-name="Group 8" transform="translate(25 557)">
+        <rect id="Rectangle_6-5" data-name="Rectangle 6" class="cls-12" width="195.5" height="20"/>
+        <rect id="Rectangle_7-5" data-name="Rectangle 7" class="cls-12" width="115" height="20" transform="translate(0 27)"/>
+        <rect id="Rectangle_8-5" data-name="Rectangle 8" class="cls-12" width="128.5" height="20" transform="translate(0 54)"/>
+      </g>
+      <text id="mais_detalhes-2" data-name="mais detalhes" class="cls-13" transform="translate(484 627)"><tspan x="4.42" y="16">mais detalhes</tspan></text>
+    </g>
+    <g id="Group_34" data-name="Group 34" transform="translate(77 904)">
+      <rect id="Rectangle_4-3" data-name="Rectangle 4" class="cls-6" width="594" height="159" rx="5" transform="translate(10 502)"/>
+      <text id="Dojo" class="cls-8" transform="translate(26 517)"><tspan x="0" y="22">Dojo</tspan></text>
+      <g id="Group_8-2" data-name="Group 8" transform="translate(25 557)">
+        <rect id="Rectangle_6-6" data-name="Rectangle 6" class="cls-12" width="195.5" height="20"/>
+        <rect id="Rectangle_7-6" data-name="Rectangle 7" class="cls-12" width="115" height="20" transform="translate(0 27)"/>
+        <rect id="Rectangle_8-6" data-name="Rectangle 8" class="cls-12" width="128.5" height="20" transform="translate(0 54)"/>
+      </g>
+      <text id="mais_detalhes-3" data-name="mais detalhes" class="cls-13" transform="translate(484 627)"><tspan x="4.42" y="16">mais detalhes</tspan></text>
+    </g>
+    <g id="Group_36" data-name="Group 36" transform="translate(74 1253)">
+      <g id="Grafico" class="cls-15" transform="translate(31.5 554.5)">
+        <line id="Line_1" data-name="Line 1" class="cls-16" y1="86" x2="195" transform="translate(0 18)"/>
+        <line id="Line_2" data-name="Line 2" class="cls-16" x1="181" y1="67" transform="translate(181 9)"/>
+        <line id="Line_3" data-name="Line 3" class="cls-16" x1="173" y2="76" transform="translate(362)"/>
+      </g>
+      <text id="Operação" class="cls-11" transform="translate(26 510)"><tspan x="214.88" y="30">Operação</tspan></text>
+      <text id="_600_ninjas_graduados" data-name="+ 600 ninjas graduados" class="cls-8" transform="translate(39 558)"><tspan x="0" y="22">+ 600 </tspan><tspan class="cls-9" y="22">ninjas graduados</tspan></text>
+      <text id="_8_cidades" data-name="+ 8 cidades" class="cls-8" transform="translate(39 595)"><tspan x="0" y="22">+ 8 </tspan><tspan class="cls-9" y="22">cidades</tspan></text>
+      <text id="_1000_horas_de_" data-name="+ 1000 horas de …" class="cls-8" transform="translate(39 632)"><tspan x="0" y="22">+ 1000 </tspan><tspan class="cls-9" y="22">horas</tspan><tspan y="22"> </tspan><tspan class="cls-9" y="22">de …</tspan></text>
+    </g>
+    <g id="Group_37" data-name="Group 37" transform="translate(0 18)">
+      <text id="Prêmios" class="cls-11" transform="translate(87 1588)"><tspan x="239.365" y="30">Prêmios</tspan></text>
+      <text id="_Legado_Warloock_" data-name="+ Legado
++ Warloock
+…" class="cls-10" transform="translate(102 1623)"><tspan x="0" y="22">+ Legado</tspan><tspan x="0" y="57">+ Warloock</tspan><tspan x="0" y="92">…</tspan></text>
+    </g>
+    <g id="Group_38" data-name="Group 38" transform="translate(76 310)">
+      <text id="Parceiros" class="cls-11" transform="translate(25 1662)"><tspan x="217.25" y="30">Parceiros</tspan></text>
+      <circle id="Ellipse_2" data-name="Ellipse 2" class="cls-17" cx="70.351" cy="70.351" r="70.351" transform="translate(10 1728)"/>
+      <circle id="Ellipse_3" data-name="Ellipse 3" class="cls-17" cx="70.851" cy="70.851" r="70.851" transform="translate(466.298 1728)"/>
+      <circle id="Ellipse_4" data-name="Ellipse 4" class="cls-17" cx="70.351" cy="70.351" r="70.351" transform="translate(160.298 1728)"/>
+      <circle id="Ellipse_5" data-name="Ellipse 5" class="cls-17" cx="70.851" cy="70.851" r="70.851" transform="translate(312 1728)"/>
+    </g>
+    <g id="Group_39" data-name="Group 39" transform="translate(74 -69)">
+      <rect id="Rectangle_3-2" data-name="Rectangle 3" class="cls-6" width="596" height="309" rx="5" transform="translate(10 2311)"/>
+      <text id="Na_Mídia" data-name="Na Mídia" class="cls-11" transform="translate(26.5 2337)"><tspan x="0" y="30">Na Mídia</tspan></text>
+      <g id="Group_13" data-name="Group 13" transform="translate(87.5 2389)">
+        <text id="Reportagem_no_jornal_" data-name="Reportagem no jornal …" class="cls-10" transform="translate(-2.5 146)"><tspan x="0" y="22">Reportagem </tspan><tspan x="0" y="46">no jornal …</tspan></text>
+        <rect id="Rectangle_9" data-name="Rectangle 9" class="cls-18" width="138" height="127" rx="5" transform="translate(0 5)"/>
+      </g>
+      <g id="Group_40" data-name="Group 40" transform="translate(242 2389)">
+        <text id="Reportagem_no_jornal_2" data-name="Reportagem no jornal …" class="cls-10" transform="translate(-2.5 146)"><tspan x="0" y="22">Reportagem </tspan><tspan x="0" y="46">no jornal …</tspan></text>
+        <rect id="Rectangle_9-2" data-name="Rectangle 9" class="cls-18" width="138" height="127" rx="5" transform="translate(0 5)"/>
+      </g>
+      <g id="Group_41" data-name="Group 41" transform="translate(394.5 2389)">
+        <text id="Reportagem_no_jornal_3" data-name="Reportagem no jornal …" class="cls-10" transform="translate(-2.5 146)"><tspan x="0" y="22">Reportagem </tspan><tspan x="0" y="46">no jornal …</tspan></text>
+        <rect id="Rectangle_9-3" data-name="Rectangle 9" class="cls-18" width="138" height="127" rx="5" transform="translate(0 5)"/>
+      </g>
+    </g>
+    <g id="Group_42" data-name="Group 42" transform="translate(77 -72)">
+      <rect id="Rectangle_3-3" data-name="Rectangle 3" class="cls-6" width="593" height="199" rx="5" transform="translate(10 2644)"/>
+      <text id="Newsletter" class="cls-11" transform="translate(25.5 2663)"><tspan x="0" y="30">Newsletter</tspan></text>
+      <rect id="Rectangle_10" data-name="Rectangle 10" class="cls-18" width="562" height="41" rx="5" transform="translate(25.5 2734)"/>
+      <text id="Inscreva-se_para_receber_as_novidades_mais_recentes." data-name="Inscreva-se para receber as novidades mais recentes." class="cls-19" transform="translate(25.5 2698)"><tspan x="0" y="18">Inscreva-se para receber </tspan><tspan class="cls-20" y="18">as novidades mais recentes.</tspan></text>
+      <g id="Group_17" data-name="Group 17" transform="translate(487.5 2783)">
+        <rect id="Rectangle_11" data-name="Rectangle 11" class="cls-21" width="100" height="41" rx="5"/>
+        <text id="Inscrever" class="cls-22" transform="translate(13 26)"><tspan x="0" y="0">Inscrever</tspan></text>
+      </g>
+    </g>
+    <g id="Group_43" data-name="Group 43" transform="translate(87 -64)">
+      <rect id="Rectangle_12" data-name="Rectangle 12" class="cls-23" width="768" height="362" transform="translate(-87 2881)"/>
+      <text id="Rodapé" class="cls-24" transform="translate(137 2912)"><tspan x="0" y="22">Rodapé</tspan></text>
+      <g id="Group_18" data-name="Group 18">
+        <rect id="Rectangle_13" data-name="Rectangle 13" class="cls-25" width="126" height="18" transform="translate(26 2957)"/>
+        <rect id="Rectangle_14" data-name="Rectangle 14" class="cls-25" width="96" height="18" transform="translate(26 2991)"/>
+        <rect id="Rectangle_15" data-name="Rectangle 15" class="cls-25" width="63" height="18" transform="translate(26 3025)"/>
+      </g>
+      <g id="Group_64" data-name="Group 64" transform="translate(0 17)">
+        <rect id="Rectangle_16" data-name="Rectangle 16" class="cls-25" width="128.438" height="18" transform="translate(441 2962)"/>
+        <rect id="Rectangle_17" data-name="Rectangle 17" class="cls-25" width="78" height="18" transform="translate(441 2996)"/>
+        <rect id="Rectangle_18" data-name="Rectangle 18" class="cls-25" width="120.438" height="18" transform="translate(441 3030)"/>
+      </g>
+      <g id="Group_19" data-name="Group 19" transform="translate(0 144)">
+        <rect id="Rectangle_13-2" data-name="Rectangle 13" class="cls-25" width="126" height="18" transform="translate(26 2957)"/>
+        <rect id="Rectangle_14-2" data-name="Rectangle 14" class="cls-25" width="96" height="18" transform="translate(26 2991)"/>
+        <rect id="Rectangle_15-2" data-name="Rectangle 15" class="cls-25" width="63" height="18" transform="translate(26 3025)"/>
+      </g>
+      <g id="Group_44" data-name="Group 44" transform="translate(33.938 -110)">
+        <rect id="Rectangle_19" data-name="Rectangle 19" class="cls-25" width="167" height="18" transform="translate(179.563 3067)"/>
+        <rect id="Rectangle_20" data-name="Rectangle 20" class="cls-25" width="78" height="18" transform="translate(179.563 3101)"/>
+        <rect id="Rectangle_21" data-name="Rectangle 21" class="cls-25" width="159" height="18" transform="translate(179.563 3135)"/>
+      </g>
+      <text id="Contato" class="cls-26" transform="translate(25.5 3065)"><tspan x="0" y="22">Contato</tspan></text>
+      <text id="WAAS-2" data-name="WAAS" class="cls-27" transform="translate(73.5 2935)"><tspan x="-48.36" y="0">WAAS</tspan></text>
+      <text id="Sociais" class="cls-26" transform="translate(441.5 2939)"><tspan x="0" y="22">Sociais</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -6,7 +6,7 @@ html(lang="pt-br")
 	include ../mixins/mixins.pug
 	include ../../_01-elements/e-mixins.pug
 	include ../../_02-components/c-mixins.pug
-	body#site
+	body#site(itemtype="http://schema.org/WebPage")
 		include ../../_02-components/c-nav.pug
 		main.container-fluid(role="main")
 			block main
