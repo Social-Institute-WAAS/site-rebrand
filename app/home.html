@@ -239,7 +239,7 @@
       <section class="l-section bg-blue" id="conquistas">
         <div class="container">
           <h2 class="l-section__title"><span class="icon-trophy-cup-silhouette"></span><span class="px-2">Conquistas</span></h2>
-          <div class="glide">
+          <div class="glide glide-default">
             <div class="glide__track mb-4" data-glide-el="track">
               <ul class="glide__slides">
                   <li class="glide__slide"><a class="text-white" href="https://www.facebook.com/InstitutoLegado/photos/a.297510197020038/1333520163419031/?type=3&amp;theater" target="_blank"><img class="img-fluid rounded" src="images/conquistas/premio-legado-2017-de-empreendedorismo-social.jpg">
@@ -484,6 +484,19 @@
           </div>
         </div>
       </section>
+      <script>
+        try {
+          var glideTestimonial = new Glide('.glide-testimonial', {
+            type: 'carousel',
+            autoplay: 4000,
+            perView: 1,
+            focusAt: 'center',
+            animationTimingFunc: 'ease',
+            animationDuration: 800
+          });
+          glideTestimonial.mount();
+        } catch(err) { }
+      </script>
     </main>
     <section class="footer l-footer mt-4">
       <div class="container">
@@ -542,5 +555,18 @@
 <script src="scripts/lightbox.js"></script>
 <script src="scripts/main.js"></script>
 <!-- endbuild -->
+    <script>
+      try {
+        var glideTestimonial = new Glide('.glide-testimonial', {
+          type: 'carousel',
+          autoplay: 4000,
+          perView: 1,
+          focusAt: 'center',
+          animationTimingFunc: 'ease',
+          animationDuration: 800
+        });
+        glideTestimonial.mount();
+      } catch(err) { }
+    </script>
   </body>
 </html>

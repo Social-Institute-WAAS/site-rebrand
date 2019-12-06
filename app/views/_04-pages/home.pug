@@ -118,7 +118,7 @@ block main
       h2.l-section__title
         span.icon-trophy-cup-silhouette
         span.px-2 Conquistas
-      .glide
+      .glide.glide-default
         .glide__track.mb-4(data-glide-el='track')
           ul.glide__slides
             +repeat(8)
@@ -222,3 +222,17 @@ block main
     
   //- NEWSLETTER
   include ../_02-components/c-newsletter.pug
+
+  block scripts
+    script.
+      try {
+        var glideTestimonial = new Glide('.glide-testimonial', {
+          type: 'carousel',
+          autoplay: 4000,
+          perView: 1,
+          focusAt: 'center',
+          animationTimingFunc: 'ease',
+          animationDuration: 800
+        });
+        glideTestimonial.mount();
+      } catch(err) { }

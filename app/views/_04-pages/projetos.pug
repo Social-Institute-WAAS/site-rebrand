@@ -1,0 +1,69 @@
+extends ../_00-toolbox/templates/master.pug
+
+block append pageTitle
+  - page.title = "Projetos dos Ninjas"+" | "+page.name
+  - page.current = "projetos-dos-ninjas"
+
+block main
+
+  //- COVER
+  section#projetos.row
+    .glide.glide-hero.mt-4
+      .glide__track(data-glide-el='track')
+        ul.glide__slides
+          +repeat(3)
+            li.glide__slide
+              figure.l-section__img.glide-hero__image
+                img(src="images/jovem-pesquisando.jpeg", alt="Jovem Pesquisando")
+              .glide-hero__text-container.container
+                span 
+                  img.rounded(src="images/svg/ods/ods-1.svg", height=40 alt="Ods-1")
+                  img.rounded.ml-2(src="images/svg/ods/ods-7.svg", height=40 alt="Ods-1")
+                h2.glide-hero__title Projeto em destaque
+                p.glide-hero__description Descrição breve do projeto
+                
+        
+        .glide__bullets(data-glide-el='controls[nav]' style="bottom: -15px")
+          - var counter = 0
+          +repeat(3)
+            button.glide__bullet(data-glide-dir=`=${counter++}`)
+
+
+  section.l-section.l-section-projetos
+    .container
+      h1.l-section__title Projetos dos Ninjas
+      .c-grid
+          +repeat(6)
+            .c-grid__item.c-card.text-center.bg-transparent.border-0
+              a.c-grid__link(href='https://jornaldacic.com.br/2019/09/04/raul-guedes-o-menino-que-foi-pra-nasa-agora-vai-para-harvard/' target='_blank')
+                //- .c-card__headover
+                //-   img.rounded(src="images/svg/ods/ods-1.svg", height=40 alt="Ods-1")
+                .c-card-img-top
+                  img(src="images/clipping/o-menino-que-foi-pra-nasa-agora-vai-para-harvard.png" alt="Imagem").rounded   
+                .c-card__body
+                  .c-card__headover
+                    img.rounded(src="images/svg/ods/ods-3.svg", height=40 alt="Ods-3")
+                    img.ml-2.rounded(src="images/svg/ods/ods-14.svg", height=40 alt="Ods-14")
+                  h3.c-card__title.mt-2 INUN
+                  p.card-text 
+                    | Projeto sobre monitoramento de enchentes
+
+
+  //- NEWSLETTER
+  include ../_02-components/c-newsletter.pug
+
+block scripts
+  script.
+    try {
+      var glideHero = new Glide('.glide-hero', {
+        type: 'carousel',
+        autoplay: 6000,
+        perView: 1,
+        focusAt: 'center',
+        animationTimingFunc: 'ease',
+        animationDuration: 800
+      });
+      glideHero.mount();
+    } catch(err) {
+
+    }

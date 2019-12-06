@@ -1,5 +1,5 @@
 try {
-  var glide = new Glide('.glide', {
+  var glide = new Glide('.glide-default', {
     type: 'carousel',
     autoplay: 4000,
     perView: 3,
@@ -16,18 +16,6 @@ try {
     }
   });
   glide.mount();
-
-  var glideTestimonial = new Glide('.glide-testimonial', {
-    type: 'carousel',
-    autoplay: 4000,
-    perView: 1,
-    focusAt: 'center',
-    animationTimingFunc: 'ease',
-    animationDuration: 800
-  });
-
-  glideTestimonial.mount();
-
 } catch(err) {
   err
 }
