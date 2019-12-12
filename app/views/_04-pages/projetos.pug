@@ -5,6 +5,8 @@ block append pageTitle
   - page.current = "projetos-dos-ninjas"
 
 block main
+  .d-none
+    include ../../assets/symbol/svg/sprite.symbol.svg
 
   //- COVER
   section#projetos.row
@@ -17,8 +19,10 @@ block main
                 img(src="images/jovem-pesquisando.jpeg", alt="Jovem Pesquisando")
               .glide-hero__text-container.container
                 span 
-                  img.rounded(src="images/svg/ods/ods-1.svg", height=40 alt="Ods-1")
-                  img.rounded.ml-2(src="images/svg/ods/ods-7.svg", height=40 alt="Ods-1")
+                  svg.rounded( width=40 height=40 title="Ods-1")
+                    use(xlink:href="#ods-1")
+                  svg.rounded.ml-2( width=40 height=40 title="Ods-7")
+                    use(xlink:href="#ods-7")
                 h2.glide-hero__title Projeto em destaque
                 p.glide-hero__description Descrição breve do projeto
                 
@@ -42,8 +46,16 @@ block main
                   img(src="images/clipping/o-menino-que-foi-pra-nasa-agora-vai-para-harvard.png" alt="Imagem").rounded   
                 .c-card__body
                   .c-card__headover
-                    img.rounded(src="images/svg/ods/ods-3.svg", height=40 alt="Ods-3")
-                    img.ml-2.rounded(src="images/svg/ods/ods-14.svg", height=40 alt="Ods-14")
+                      - var odsNumber = Math.floor(Math.random() * (1 - 17) + 17)
+                      svg.rounded( width=40 height=40 title=`Ods-${odsNumber}`)
+                        use(xlink:href=`#ods-${odsNumber}`)
+                      - var odsNumber2 = Math.floor(Math.random() * (1 - 17) + 17)
+                      svg.rounded( width=40 height=40 title=`Ods-${odsNumber2}`)
+                        use(xlink:href=`#ods-${odsNumber2}`)
+                      - var odsNumber3 = Math.floor(Math.random() * (1 - 17) + 17)
+                      svg.rounded( width=40 height=40 title=`Ods-${odsNumber3}`)
+                        use(xlink:href=`#ods-${odsNumber3}`)
+
                   h3.c-card__title.mt-2 INUN
                   p.card-text 
                     | Projeto sobre monitoramento de enchentes
