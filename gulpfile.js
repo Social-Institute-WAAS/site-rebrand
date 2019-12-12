@@ -28,7 +28,7 @@ const config = {
 };
 
 function convertSvg() {
-  return src("app/images/svg/*.svg")
+  return src("app/images/svg/ods/*.svg")
     .pipe($.svgSprite(config))
     .pipe(dest("app/assets"));
   //.pipe($.if(!isProd, dest('.tmp/assets'), dest('dist/assets')));

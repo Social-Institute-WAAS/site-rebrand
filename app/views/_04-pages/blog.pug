@@ -78,14 +78,19 @@ block main
         br
 
   //- PAGINATION
-  nav.container
-    ul.pagination.d-flex.mx-auto
+  nav.container.d-flex
+    ul.pagination.pagination-lg.mx-auto
       - var counter = 0;
       li.page-item 
-        a.page-link(href="#")
-          span( aria-hidden="true") &laquo;
+        a.page-link(href="#" aria-label="Anterior")
+          span(aria-hidden="true") &laquo;
           span.sr-only Anterior
       +repeat(5)
         li.page-item
           a.page-link(href="#") #{counter++}
+
+      li.page-item 
+        a.page-link(href="#" aria-label="Próximo")
+          span( aria-hidden="true") &raquo;
+          span.sr-only Próximo
         
