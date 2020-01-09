@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title>Metodologia | WAAS - Tecnologia Fortalecendo Jovens</title>
+    <title>WAAS - Tecnologia Fortalecendo Jovens</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="title" content="Metodologia | WAAS - Tecnologia Fortalecendo Jovens">
+    <meta name="title" content="WAAS - Tecnologia Fortalecendo Jovens">
     <meta name="url" content="">
     <meta name="author" content="WAAS">
     <meta name="robots" content="index,follow">
@@ -16,7 +16,7 @@
     <meta property="og:image:height" content="100">
     <meta property="og:image:type" content="image/jpg">
     <meta property="og:image:width" content="120">
-    <meta property="og:title" content="Metodologia | WAAS - Tecnologia Fortalecendo Jovens">
+    <meta property="og:title" content="WAAS - Tecnologia Fortalecendo Jovens">
     <meta property="og:type" content="website">
     <meta property="og:url" content="">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
@@ -35,11 +35,9 @@
     <link rel="manifest" href="/manifest.json"><meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
-    <!--link(rel="stylesheet", href!=`${page.url.static}css/fonts.css${page.version}`)-->
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,900" rel="stylesheet">
-    <link rel="stylesheet" href="css/app.min.css">
     <!-- build:css styles/vendor.css -->
-<link rel="stylesheet" href="/node_modules/baguettebox.js/dist/baguetteBox.css" type="text/css" />
+<link rel="stylesheet" href="node_modules/baguettebox.js/dist/baguetteBox.css" type="text/css" />
 <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
 <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
 <!-- endbuild -->
@@ -73,7 +71,7 @@
             <li class="nav-item c-nav__item"><a class="nav-link c-nav__item-link" href="contato.html">Contato</a></li>
           </ul>
         </div><script async src="https://cse.google.com/cse.js?cx=012713980972740920291:kglxojod0jq"></script>
-        <form class="c-search c-nav__search gcse-searchbox-only" method="get" target="_self" action="/busca.html" data-resultsUrl="http://www.waas.ninja" id="search_form">
+        <form class="c-search c-nav__search gcse-searchbox-only" method="get" target="_self" action="busca.html" data-resultsUrl="http://www.waas.ninja" id="search_form">
           <button class="c-search--toggle" type="button"><span class="icon icon-search"></span></button>
           <div class="input-group input-group-lg c-search__wrapper">
             <input class="form-control c-search__input" type="text" name="q" title="search" autocomplete="on" placeholder="Buscar" aria-label="Buscar">
@@ -85,49 +83,378 @@
       </div>
     </nav>
     <main class="container-fluid" role="main">
-      <section class="cover l-pages">
-        <div class="l-pages__cover c-card--cover" style="background-image:url(https://placeimg.com/780/1080/any); background-position: 70% center;"></div>
-        <div class="container l-pages__content" style="margin-top:-40vh; background-color:white; ">
-          <div class="c-card card c-card--section bullets bullets--bottom-center">
-            <h1 class="l-section__title c-card__title text-center" itemprop="name"><span>Título do artigo</span></h1>
-            <div class="c-card__body row">
-              <p class="h3 col-lg-8 col-sm-12 mx-auto text-center">Breve descrição sobre o conteúdo que será abordado.</p>
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12 py-4 mx-auto"><img class="float-left border-lg rounded-lg w-50 mr-2" src="https://placeimg.com/600/600/any" alt="Imagem" style="border:3px solid #FFF">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. Aenean fringilla eleifend bibendum. Integer efficitur nulla eget congue bibendum. Praesent convallis nisi ut magna pharetra condimentum. Vestibulum cursus, arcu non aliquet fermentum, magna sem suscipit urna, a convallis nunc lectus eget urna. Praesent tristique ligula non purus fermentum dignissim.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. Aenean fringilla eleifend bibendum. Integer efficitur nulla eget congue bibendum. Praesent convallis nisi ut magna pharetra condimentum. Vestibulum cursus, arcu non aliquet fermentum, magna sem suscipit urna, a convallis nunc lectus eget urna. Praesent tristique ligula non purus fermentum dignissim.</p>
-          </div>
-        </div>
-        <div class="l-section bg-blue">
+      <section class="cover c-slider" id="home">
+        <div class="c-slider-indicator"><span class="dot" onclick="currentSlide(1)"></span><span class="dot" onclick="currentSlide(2)"></span><span class="dot" onclick="currentSlide(3)"></span></div>
+        <div class="c-card c-card--cover mySlides fadeFx" style="background-image:url(images/bg-cover.jpg)">
           <div class="container">
-            <div class="col-md-9 col-sm-12 col-xs-12 mx-auto text-center">
-              <blockquote class="blockquote my-4 px-4 mx-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. Aenean fringilla eleifend bibendum.</p>
-              </blockquote>
-            </div>
+            <h1 class="c-card__title">Tecnologia Fortalecendo Jovens</h1>
           </div>
         </div>
-        <div class="container">
-          <div class="col-lg-8 col-sm-12 py-4 mx-auto">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. Aenean fringilla eleifend bibendum. Integer efficitur nulla eget congue bibendum. Praesent convallis nisi ut magna pharetra condimentum. Vestibulum cursus, arcu non aliquet fermentum, magna sem suscipit urna, a convallis nunc lectus eget urna. Praesent tristique ligula non purus fermentum dignissim.</p><img class="float-right border-lg rounded w-100 my-4" src="https://placeimg.com/600/400/any" alt="Imagem" style="border:3px solid #FFF">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. Aenean fringilla eleifend bibendum. Integer efficitur nulla eget congue bibendum. Praesent convallis nisi ut magna pharetra condimentum. Vestibulum cursus, arcu non aliquet fermentum, magna sem suscipit urna, a convallis nunc lectus eget urna. Praesent tristique ligula non purus fermentum dignissim.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. Aenean fringilla eleifend bibendum. Integer efficitur nulla eget congue bibendum. Praesent convallis nisi ut magna pharetra condimentum. Vestibulum cursus, arcu non aliquet fermentum, magna sem suscipit urna, a convallis nunc lectus eget urna. Praesent tristique ligula non purus fermentum dignissim.</p>
-          </div>
-        </div>
-        <div class="l-section bg-gray">
+        <div class="c-card c-card--cover mySlides fadeFx" style="background-image:url(images/jovem-pesquisando.jpeg)">
           <div class="container">
-            <div class="col-md-9 col-sm-12 col-xs-12 mx-auto text-center">
-              <blockquote class="blockquote my-4 px-4 mx-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. Aenean fringilla eleifend bibendum.</p>
-              </blockquote>
+            <h2 class="c-card__title">Transforme Sua Comunidade</h2>
+          </div>
+        </div>
+        <div class="c-card c-card--cover mySlides fadeFx" style="background-image:url(images/bg-time.jpeg)">
+          <div class="container">
+            <h2 class="c-card__title">Fortalecer Jovens</h2>
+          </div>
+        </div><span class="alert-has-scroll"></span>
+      </section>
+      <section class="l-section" id="por-que">
+        <div class="container">
+          <div class="c-card c-card--section bullets bullets--top-center">
+            <h2 class="l-section__title c-card__title text-center text-warning"><span class="icon-raio"></span><span>Por quê?</span></h2>
+            <div class="c-card__body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. Aenean fringilla eleifend bibendum. Integer efficitur nulla eget congue bibendum. Praesent convallis nisi ut magna pharetra condimentum. Vestibulum cursus, arcu non aliquet fermentum, magna sem suscipit urna, a convallis nunc lectus eget urna. Praesent tristique ligula non purus fermentum dignissim.</p>
             </div>
           </div>
         </div>
+      </section>
+      <section class="l-section" id="metodologia">
         <div class="container">
-          <div class="col-lg-8 col-sm-12 py-4 mx-auto">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. Aenean fringilla eleifend bibendum. Integer efficitur nulla eget congue bibendum. Praesent convallis nisi ut magna pharetra condimentum. Vestibulum cursus, arcu non aliquet fermentum, magna sem suscipit urna, a convallis nunc lectus eget urna. Praesent tristique ligula non purus fermentum dignissim.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. Aenean fringilla eleifend bibendum. Integer efficitur nulla eget congue bibendum. Praesent convallis nisi ut magna pharetra condimentum. Vestibulum cursus, arcu non aliquet fermentum, magna sem suscipit urna, a convallis nunc lectus eget urna. Praesent tristique ligula non purus fermentum dignissim.</p>
+          <div class="c-card c-card--section bullets bullets--orange bullets--right">
+            <figure class="l-section__img c-card__img"><img src="images/jovem-pesquisando.jpeg" alt="Jovem Pesquisando"></figure>
+            <h2 class="l-section__title c-card__title text-center"><span class="icon-lamp"></span><span>Metodologia</span></h2>
+            <div class="c-card__body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. Aenean fringilla eleifend bibendum. Integer efficitur nulla eget congue bibendum. Praesent convallis nisi ut magna pharetra condimentum. Vestibulum cursus, arcu non aliquet fermentum, magna sem suscipit urna, a convallis nunc lectus eget urna. Praesent tristique ligula non purus fermentum dignissim.</p>
+              <div class="c-card__link"><a class="c-btn c-btn--df c-btn--blue d-flex" href="#">Leia mais</a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="l-section" id="sistema-de-graduacao">
+        <div class="c-grad">
+          <div class="container pb-0">
+            <h2 class="l-section__title mb-0 pb-0 text-center d-flex align-items-center text-primary"><span class="icon-ninja"></span><span class="px-2">Sistema de Graduação</span></h2>
+            <p class="text-center pb-4">O Sistema de Graduação dos <strong>#NINJASWAAS</strong> se inspira nas habilidades das marciais.</p>
+          </div>
+          <div class="c-grad__display">
+            <div class="card-deck">
+              <div class="c-card bullets bullets--top-center" style="width: 14.5rem">
+                <div class="c-card__img c-card__img--circle"><img class="img-fluid" src="images/graduacao-1-despertar.jpg"></div>
+                <h3 class="c-card__title text-center pt-3 pb-2" id="metodologia">Despertar
+                </h3>
+                <div class="c-card__body text-center">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. </p>
+                </div>
+                <div class="d-flex"><a class="c-btn c-btn--df c-btn--blue c-btn--raio w-100 d-flex justify-content-center" href="#">Leia mais</a></div>
+              </div>
+              <div class="c-card bullets bullets--top-center" style="width: 14.5rem">
+                <div class="c-card__img c-card__img--circle"><img class="img-fluid" src="images/graduacao-2-aprender.jpg"></div>
+                <h3 class="c-card__title text-center pt-3 pb-2" id="metodologia">Aprender
+                </h3>
+                <div class="c-card__body text-center">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. </p>
+                </div>
+                <div class="d-flex"><a class="c-btn c-btn--df c-btn--blue c-btn--raio w-100 d-flex justify-content-center" href="#">Leia mais</a></div>
+              </div>
+              <div class="c-card bullets bullets--top-center" style="width: 14.5rem">
+                <div class="c-card__img c-card__img--circle"><img class="img-fluid" src="images/graduacao-3-explorar.jpg"></div>
+                <h3 class="c-card__title text-center pt-3 pb-2" id="metodologia">Explorar
+                </h3>
+                <div class="c-card__body text-center">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. </p>
+                </div>
+                <div class="d-flex"><a class="c-btn c-btn--df c-btn--blue c-btn--raio w-100 d-flex justify-content-center" href="#">Leia mais</a></div>
+              </div>
+              <div class="c-card bullets bullets--top-center" style="width: 14.5rem">
+                <div class="c-card__img c-card__img--circle"><img class="img-fluid" src="images/graduacao-4-prototipar.jpg"></div>
+                <h3 class="c-card__title text-center pt-3 pb-2" id="metodologia">Prototipar
+                </h3>
+                <div class="c-card__body text-center">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. </p>
+                </div>
+                <div class="d-flex"><a class="c-btn c-btn--df c-btn--blue c-btn--raio w-100 d-flex justify-content-center" href="#">Leia mais</a></div>
+              </div>
+              <div class="c-card bullets bullets--top-center" style="width: 14.5rem">
+                <div class="c-card__img c-card__img--circle"><img class="img-fluid" src="images/graduacao-5-desafiar.jpg"></div>
+                <h3 class="c-card__title text-center pt-3 pb-2" id="metodologia">Desafiar
+                </h3>
+                <div class="c-card__body text-center">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. </p>
+                </div>
+                <div class="d-flex"><a class="c-btn c-btn--df c-btn--blue c-btn--raio w-100 d-flex justify-content-center" href="#">Leia mais</a></div>
+              </div>
+              <div class="c-card bullets bullets--top-center" style="width: 14.5rem">
+                <div class="c-card__img c-card__img--circle"><img class="img-fluid" src="images/graduacao-6-aprimorar.jpg"></div>
+                <h3 class="c-card__title text-center pt-3 pb-2" id="metodologia">Aprimorar
+                </h3>
+                <div class="c-card__body text-center">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. </p>
+                </div>
+                <div class="d-flex"><a class="c-btn c-btn--df c-btn--blue c-btn--raio w-100 d-flex justify-content-center" href="#">Leia mais</a></div>
+              </div>
+              <div class="c-card bullets bullets--top-center" style="width: 14.5rem">
+                <div class="c-card__img c-card__img--circle"><img class="img-fluid" src="images/graduacao-7-transmitir.jpg"></div>
+                <h3 class="c-card__title text-center pt-3 pb-2" id="metodologia">Transmitir
+                </h3>
+                <div class="c-card__body text-center">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. </p>
+                </div>
+                <div class="d-flex"><a class="c-btn c-btn--df c-btn--blue c-btn--raio w-100 d-flex justify-content-center" href="#">Leia mais</a></div>
+              </div>
+              <div class="c-card bullets bullets--top-center" style="width: 14.5rem">
+                <div class="c-card__img c-card__img--circle"><img class="img-fluid" src="images/graduacao-8-empoderar.jpg"></div>
+                <h3 class="c-card__title text-center pt-3 pb-2" id="metodologia">Empoderar
+                </h3>
+                <div class="c-card__body text-center">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. </p>
+                </div>
+                <div class="d-flex"><a class="c-btn c-btn--df c-btn--blue c-btn--raio w-100 d-flex justify-content-center" href="#">Leia mais</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="l-section" id="eventos">
+        <div class="container">
+          <h2 class="l-section__title text-primary"><span class="icon-calendar"></span><span class="px-2">Eventos</span></h2>
+          <div class="row">
+            <div class="col-md-6 px-4">
+              <div class="c-card w-100 py-4 bullets bullets--top-center bullets--blue">
+                <figure class="l-section__img c-card__img mt-2" style="height:250px"><img src="images/jovem-pesquisando.jpeg" alt="Jovem Pesquisando"></figure>
+                <h3 class="c-card__title text-center h2">Hackateen</h3>
+                <div class="c-card__body text-center">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus.</p>
+                </div>
+                <div class="d-flex"><a class="c-btn c-btn--df c-btn--blue w-100 d-flex justify-content-center" href="#">Leia mais</a></div>
+              </div>
+            </div>
+            <div class="col-md-6 px-4">
+              <div class="c-card w-100 py-4 bullets bullets--top-center bullets--blue">
+                <figure class="l-section__img c-card__img mt-2" style="height:250px"><img src="images/jovem-pesquisando.jpeg" alt="Jovem Pesquisando"></figure>
+                <h3 class="c-card__title text-center h2">Dojo</h3>
+                <div class="c-card__body text-center">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus.</p>
+                </div>
+                <div class="d-flex"><a class="c-btn c-btn--df c-btn--blue w-100 d-flex justify-content-center" href="#">Leia mais</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="l-section bg-blue" id="conquistas">
+        <div class="container">
+          <h2 class="l-section__title"><span class="icon-trophy-cup-silhouette"></span><span class="px-2">Conquistas</span></h2>
+          <div class="glide glide-default">
+            <div class="glide__track mb-4" data-glide-el="track">
+              <ul class="glide__slides">
+                  <li class="glide__slide"><a class="text-white" href="https://www.facebook.com/InstitutoLegado/photos/a.297510197020038/1333520163419031/?type=3&amp;theater" target="_blank"><img class="img-fluid rounded" src="images/conquistas/premio-legado-2017-de-empreendedorismo-social.jpg">
+                      <div class="clearfix"></div>
+                      <div class="pt-2 pb-4 text-center"><span>Prêmio Legado de Empreendedorismo Social - 2017</span></div></a></li>
+                  <li class="glide__slide"><a class="text-white" href="https://www.facebook.com/InstitutoLegado/photos/a.297510197020038/1333520163419031/?type=3&amp;theater" target="_blank"><img class="img-fluid rounded" src="images/conquistas/premio-legado-2017-de-empreendedorismo-social.jpg">
+                      <div class="clearfix"></div>
+                      <div class="pt-2 pb-4 text-center"><span>Prêmio Legado de Empreendedorismo Social - 2017</span></div></a></li>
+                  <li class="glide__slide"><a class="text-white" href="https://www.facebook.com/InstitutoLegado/photos/a.297510197020038/1333520163419031/?type=3&amp;theater" target="_blank"><img class="img-fluid rounded" src="images/conquistas/premio-legado-2017-de-empreendedorismo-social.jpg">
+                      <div class="clearfix"></div>
+                      <div class="pt-2 pb-4 text-center"><span>Prêmio Legado de Empreendedorismo Social - 2017</span></div></a></li>
+                  <li class="glide__slide"><a class="text-white" href="https://www.facebook.com/InstitutoLegado/photos/a.297510197020038/1333520163419031/?type=3&amp;theater" target="_blank"><img class="img-fluid rounded" src="images/conquistas/premio-legado-2017-de-empreendedorismo-social.jpg">
+                      <div class="clearfix"></div>
+                      <div class="pt-2 pb-4 text-center"><span>Prêmio Legado de Empreendedorismo Social - 2017</span></div></a></li>
+                  <li class="glide__slide"><a class="text-white" href="https://www.facebook.com/InstitutoLegado/photos/a.297510197020038/1333520163419031/?type=3&amp;theater" target="_blank"><img class="img-fluid rounded" src="images/conquistas/premio-legado-2017-de-empreendedorismo-social.jpg">
+                      <div class="clearfix"></div>
+                      <div class="pt-2 pb-4 text-center"><span>Prêmio Legado de Empreendedorismo Social - 2017</span></div></a></li>
+                  <li class="glide__slide"><a class="text-white" href="https://www.facebook.com/InstitutoLegado/photos/a.297510197020038/1333520163419031/?type=3&amp;theater" target="_blank"><img class="img-fluid rounded" src="images/conquistas/premio-legado-2017-de-empreendedorismo-social.jpg">
+                      <div class="clearfix"></div>
+                      <div class="pt-2 pb-4 text-center"><span>Prêmio Legado de Empreendedorismo Social - 2017</span></div></a></li>
+                  <li class="glide__slide"><a class="text-white" href="https://www.facebook.com/InstitutoLegado/photos/a.297510197020038/1333520163419031/?type=3&amp;theater" target="_blank"><img class="img-fluid rounded" src="images/conquistas/premio-legado-2017-de-empreendedorismo-social.jpg">
+                      <div class="clearfix"></div>
+                      <div class="pt-2 pb-4 text-center"><span>Prêmio Legado de Empreendedorismo Social - 2017</span></div></a></li>
+                  <li class="glide__slide"><a class="text-white" href="https://www.facebook.com/InstitutoLegado/photos/a.297510197020038/1333520163419031/?type=3&amp;theater" target="_blank"><img class="img-fluid rounded" src="images/conquistas/premio-legado-2017-de-empreendedorismo-social.jpg">
+                      <div class="clearfix"></div>
+                      <div class="pt-2 pb-4 text-center"><span>Prêmio Legado de Empreendedorismo Social - 2017</span></div></a></li>
+              </ul>
+            </div>
+            <div class="glide__bullets" data-glide-el="controls[nav]" style="bottom: -15px">
+                <button class="glide__bullet" data-glide-dir="=0"></button>
+                <button class="glide__bullet" data-glide-dir="=1"></button>
+                <button class="glide__bullet" data-glide-dir="=2"></button>
+                <button class="glide__bullet" data-glide-dir="=3"></button>
+                <button class="glide__bullet" data-glide-dir="=4"></button>
+                <button class="glide__bullet" data-glide-dir="=5"></button>
+                <button class="glide__bullet" data-glide-dir="=6"></button>
+                <button class="glide__bullet" data-glide-dir="=7"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="l-section" id="mais-conquistas">
+        <div class="container">
+          <h2 class="l-section__title text-primary d-flex align-items-center"><span class="icon-line-chart"></span><span class="px-4">Mais conquistas</span></h2>
+          <div class="row">
+            <div class="col-md-4 text-center text-black-50">
+              <h3 class="mt-2 d-flex flex-column justify-content-center"> <strong> <span class="icon-raio" role="icon"></span><span class="h1 font-weight-bold">1000</span></strong><span>Ninjas graduados</span></h3>
+            </div>
+            <div class="col-md-4 text-center text-black-50">
+              <h3 class="mt-2 d-flex flex-column justify-content-center"> <strong> <span class="icon-raio" role="icon"></span><span class="h1 font-weight-bold">10</span></strong><span>Cidades</span></h3>
+            </div>
+            <div class="col-md-4 text-center text-black-50">
+              <h3 class="mt-2 d-flex flex-column justify-content-center"> <strong><span class="icon-raio" role="icon"></span><span class="h1 font-weight-bold">1000</span></strong><span>Hackateens </span></h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="l-section l-section-partners" id="parceiros" style="background-color: #fff;">
+        <div class="container">
+          <h2 class="l-section__title text-primary"><span class="icon-partners-claping-hands"></span><span>Parceiros</span></h2>
+          <div class="d-flex flex-wrap justify-content-center"><a class="l-section-partners__item text-center p-2" href="http://www.institutorobertbosch.org.br" target="_blank"><img class="img-fluid" src="images/parceiros/instituto-robert-bosch.jpg" alt="Instituto Robert Bosch"></a><a class="l-section-partners__item text-center p-2" href="http://www.institutorobertbosch.org.br" target="_blank"><img class="img-fluid" src="images/parceiros/instituto-robert-bosch.jpg" alt="Instituto Robert Bosch"></a><a class="l-section-partners__item text-center p-2" href="http://www.institutorobertbosch.org.br" target="_blank"><img class="img-fluid" src="images/parceiros/instituto-robert-bosch.jpg" alt="Instituto Robert Bosch"></a><a class="l-section-partners__item text-center p-2" href="http://www.institutorobertbosch.org.br" target="_blank"><img class="img-fluid" src="images/parceiros/instituto-robert-bosch.jpg" alt="Instituto Robert Bosch"></a><a class="l-section-partners__item text-center p-2" href="http://www.institutorobertbosch.org.br" target="_blank"><img class="img-fluid" src="images/parceiros/instituto-robert-bosch.jpg" alt="Instituto Robert Bosch"></a><a class="l-section-partners__item text-center p-2" href="http://www.institutorobertbosch.org.br" target="_blank"><img class="img-fluid" src="images/parceiros/instituto-robert-bosch.jpg" alt="Instituto Robert Bosch"></a><a class="l-section-partners__item text-center p-2" href="http://www.institutorobertbosch.org.br" target="_blank"><img class="img-fluid" src="images/parceiros/instituto-robert-bosch.jpg" alt="Instituto Robert Bosch"></a><a class="l-section-partners__item text-center p-2" href="http://www.institutorobertbosch.org.br" target="_blank"><img class="img-fluid" src="images/parceiros/instituto-robert-bosch.jpg" alt="Instituto Robert Bosch"></a><a class="l-section-partners__item text-center p-2" href="http://www.institutorobertbosch.org.br" target="_blank"><img class="img-fluid" src="images/parceiros/instituto-robert-bosch.jpg" alt="Instituto Robert Bosch"></a>
+          </div>
+        </div>
+      </section>
+      <section class="l-section" id="depoimentos">
+        <div class="container">
+          <h2 class="l-section__title pb-4 mb-4 text-primary"><span class="icon-feedback"></span><span>Depoimentos</span></h2>
+          <div class="glide glide-testimonial mt-4">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                  <li class="glide__slide">
+                    <blockquote class="blockquote px-2">
+                      <div class="row c-card bullets py-4">
+                        <div class="col-md-3 col-sm-12 col-xs-12 text-center"><img class="img-fluid rounded-circle" src="https://scontent.fbfh10-1.fna.fbcdn.net/v/t31.0-1/p320x320/28618862_10210831476923193_6680567936615428198_o.jpg?_nc_cat=109&amp;_nc_oc=AQn19ilj7-L2fofzZIkJjm1aWiUDTsM_5HqyoUA7kD4PAUvZY78C0IBON-LSjH-pK9g&amp;_nc_ht=scontent.fbfh10-1.fna&amp;oh=ffa292f353567b117d198657686b2f14&amp;oe=5E4E97D7"></div>
+                        <div class="col-md-9 col-sm-12 col-xs-12">
+                          <p>Melhoooooor projeto de empreendedorismo social que já participei! WAAS vai salvar o mundo S2</p>
+                          <footer class="blockquote-footer">Lucas Klein</footer>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </li>
+                  <li class="glide__slide">
+                    <blockquote class="blockquote px-2">
+                      <div class="row c-card bullets py-4">
+                        <div class="col-md-3 col-sm-12 col-xs-12 text-center"><img class="img-fluid rounded-circle" src="https://scontent.fbfh10-1.fna.fbcdn.net/v/t31.0-1/p320x320/28618862_10210831476923193_6680567936615428198_o.jpg?_nc_cat=109&amp;_nc_oc=AQn19ilj7-L2fofzZIkJjm1aWiUDTsM_5HqyoUA7kD4PAUvZY78C0IBON-LSjH-pK9g&amp;_nc_ht=scontent.fbfh10-1.fna&amp;oh=ffa292f353567b117d198657686b2f14&amp;oe=5E4E97D7"></div>
+                        <div class="col-md-9 col-sm-12 col-xs-12">
+                          <p>Melhoooooor projeto de empreendedorismo social que já participei! WAAS vai salvar o mundo S2</p>
+                          <footer class="blockquote-footer">Lucas Klein</footer>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </li>
+                  <li class="glide__slide">
+                    <blockquote class="blockquote px-2">
+                      <div class="row c-card bullets py-4">
+                        <div class="col-md-3 col-sm-12 col-xs-12 text-center"><img class="img-fluid rounded-circle" src="https://scontent.fbfh10-1.fna.fbcdn.net/v/t31.0-1/p320x320/28618862_10210831476923193_6680567936615428198_o.jpg?_nc_cat=109&amp;_nc_oc=AQn19ilj7-L2fofzZIkJjm1aWiUDTsM_5HqyoUA7kD4PAUvZY78C0IBON-LSjH-pK9g&amp;_nc_ht=scontent.fbfh10-1.fna&amp;oh=ffa292f353567b117d198657686b2f14&amp;oe=5E4E97D7"></div>
+                        <div class="col-md-9 col-sm-12 col-xs-12">
+                          <p>Melhoooooor projeto de empreendedorismo social que já participei! WAAS vai salvar o mundo S2</p>
+                          <footer class="blockquote-footer">Lucas Klein</footer>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </li>
+                  <li class="glide__slide">
+                    <blockquote class="blockquote px-2">
+                      <div class="row c-card bullets py-4">
+                        <div class="col-md-3 col-sm-12 col-xs-12 text-center"><img class="img-fluid rounded-circle" src="https://scontent.fbfh10-1.fna.fbcdn.net/v/t31.0-1/p320x320/28618862_10210831476923193_6680567936615428198_o.jpg?_nc_cat=109&amp;_nc_oc=AQn19ilj7-L2fofzZIkJjm1aWiUDTsM_5HqyoUA7kD4PAUvZY78C0IBON-LSjH-pK9g&amp;_nc_ht=scontent.fbfh10-1.fna&amp;oh=ffa292f353567b117d198657686b2f14&amp;oe=5E4E97D7"></div>
+                        <div class="col-md-9 col-sm-12 col-xs-12">
+                          <p>Melhoooooor projeto de empreendedorismo social que já participei! WAAS vai salvar o mundo S2</p>
+                          <footer class="blockquote-footer">Lucas Klein</footer>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </li>
+                  <li class="glide__slide">
+                    <blockquote class="blockquote px-2">
+                      <div class="row c-card bullets py-4">
+                        <div class="col-md-3 col-sm-12 col-xs-12 text-center"><img class="img-fluid rounded-circle" src="https://scontent.fbfh10-1.fna.fbcdn.net/v/t31.0-1/p320x320/28618862_10210831476923193_6680567936615428198_o.jpg?_nc_cat=109&amp;_nc_oc=AQn19ilj7-L2fofzZIkJjm1aWiUDTsM_5HqyoUA7kD4PAUvZY78C0IBON-LSjH-pK9g&amp;_nc_ht=scontent.fbfh10-1.fna&amp;oh=ffa292f353567b117d198657686b2f14&amp;oe=5E4E97D7"></div>
+                        <div class="col-md-9 col-sm-12 col-xs-12">
+                          <p>Melhoooooor projeto de empreendedorismo social que já participei! WAAS vai salvar o mundo S2</p>
+                          <footer class="blockquote-footer">Lucas Klein</footer>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </li>
+                  <li class="glide__slide">
+                    <blockquote class="blockquote px-2">
+                      <div class="row c-card bullets py-4">
+                        <div class="col-md-3 col-sm-12 col-xs-12 text-center"><img class="img-fluid rounded-circle" src="https://scontent.fbfh10-1.fna.fbcdn.net/v/t31.0-1/p320x320/28618862_10210831476923193_6680567936615428198_o.jpg?_nc_cat=109&amp;_nc_oc=AQn19ilj7-L2fofzZIkJjm1aWiUDTsM_5HqyoUA7kD4PAUvZY78C0IBON-LSjH-pK9g&amp;_nc_ht=scontent.fbfh10-1.fna&amp;oh=ffa292f353567b117d198657686b2f14&amp;oe=5E4E97D7"></div>
+                        <div class="col-md-9 col-sm-12 col-xs-12">
+                          <p>Melhoooooor projeto de empreendedorismo social que já participei! WAAS vai salvar o mundo S2</p>
+                          <footer class="blockquote-footer">Lucas Klein</footer>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </li>
+                  <li class="glide__slide">
+                    <blockquote class="blockquote px-2">
+                      <div class="row c-card bullets py-4">
+                        <div class="col-md-3 col-sm-12 col-xs-12 text-center"><img class="img-fluid rounded-circle" src="https://scontent.fbfh10-1.fna.fbcdn.net/v/t31.0-1/p320x320/28618862_10210831476923193_6680567936615428198_o.jpg?_nc_cat=109&amp;_nc_oc=AQn19ilj7-L2fofzZIkJjm1aWiUDTsM_5HqyoUA7kD4PAUvZY78C0IBON-LSjH-pK9g&amp;_nc_ht=scontent.fbfh10-1.fna&amp;oh=ffa292f353567b117d198657686b2f14&amp;oe=5E4E97D7"></div>
+                        <div class="col-md-9 col-sm-12 col-xs-12">
+                          <p>Melhoooooor projeto de empreendedorismo social que já participei! WAAS vai salvar o mundo S2</p>
+                          <footer class="blockquote-footer">Lucas Klein</footer>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </li>
+                  <li class="glide__slide">
+                    <blockquote class="blockquote px-2">
+                      <div class="row c-card bullets py-4">
+                        <div class="col-md-3 col-sm-12 col-xs-12 text-center"><img class="img-fluid rounded-circle" src="https://scontent.fbfh10-1.fna.fbcdn.net/v/t31.0-1/p320x320/28618862_10210831476923193_6680567936615428198_o.jpg?_nc_cat=109&amp;_nc_oc=AQn19ilj7-L2fofzZIkJjm1aWiUDTsM_5HqyoUA7kD4PAUvZY78C0IBON-LSjH-pK9g&amp;_nc_ht=scontent.fbfh10-1.fna&amp;oh=ffa292f353567b117d198657686b2f14&amp;oe=5E4E97D7"></div>
+                        <div class="col-md-9 col-sm-12 col-xs-12">
+                          <p>Melhoooooor projeto de empreendedorismo social que já participei! WAAS vai salvar o mundo S2</p>
+                          <footer class="blockquote-footer">Lucas Klein</footer>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </li>
+              </ul>
+            </div>
+            <div class="glide__bullets" data-glide-el="controls[nav]" style="bottom: -15px">
+                <button class="glide__bullet" data-glide-dir="=0"></button>
+                <button class="glide__bullet" data-glide-dir="=1"></button>
+                <button class="glide__bullet" data-glide-dir="=2"></button>
+                <button class="glide__bullet" data-glide-dir="=3"></button>
+                <button class="glide__bullet" data-glide-dir="=4"></button>
+                <button class="glide__bullet" data-glide-dir="=5"></button>
+                <button class="glide__bullet" data-glide-dir="=6"></button>
+                <button class="glide__bullet" data-glide-dir="=7"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="l-section" id="noticias">
+        <div class="container">
+          <div class="c-card c-card--section mb-4 px-0 bullets bullets--red">
+            <h2 class="l-section__title c-card__title"><span class="icon-hashtag"></span><span>O que estão falando sobre nós</span></h2>
+            <div class="c-card__body h-100">
+              <div class="c-grid js-gallery--news">
+                  <div class="c-grid__item c-card text-center bg-transparent border-0"><a class="c-grid__link" href="https://jornaldacic.com.br/2019/09/04/raul-guedes-o-menino-que-foi-pra-nasa-agora-vai-para-harvard/" target="_blank">
+                      <div class="c-card-img-top"><img class="rounded" src="images/clipping/o-menino-que-foi-pra-nasa-agora-vai-para-harvard.png" alt="Imagem"></div>
+                      <div class="c-card__body">
+                        <p class="card-text">
+                           O Menino que foi para a NASA, agora vai para HAVARD</p>
+                      </div></a></div>
+                  <div class="c-grid__item c-card text-center bg-transparent border-0"><a class="c-grid__link" href="https://jornaldacic.com.br/2019/09/04/raul-guedes-o-menino-que-foi-pra-nasa-agora-vai-para-harvard/" target="_blank">
+                      <div class="c-card-img-top"><img class="rounded" src="images/clipping/o-menino-que-foi-pra-nasa-agora-vai-para-harvard.png" alt="Imagem"></div>
+                      <div class="c-card__body">
+                        <p class="card-text">
+                           O Menino que foi para a NASA, agora vai para HAVARD</p>
+                      </div></a></div>
+                  <div class="c-grid__item c-card text-center bg-transparent border-0"><a class="c-grid__link" href="https://jornaldacic.com.br/2019/09/04/raul-guedes-o-menino-que-foi-pra-nasa-agora-vai-para-harvard/" target="_blank">
+                      <div class="c-card-img-top"><img class="rounded" src="images/clipping/o-menino-que-foi-pra-nasa-agora-vai-para-harvard.png" alt="Imagem"></div>
+                      <div class="c-card__body">
+                        <p class="card-text">
+                           O Menino que foi para a NASA, agora vai para HAVARD</p>
+                      </div></a></div>
+                  <div class="c-grid__item c-card text-center bg-transparent border-0"><a class="c-grid__link" href="https://jornaldacic.com.br/2019/09/04/raul-guedes-o-menino-que-foi-pra-nasa-agora-vai-para-harvard/" target="_blank">
+                      <div class="c-card-img-top"><img class="rounded" src="images/clipping/o-menino-que-foi-pra-nasa-agora-vai-para-harvard.png" alt="Imagem"></div>
+                      <div class="c-card__body">
+                        <p class="card-text">
+                           O Menino que foi para a NASA, agora vai para HAVARD</p>
+                      </div></a></div>
+                  <div class="c-grid__item c-card text-center bg-transparent border-0"><a class="c-grid__link" href="https://jornaldacic.com.br/2019/09/04/raul-guedes-o-menino-que-foi-pra-nasa-agora-vai-para-harvard/" target="_blank">
+                      <div class="c-card-img-top"><img class="rounded" src="images/clipping/o-menino-que-foi-pra-nasa-agora-vai-para-harvard.png" alt="Imagem"></div>
+                      <div class="c-card__body">
+                        <p class="card-text">
+                           O Menino que foi para a NASA, agora vai para HAVARD</p>
+                      </div></a></div>
+                  <div class="c-grid__item c-card text-center bg-transparent border-0"><a class="c-grid__link" href="https://jornaldacic.com.br/2019/09/04/raul-guedes-o-menino-que-foi-pra-nasa-agora-vai-para-harvard/" target="_blank">
+                      <div class="c-card-img-top"><img class="rounded" src="images/clipping/o-menino-que-foi-pra-nasa-agora-vai-para-harvard.png" alt="Imagem"></div>
+                      <div class="c-card__body">
+                        <p class="card-text">
+                           O Menino que foi para a NASA, agora vai para HAVARD</p>
+                      </div></a></div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -155,6 +482,19 @@
           </div>
         </div>
       </section>
+      <script>
+        try {
+          var glideTestimonial = new Glide('.glide-testimonial', {
+            type: 'carousel',
+            autoplay: 4000,
+            perView: 1,
+            focusAt: 'center',
+            animationTimingFunc: 'ease',
+            animationDuration: 800
+          });
+          glideTestimonial.mount();
+        } catch(err) { }
+      </script>
     </main>
     <section class="footer l-footer mt-4">
       <div class="container">
@@ -213,5 +553,18 @@
 <script src="scripts/lightbox.js"></script>
 <script src="scripts/main.js"></script>
 <!-- endbuild -->
+    <script>
+      try {
+        var glideTestimonial = new Glide('.glide-testimonial', {
+          type: 'carousel',
+          autoplay: 4000,
+          perView: 1,
+          focusAt: 'center',
+          animationTimingFunc: 'ease',
+          animationDuration: 800
+        });
+        glideTestimonial.mount();
+      } catch(err) { }
+    </script>
   </body>
 </html>
