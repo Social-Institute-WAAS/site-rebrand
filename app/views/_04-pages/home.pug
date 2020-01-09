@@ -30,30 +30,34 @@ block main
   
     span.alert-has-scroll
 
-  section.l-section#por-que
+  section.l-section#sobre-nos
     .container
-      .c-card.c-card--section.bullets.bullets--top-center
+      .c-card.c-card--section.bullets.bullets--top-center.mx-4
+        figure.l-section__img.c-card__img
+          img(src="images/equipe.jpg", alt="Equipe WAAS")
         h2.l-section__title.c-card__title.text-center.text-warning
           span.icon-raio
-          span Por quê?
+          span Sobre Nós
         .c-card__body
-          p
-            | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. Aenean fringilla eleifend bibendum. Integer efficitur nulla eget congue bibendum. Praesent convallis nisi ut magna pharetra condimentum. Vestibulum cursus, arcu non aliquet fermentum, magna sem suscipit urna, a convallis nunc lectus eget urna. Praesent tristique ligula non purus fermentum dignissim.
+          p Nós somos uma organização social e acreditamos que tecnologia e correta orientação entregue a jovens, transformaram positivamente suas comunidades.
+          p Encorajamos nossos jovens a resolverem problemas, a explorarem tecnologias e acreditarem mais em si.
+          p Vemos a tecnologia como um meio para amplificar o impacto das ideias e das ações das pessoas.
+          p A cada semestre oferecemos oportunidade para jovens aprenderem novas tecnologias, e desenvolverem soluções reais para problemas de sua comunidade.
+          p Diante de situações extremamente adversas encontradas em comunidades carentes, nos inspiramos nos empreendedores para incentivar soluções criativas, habilidades "Ninjas" para encarar e solucionar os problemas.
+          p Acreditamos fortemente em juntar as pessoas para fortalecer a comunidade, e pavimentar um futuro melhor para todos.
   
   //- COMO FAZEMOS
   section.l-section#metodologia
     .container
       .c-card.c-card--section.bullets.bullets--orange.bullets--right
         figure.l-section__img.c-card__img
-          img(src="images/jovem-pesquisando.jpeg", alt="Jovem Pesquisando")
+          img(src="images/alunas-brainstorm-metodologia.jpg", alt="Alunas apresentando o brainstorming")
         h2.l-section__title.c-card__title.text-center
           span.icon-lamp
           span Metodologia
         .c-card__body
           p
-            | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. Aenean fringilla eleifend bibendum. Integer efficitur nulla eget congue bibendum. Praesent convallis nisi ut magna pharetra condimentum. Vestibulum cursus, arcu non aliquet fermentum, magna sem suscipit urna, a convallis nunc lectus eget urna. Praesent tristique ligula non purus fermentum dignissim.
-          .c-card__link
-            a.c-btn.c-btn--df.c-btn--blue(href='#').d-flex Leia mais
+            | A metodologia WAAS possui 3 semestres de duração, cada semestre é focado em um objetivo diferente. Ao longo dos semestres existem as graduações, que assim como no Judô, representam um conjunto de habilidades e desafios que os jovens Ninjas WAAS devem desenvolver. Cada graduação possui um boton que o representa, como as faixas do Judô. A seguir temos a descrição dos semestres e graduações da metodologia.
     
   //- SISTEMA DE GRADUACAO
   section.l-section#sistema-de-graduacao
@@ -68,6 +72,7 @@ block main
       .c-grad__display
         .card-deck
           - var etapas = ['Despertar', 'Aprender', 'Explorar', 'Prototipar', 'Desafiar', 'Aprimorar', 'Transmitir', 'Empoderar']
+          - var content = ['Conhecer a tecnologia como ferramenta.','Usar a internet como fonte de pesquisa e de conteúdo didático.','Explorar as ferramentas tecnológicas.','Integrar os conhecimentos adquiridos para prototipar e resolver pequenos desafios','Hackateen - Um hackathon para jovens.','Aprimorar', 'Transmitir', 'Empoderar']
 
           - var counter = 1
           each val, index in etapas
@@ -77,10 +82,9 @@ block main
               h3.c-card__title.text-center#metodologia.pt-3.pb-2
                 = val
               .c-card__body.text-center
-                p
-                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus. 
-              .d-flex
-                a.c-btn.c-btn--df.c-btn--blue.w-100.d-flex(href='#').justify-content-center Leia mais
+                p #{content[counter - 1]}
+              //- .d-flex
+              //-   a.c-btn.c-btn--df.c-btn--blue.w-100.d-flex(href='#').justify-content-center Leia mais
 
   //- EVENTS
   section.l-section#eventos
@@ -88,29 +92,30 @@ block main
       h2.l-section__title.text-primary
         span.icon-calendar
         span.px-2 Eventos
+      p.text-center Eventos para promover o exercício do criativo da capacidade do jovem resolver problemas com tecnologia.
       .row
         //- Hackateen
         .col-md-6.px-4
           .c-card.w-100.py-4.bullets.bullets--top-center.bullets--blue
             figure.l-section__img.c-card__img.mt-2(style='height:250px')
-              img(src="images/jovem-pesquisando.jpeg", alt="Jovem Pesquisando")
+              img(src="images/hackateen-aliança.jpeg", alt="Jovem Pesquisando")
             h3.c-card__title.text-center.h2
               | Hackateen
             .c-card__body.text-center
-              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus.
+              p Hackathon dos Jovens Ninjas WAAS. A missão é desenvolver soluções para os problemas da comunidade, com a ajuda da Tecnologia.
             .d-flex
-              a.c-btn.c-btn--df.c-btn--blue.w-100(href='#').d-flex.justify-content-center Leia mais
+              a.c-btn.c-btn--df.c-btn--blue.w-100(href='https://www.facebook.com/pg/waas.ninja/events/?ref=page_internal' target='_blank').d-flex.justify-content-center Agenda
         //- Dojo
         .col-md-6.px-4
           .c-card.w-100.py-4.bullets.bullets--top-center.bullets--blue
             figure.l-section__img.c-card__img.mt-2(style='height:250px')
-              img(src="images/jovem-pesquisando.jpeg", alt="Jovem Pesquisando")
+              img(src="images/dojo-joinville.jpg", alt="Jovem Pesquisando")
             h3.c-card__title.text-center.h2
-              | Dojo
+              | Dojo Spark
             .c-card__body.text-center
-              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor accumsan diam. Maecenas in pretium purus.
+              p Evento em formato de competição usando tecnologia. Corrida de carrinhos, Luta de robôs, gincana, Desafios e Demonstrações de habilidades.
             .d-flex
-              a.c-btn.c-btn--df.c-btn--blue.w-100(href='#').d-flex.justify-content-center Leia mais
+              a.c-btn.c-btn--df.c-btn--blue.w-100(href='https://www.facebook.com/pg/waas.ninja/events/?ref=page_internal' target='_blank').d-flex.justify-content-center Em breve
     
   //- CONQUISTAS
   section#conquistas.l-section.bg-blue
@@ -121,21 +126,40 @@ block main
       .glide
         .glide__track.mb-4(data-glide-el='track')
           ul.glide__slides
-            +repeat(8)
-              li.glide__slide
-                a.text-white(href='https://www.facebook.com/InstitutoLegado/photos/a.297510197020038/1333520163419031/?type=3&theater' target="_blank")
-                  img.img-fluid.rounded(src="images/conquistas/premio-legado-2017-de-empreendedorismo-social.jpg")
-                  .clearfix
-                  .pt-2.pb-4.text-center
-                    span Prêmio Legado de Empreendedorismo Social - 2017
+            //- 
+            li.glide__slide
+              a.text-white(href='https://www.facebook.com/InstitutoLegado/photos/a.297510197020038/1333520163419031/?type=3&theater' target="_blank")
+                img.img-fluid.rounded(src="images/conquistas/premio-legado-2017-de-empreendedorismo-social.jpg")
+                .clearfix
+                .pt-2.pb-4.text-center
+                  span Prêmio Legado de Empreendedorismo Social - 2017
+            //- 
+            li.glide__slide
+              a.text-white(href='https://jornaldacic.com.br/2017/10/09/da-cic-para-a-nasa/' target="_blank")
+                img.img-fluid.rounded(src="images/conquistas/mission-to-nasa.jpg")
+                .clearfix
+                .pt-2.pb-4.text-center
+                  span Mission to Nasa - 2018
+            //- 
+            li.glide__slide
+              a.text-white(href='https://globoplay.globo.com/v/7562927' target="_blank")
+                img.img-fluid.rounded(src="images/conquistas/ninjas-waas-inun.jpeg")
+                .clearfix
+                .pt-2.pb-4.text-center
+                  span INUN - Monitorando Enchentes - 2019
+            li.glide__slide
+              a.text-white(href='https://g1.globo.com/pr/parana/noticia/2019/11/18/estudante-de-curitiba-que-criou-aplicativo-para-avisar-moradores-sobre-enchentes-ganha-bolsa-em-harvard.ghtml' target="_blank")
+                img.img-fluid.rounded(src="images/conquistas/ninja-waas-in-harvard.jpeg")
+                .clearfix
+                .pt-2.pb-4.text-center
+                  span Ninjas WAAS em Harvard - 2019
         //- .glide__arrows(data-glide-el='controls')
         //-   button.glide__arrow.glide__arrow--left(data-glide-dir="<") prev
         //-   button.glide__arrow.glide__arrow--right(data-glide-dir=">") next    
 
         .glide__bullets(data-glide-el='controls[nav]' style="bottom: -15px")
-          - var counter = 0
-          +repeat(8)
-            button.glide__bullet(data-glide-dir=`=${counter++}`)
+          button.glide__bullet(data-glide-dir=`=1`)
+          button.glide__bullet(data-glide-dir=`=2`)
   
   //- MAIS CONQUISTAS
   section#mais-conquistas.l-section
@@ -155,14 +179,14 @@ block main
           h3.mt-2.d-flex.flex-column.justify-content-center 
             strong 
               span.icon-raio(role='icon')
-              span.h1.font-weight-bold 10
+              span.h1.font-weight-bold 9
             span Cidades
         
         .col-md-4.text-center.text-black-50
           h3.mt-2.d-flex.flex-column.justify-content-center 
             strong
               span.icon-raio(role='icon')
-              span.h1.font-weight-bold 1000
+              span.h1.font-weight-bold 10
             span Hackateens 
 
   //- PARTNERS
@@ -172,10 +196,29 @@ block main
         span.icon-partners-claping-hands
         //- span.icon-multiple-users-silhouette
         span Parceiros
-      .d-flex.flex-wrap.justify-content-center
-        +repeat(9)
-          a.l-section-partners__item(href="http://www.institutorobertbosch.org.br" target="_blank").text-center.p-2
-            img.img-fluid(src="images/parceiros/instituto-robert-bosch.jpg" alt='Instituto Robert Bosch')
+      .d-flex.flex-wrap.justify-content-center.align-items-center
+        //- 
+        a.l-section-partners__item(href="http://www.institutorobertbosch.org.br" target="_blank").text-center.p-2
+          img.img-fluid(src="images/parceiros/instituto-robert-bosch.jpg" alt='Instituto Robert Bosch')
+        //- 
+        a.l-section-partners__item(href="http://jupter.co" target="_blank").text-center.p-2
+          img.img-fluid(src="images/parceiros/jupter.jpg" alt='Jupter')
+        //- 
+        a.l-section-partners__item(href="http://http//aliancaempreendedora.org.br/" target="_blank").text-center.p-2
+          img.img-fluid(src="images/parceiros/alianca-empreendedora.png" alt='Aliança Empreendedora')
+        //- 
+        a.l-section-partners__item(href="https://br.usembassy.gov/pt/" target="_blank").text-center.p-2
+          img.img-fluid(src="images/parceiros/consulado-eua.png" alt='Embaixada e Consulados dos Estados Unidos')
+        //- 
+        a.l-section-partners__item(href="https://institutolegado.org/" target="_blank").text-center.p-2
+          img.img-fluid(src="images/parceiros/legado.png" alt='Instituto Legado')
+        //- 
+        a.l-section-partners__item(href="http://vps.org.br/" target="_blank").text-center.p-2
+          img.img-fluid(src="images/parceiros/projeto-vida.png" alt='Projeto Vida')
+        //- 
+        a.l-section-partners__item(href="https://www.sistemafiep.org.br/" target="_blank" style="max-width: 21rem;width: 100%;").text-center.p-2
+          img.img-fluid(src="images/parceiros/senai-azul.jpg" alt='Sistema Fiep - SENAI')
+  
   
   //- DEMPOIMENTOS
   section.l-section#depoimentos
@@ -186,7 +229,7 @@ block main
       .glide.glide-testimonial.mt-4
         .glide__track(data-glide-el='track')
           ul.glide__slides
-            +repeat(8)
+            +repeat(1)
               li.glide__slide
                 blockquote.blockquote.px-2
                   .row.c-card.bullets.py-4
@@ -198,26 +241,27 @@ block main
         
         .glide__bullets(data-glide-el='controls[nav]' style="bottom: -15px")
           - var counter = 0
-          +repeat(8)
+          +repeat(1)
             button.glide__bullet(data-glide-dir=`=${counter++}`)
+            
   //- NO QUE A COMUNIDADE ESTÁ FALANDO SOBRE NÓS
-  section.l-section#noticias
-    .container
-      .c-card.c-card--section.mb-4.px-0.bullets.bullets--red
-        h2.l-section__title.c-card__title
-          span.icon-hashtag
-          span O que estão falando sobre nós
-        .c-card__body.h-100
-          .c-grid.js-gallery--news
-            +repeat(6)
-              .c-grid__item.c-card.text-center.bg-transparent.border-0
-                a.c-grid__link(href='https://jornaldacic.com.br/2019/09/04/raul-guedes-o-menino-que-foi-pra-nasa-agora-vai-para-harvard/' target='_blank')
-                  .c-card-img-top
-                    img(src="images/clipping/o-menino-que-foi-pra-nasa-agora-vai-para-harvard.png" alt="Imagem").rounded   
-                  .c-card__body
-                    //- h4.c-card__title Card Title
-                    p.card-text 
-                      | O Menino que foi para a NASA, agora vai para HAVARD
+  //- section.l-section#noticias
+  //-   .container
+  //-     .c-card.c-card--section.mb-4.px-0.bullets.bullets--red
+  //-       h2.l-section__title.c-card__title
+  //-         span.icon-hashtag
+  //-         span O que estão falando sobre nós
+  //-       .c-card__body.h-100
+  //-         .c-grid.js-gallery--news
+  //-           +repeat(6)
+  //-             .c-grid__item.c-card.text-center.bg-transparent.border-0
+  //-               a.c-grid__link(href='https://jornaldacic.com.br/2019/09/04/raul-guedes-o-menino-que-foi-pra-nasa-agora-vai-para-harvard/' target='_blank')
+  //-                 .c-card-img-top
+  //-                   img(src="images/clipping/o-menino-que-foi-pra-nasa-agora-vai-para-harvard.png" alt="Imagem").rounded   
+  //-                 .c-card__body
+  //-                   //- h4.c-card__title Card Title
+  //-                   p.card-text 
+  //-                     | O Menino que foi para a NASA, agora vai para HAVARD
     
   //- NEWSLETTER
   section.l-section.mb-4#newsletter
@@ -249,13 +293,13 @@ block main
                 span.icon-linkedin
                 span.pl-2 @instituto-social-waas
 
-        .col-lg-10.col-sm-12.mx-auto
-          h3.p-2.text-primary 
-            span.icon-envelope
-            span  Receba nossa news
-          .form-group.form-group-lg.text-right(action="post" target="_self")
-              input.form-control.form-control-lg.mb-4(type="text" placeholder="E-mail" aria-label="E-mail")
-              .d-flex
-                button.c-btn.c-btn--df.c-btn--green.w-100.d-flex.justify-content-center(type="submit")
-                  span Inscreve
+        //- .col-lg-10.col-sm-12.mx-auto
+        //-   h3.p-2.text-primary 
+        //-     span.icon-envelope
+        //-     span  Receba nossa news
+        //-   .form-group.form-group-lg.text-right(action="post" target="_self")
+        //-       input.form-control.form-control-lg.mb-4(type="text" placeholder="E-mail" aria-label="E-mail")
+        //-       .d-flex
+        //-         button.c-btn.c-btn--df.c-btn--green.w-100.d-flex.justify-content-center(type="submit")
+        //-           span Inscreve
         
