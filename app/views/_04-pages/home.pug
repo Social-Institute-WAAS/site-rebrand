@@ -72,7 +72,7 @@ block main
       .c-grad__display
         .card-deck
           - var etapas = ['Despertar', 'Aprender', 'Explorar', 'Prototipar', 'Desafiar', 'Aprimorar', 'Transmitir', 'Empoderar']
-          - var content = ['Conhecer a tecnologia como ferramenta.','Usar a internet como fonte de pesquisa e de conteúdo didático.','Explorar as ferramentas tecnológicas.','Integrar os conhecimentos adquiridos para prototipar e resolver pequenos desafios','Hackateen - Um hackathon para jovens.','Aprimorar', 'Transmitir', 'Empoderar']
+          - var content = ['Conhecer a tecnologia como ferramenta.','Usar a internet como fonte de pesquisa e de conteúdo didático.','Explorar as ferramentas tecnológicas.','Integrar os conhecimentos adquiridos para prototipar e resolver pequenos desafios','Hackateen - Um hackathon para jovens.','Mentoria para aprimoramento do projeto desenvolvido no Hackateen', 'Transferir o conhecimento a outros ninjas.', 'Impactar positivament sua comunidade e o mundo.']
 
           - var counter = 1
           each val, index in etapas
@@ -82,7 +82,7 @@ block main
               h3.c-card__title.text-center#metodologia.pt-3.pb-2
                 = val
               .c-card__body.text-center
-                p #{content[counter - 1]}
+                p #{content[index]}
               //- .d-flex
               //-   a.c-btn.c-btn--df.c-btn--blue.w-100.d-flex(href='#').justify-content-center Leia mais
 
