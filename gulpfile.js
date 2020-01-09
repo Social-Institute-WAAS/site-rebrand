@@ -182,8 +182,8 @@ function images() {
 }
 
 function fonts() {
-  return src("app/fonts/**/*.{eot,svg,ttf,woff,woff2}").pipe(
-    $.if(!isProd, dest(".tmp/fonts"), dest("dist/fonts"))
+  return src("app/assets/fonts/**/*.{eot,svg,ttf,woff,woff2}").pipe(
+    $.if(!isProd, dest(".tmp/fonts"), dest("dist/assets/fonts"))
   );
 }
 
@@ -225,10 +225,10 @@ const build = series(
       extras,
       //  convertSvg,
       assets
-    ),
-    purifyMyStyle
-  ),
-  measureSize
+    )
+    // purifyMyStyle
+  )
+  // measureSize
 );
 
 function startAppServer() {
