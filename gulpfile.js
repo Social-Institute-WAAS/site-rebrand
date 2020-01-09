@@ -223,7 +223,7 @@ const build = series(
       images,
       fonts,
       extras,
-      //  convertSvg,
+      convertSvg,
       assets
     )
     // purifyMyStyle
