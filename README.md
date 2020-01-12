@@ -9,7 +9,7 @@ Node >= 10.0.0
 `yarn install`
 
 ### Rodar servidor
-`npm run star` ou
+`npm run start` ou
 `yarn start`
 
 ### Gerar o build
