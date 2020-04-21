@@ -19,3 +19,5 @@ Change INDEX page to path of home page, or another.
 ### Gerar o build
 `npm run build` ou
 `yarn build`
+
+Obs.: After start running in server mode. Open a .pug file and save to rebuild and visualize.
