@@ -8,5 +8,12 @@
   }
   &__content{
     z-index: 1;
+    .c-card {
+      &--section:first-child {
+        .c-card__body {
+          min-height: 160px;
+        }
+      }
+    }
   }
 }

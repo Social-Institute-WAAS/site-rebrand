@@ -21,6 +21,10 @@
       z-index: 999;
       animation: raio_down 0.6s ease forwards;
       transition: all 0.4s ease;
+      @include media-breakpoint-down(sm) {
+        left: inherit;
+        right: 50px;
+      }
     }
   }
   &:active {
