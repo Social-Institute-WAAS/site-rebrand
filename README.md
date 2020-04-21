@@ -21,3 +21,8 @@ Change INDEX page to path of home page, or another.
 `yarn build`
 
 Obs.: After start running in server mode. Open a .pug file and save to rebuild and visualize.
+
+### TODO
+  - [] Task to remove revisioned files junk
+  - [] Clean unused files missed
+  - [] In dev mode, pug files not generate html without refresh file.
