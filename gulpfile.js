@@ -40,7 +40,6 @@ function revRename() {
     "dist/**/*.js",
     "dist/**/*.{jpg,png,jpeg,gif,svg}"
   ])
-    .pipe(dest("dist"))
     .pipe($.rev())
     .pipe(dest("dist"))
     .pipe($.rev.manifest())
@@ -233,7 +232,6 @@ const build = series(
       convertSvg,
       assets
     ),
-    purifyMyStyle,
     revRename,
     revUpdateRef
     //
