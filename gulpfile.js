@@ -40,18 +40,28 @@ function revRename() {
     "dist/**/*.js",
     "dist/**/*.{jpg,png,jpeg,gif,svg}"
   ])
+    .pipe(dest("dist"))
     .pipe($.rev())
     .pipe(dest("dist"))
-    .pipe($.rev.manifest({ path: "manifest.json" }))
+    .pipe($.rev.manifest())
     .pipe(revDel({ dest: "dist" }))
     .pipe(dest("dist"));
 }
 
 function revUpdateRef() {
-  return src(["dist/manifest.json", "dist/**/*.{html,json,css,js}"])
+  return src(["dist/rev-manifest.json", "dist/**/*.{html,json,css,js}"])
     .pipe($.revCollector())
     .pipe(dest("dist"));
 }
+
+function rewrite() {
+  const manifest = src('dist/rev-manifest.json');
+
+  return src('dist/**/*.html')
+    .pipe(revRewrite({ manifest }))
+    .pipe(dest('dist'));
+}
+
 
 function styles() {
   return src("app/styles/**/*.scss")
@@ -82,7 +92,7 @@ function scripts() {
     .pipe(server.reload({ stream: true }));
 }
 
-async function modernizr() {
+ async function modernizr() {
   const readConfig = () =>
     new Promise((resolve, reject) => {
       fs.readFile(`${__dirname}/modernizr.json`, "utf8", (err, data) => {
@@ -134,13 +144,13 @@ function buildHTML() {
         pretty: true
       })
     )
-    .pipe(dest("app"))
+    .pipe(dest(".tmp"))
     .pipe(server.reload({ stream: true }));
 }
 
 function html() {
   return (
-    src("app/*.html")
+    src(".tmp/*.html")
       .pipe($.useref({ searchPath: [".tmp", "app", "."] }))
       .pipe($.if(/\.js$/, $.uglify({ compress: { drop_console: true } })))
       .pipe(
@@ -166,9 +176,6 @@ function html() {
           })
         )
       )
-      // .pipe($.dom(function() {
-      //   return this.querySelectorAll('body')[0].setAttribute('data-version', '1.0');
-      // }))
       .pipe(dest("dist"))
   );
 }
@@ -203,8 +210,8 @@ function clean() {
   return del([".tmp", "dist"]);
 }
 
-function measureSize() {
-  return src("dist/**/*").pipe($.size({ title: "build", gzip: true }));
+async function measureSize() {
+  return await src("dist/**/*").pipe($.size({ title: "build", gzip: true }));
 }
 
 function purifyMyStyle() {
@@ -225,9 +232,12 @@ const build = series(
       extras,
       convertSvg,
       assets
-    )
-    // purifyMyStyle
-  )
+    ),
+    purifyMyStyle,
+    revRename,
+    revUpdateRef
+    //
+  ),
   // measureSize
 );
 
@@ -243,18 +253,20 @@ function startAppServer() {
     }
   });
 
-  watch(["app/*.html", "app/images/**/*", ".tmp/fonts/**/*"]).on(
+  watch([".tmp/*.html", "app/images/**/*", ".tmp/fonts/**/*"]).on(
     "change",
     server.reload
   );
 
   watch("app/views/**/*.pug", buildHTML);
+  watch(".tmp/*.html", html);
   watch("app/styles/**/*.scss", styles);
   watch("app/scripts/**/*.js", scripts);
   watch("modernizr.json", modernizr);
   watch("app/fonts/**/*", fonts);
   watch("app/images/svg/*.svg", convertSvg);
   watch("app/assets/**/*", assets);
+
 }
 
 function startTestServer() {
